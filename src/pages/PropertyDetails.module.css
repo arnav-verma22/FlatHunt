@@ -1,0 +1,27 @@
+.logicGate,
+.propertyDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logicGate {
+  align-self: stretch;
+  max-width: 100%;
+}
+.propertyDetails {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: 0 0 var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .propertyDetails {
+    gap: var(--gap-11xl);
+  }
+}

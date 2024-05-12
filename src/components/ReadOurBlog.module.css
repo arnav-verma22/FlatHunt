@@ -1,0 +1,566 @@
+.readOurBlog1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.titletext {
+  width: 887px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.unsplashR80lcluvvmIcon {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.turpisElitIn {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.nequeFaucibusPharetra {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.titletext1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.evaclockFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.minRead {
+  position: relative;
+  line-height: 32px;
+}
+.div1,
+.read,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.read {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+}
+.div1,
+.text {
+  flex-direction: column;
+}
+.text {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.div1 {
+  width: 413px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-whitesmoke);
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.unsplashmp0bgasD1cIcon {
+  height: 300px;
+  border-radius: var(--br-41xl) var(--br-41xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.convallisEuVel,
+.turpisElitIn1,
+.unsplashmp0bgasD1cIcon {
+  align-self: stretch;
+  position: relative;
+}
+.turpisElitIn1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.convallisEuVel {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.titletext2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.evaclockFillIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.minRead1 {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 113px;
+}
+.div2,
+.read1,
+.text1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.read1 {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+}
+.div2,
+.text1 {
+  flex-direction: column;
+}
+.text1 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.div2 {
+  width: 413px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-whitesmoke);
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.unsplashgnvurwjskayIcon {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.faucibusEgestasUt {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.viverraTellusRisus {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.titletext3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.evaclockFillIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.minRead2 {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 113px;
+}
+.div3,
+.read2,
+.text2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.read2 {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+}
+.div3,
+.text2 {
+  flex-direction: column;
+}
+.text2 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.div3 {
+  width: 413px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-whitesmoke);
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.unsplashszyukewsdlaIcon {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.feugiatGravidaSed {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.pellentesqueUltricesHendreri {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.titletext4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.evaclockFillIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.minRead3 {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 113px;
+}
+.div4,
+.read3,
+.text3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.read3 {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+}
+.div4,
+.text3 {
+  flex-direction: column;
+}
+.text3 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.div4 {
+  width: 413px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-whitesmoke);
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.unsplash3wyldrjxhEIcon {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.feugiatGravidaSed1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.dolorElitViverra {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.titletext5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.evaclockFillIcon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.minRead4 {
+  position: relative;
+  line-height: 32px;
+}
+.read4 {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+}
+.div,
+.div5,
+.read4,
+.text4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.text4 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.div,
+.div5 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div5 {
+  width: 413px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-whitesmoke);
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-61xl);
+  gap: var(--gap-33xl);
+}
+.div {
+  width: 1480px;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-h3-size);
+}
+.buttonLoadMore {
+  width: 166px;
+  height: 48px;
+  cursor: pointer;
+}
+.readOurBlog {
+  margin-left: -334px;
+  margin-bottom: 140px;
+  width: 2145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 149%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 800px) {
+  .readOurBlog1 {
+    font-size: var(--font-size-19xl);
+    line-height: 43px;
+  }
+  .turpisElitIn {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .div1 {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .turpisElitIn1 {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .div2 {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .faucibusEgestasUt {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .div3 {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .feugiatGravidaSed {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .div4 {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .feugiatGravidaSed1 {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .div5 {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .readOurBlog {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .readOurBlog1 {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .minRead,
+  .turpisElitIn {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .minRead {
+    font-size: var(--font-size-lgi);
+  }
+  .div1 {
+    gap: var(--gap-7xl);
+  }
+  .minRead1,
+  .turpisElitIn1 {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .minRead1 {
+    font-size: var(--font-size-lgi);
+  }
+  .div2 {
+    gap: var(--gap-7xl);
+  }
+  .faucibusEgestasUt,
+  .minRead2 {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .minRead2 {
+    font-size: var(--font-size-lgi);
+  }
+  .div3 {
+    gap: var(--gap-7xl);
+  }
+  .feugiatGravidaSed,
+  .minRead3 {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .minRead3 {
+    font-size: var(--font-size-lgi);
+  }
+  .div4 {
+    gap: var(--gap-7xl);
+  }
+  .feugiatGravidaSed1,
+  .minRead4 {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .minRead4 {
+    font-size: var(--font-size-lgi);
+  }
+  .div5 {
+    gap: var(--gap-7xl);
+  }
+  .buttonLoadMore {
+    width: calc(100% - 40px);
+  }
+}

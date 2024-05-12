@@ -1,0 +1,57 @@
+.evaawardFillIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evaawardFillWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.euVulputateMi,
+.morbiPulvinar {
+  align-self: stretch;
+  position: relative;
+}
+.morbiPulvinar {
+  margin: 0;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.euVulputateMi {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 276px;
+  max-width: 300px;
+  text-align: center;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .morbiPulvinar {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .morbiPulvinar {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+}

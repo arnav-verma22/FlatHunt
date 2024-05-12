@@ -1,0 +1,156 @@
+.idAliquamMolestie {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.euismodCondimentumTempus {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+}
+.titletext {
+  width: 847px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.mdisofaIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.moveInReady,
+.readyToMove {
+  width: 225px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.readyToMove {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.div {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-33xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 229px;
+  max-width: 305px;
+}
+.evamessageCircleFillIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.onHandTeam,
+.support {
+  width: 225px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.onHandTeam {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.div1,
+.features {
+  display: flex;
+  align-items: flex-start;
+}
+.div1 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-33xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 229px;
+  max-width: 305px;
+}
+.features {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-h4-size);
+}
+.idAliquam,
+.idAliquamWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.idAliquam {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-41xl);
+}
+.idAliquamWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-121xl);
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 800px) {
+  .idAliquamMolestie {
+    font-size: var(--font-size-19xl);
+    line-height: 43px;
+  }
+  .idAliquam {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .idAliquamWrapper {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .idAliquamMolestie {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .moveInReady,
+  .support {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .idAliquam {
+    gap: var(--gap-mini);
+  }
+}

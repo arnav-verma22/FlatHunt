@@ -1,0 +1,66 @@
+.corporatePartnerships {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.weWorkWith {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.bookingManagerThat {
+  margin: 0;
+}
+.weWorkWithContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+}
+.beforeParent,
+.corporatePartnershipsParent,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.beforeParent,
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .beforeParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .corporatePartnerships {
+    font-size: var(--font-size-19xl);
+    line-height: 43px;
+  }
+  .frameParent {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .corporatePartnerships {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+}

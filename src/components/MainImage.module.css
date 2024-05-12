@@ -1,0 +1,59 @@
+.icon,
+.map {
+  position: relative;
+}
+.icon {
+  height: 480px;
+  width: 950px;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.map {
+  align-self: stretch;
+  height: 235px;
+  background-color: var(--color-silver);
+  z-index: 1;
+}
+.functionBlock,
+.variable {
+  display: flex;
+  justify-content: flex-start;
+}
+.variable {
+  height: 460px;
+  width: 75px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.functionBlock {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-61xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-191xl);
+  background-image: url(/public/1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 617px;
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .functionBlock {
+    flex-wrap: wrap;
+    gap: var(--gap-86xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .functionBlock {
+    gap: var(--gap-33xl);
+  }
+}

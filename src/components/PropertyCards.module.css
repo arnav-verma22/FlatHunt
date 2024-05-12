@@ -1,0 +1,20 @@
+.blocks,
+.searchIcon,
+.searchIcon1,
+.searchIcon2,
+.searchIcon3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  transform: rotate(180deg);
+  max-width: 100%;
+}
+.blocks {
+  text-align: left;
+  font-size: var(--desktop-description-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

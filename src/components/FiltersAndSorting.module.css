@@ -1,0 +1,130 @@
+.buttonMoreFilters {
+  height: 48px;
+  flex: 1;
+  font-family: var(--desktop-text-regular);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.filtres {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 130px;
+}
+.faSolidcarAltIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.parking1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 61px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.evacloseFillIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttons,
+.parking {
+  display: flex;
+  flex-direction: row;
+}
+.parking {
+  border-radius: var(--br-21xl);
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.buttons {
+  width: 407px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.sortBy1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 63px;
+}
+.availability {
+  height: 24px;
+  flex: 1;
+  font-family: var(--desktop-text-regular);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  color: var(--bg);
+  width: auto;
+}
+.sortBy {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.filtersAnsSorting,
+.onMapSortBy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.onMapSortBy {
+  width: 192px;
+  justify-content: flex-start;
+}
+.filtersAnsSorting {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-169xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1050px) {
+  .filtersAnsSorting {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-75xl);
+    padding-right: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .filtersAnsSorting {
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttons {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+}

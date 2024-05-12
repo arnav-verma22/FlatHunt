@@ -1,0 +1,97 @@
+.logoIcon {
+  width: 67px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.filtresChild,
+.filtresInner,
+.menuMob {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.menuMob {
+  background-color: var(--white);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: 50px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.filtresChild,
+.filtresInner {
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.filtresChild {
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 310px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonBack,
+.buttonContinue {
+  height: 44px;
+  width: 99px;
+  cursor: pointer;
+}
+.buttonContinue {
+  width: 130px;
+}
+.backButton {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.backButtonWrapper,
+.filtres {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.backButtonWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  max-width: 100%;
+}
+.filtres {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

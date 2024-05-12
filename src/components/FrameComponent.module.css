@@ -1,0 +1,410 @@
+.evapeopleFillIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.guests1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 49px;
+}
+.evapeopleFillParent,
+.guestsInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.evapeopleFillParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.guestsInner {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.buttonPlusIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  min-height: 36px;
+  cursor: pointer;
+}
+.checkmarkIcon {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10px;
+}
+.checkmarkIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.buttonMinusIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  min-height: 36px;
+  cursor: pointer;
+}
+.buttonPlusParent,
+.guests {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.guests {
+  width: 343px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fluentbed24FilledIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fluentbed24FilledWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.bedrooms {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 77px;
+}
+.bedroomsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.studio {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 44px;
+}
+.studioWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-5xs) 0 0;
+  color: var(--green);
+}
+.bg,
+.div {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--bg);
+  width: 100%;
+  height: 100%;
+}
+.div {
+  top: 2px;
+  left: 7px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.bgParent {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  color: var(--white);
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  gap: var(--gap-xs-5);
+}
+.div1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10px;
+}
+.frameGroup,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  color: var(--green);
+}
+.frameGroup {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.div2 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10px;
+}
+.container,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  color: var(--green);
+}
+.frameParent {
+  width: 288px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.faSolidbathIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.bathrooms,
+.div3 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.bathrooms {
+  color: var(--text);
+  min-width: 82px;
+  flex-shrink: 0;
+}
+.div3 {
+  min-width: 10px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.div4 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10px;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.div5 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10px;
+  flex-shrink: 0;
+}
+.faSolidbathParent {
+  width: 215px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs-8);
+  color: var(--green);
+}
+.elwheelchairIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.disabledAccess {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 111px;
+}
+.elwheelchairParent {
+  width: 163px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.faSolidcarAltIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.parking1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 54px;
+}
+.faSolidcarAltParent,
+.parkingInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.faSolidcarAltParent {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.parkingInner {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.evacheckmarkFillIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.check,
+.parking {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.check {
+  border-radius: var(--br-9xs);
+  background-color: var(--bg);
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.parking {
+  width: 343px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--bg);
+}
+.mdielevatorPassengerIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.elevator {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 60px;
+}
+.mdielevatorPassengerParent {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.mdidishwasherIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.dishwasher {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 83px;
+}
+.mdidishwasherParent {
+  width: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.mdiwashingMachineIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.washingMachine {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 124px;
+}
+.guestsParent,
+.mdiwashingMachineParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.mdiwashingMachineParent {
+  width: 176px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.guestsParent {
+  flex: 1;
+  overflow-x: auto;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--desktop-text-regular-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

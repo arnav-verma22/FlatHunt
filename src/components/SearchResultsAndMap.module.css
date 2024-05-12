@@ -1,0 +1,47 @@
+.apartmentsParent,
+.logicGate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.apartmentsParent {
+  flex: 1;
+  gap: var(--gap-23xl);
+}
+.logicGate {
+  align-self: stretch;
+  padding: 0 var(--padding-61xl) var(--padding-121xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--desktop-description-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1250px) {
+  .apartmentsParent {
+    flex-wrap: wrap;
+  }
+  .logicGate {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .logicGate {
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .apartmentsParent {
+    gap: var(--gap-2xl);
+  }
+  .logicGate {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

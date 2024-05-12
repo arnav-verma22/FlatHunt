@@ -1,0 +1,54 @@
+.checkinTimeIcon,
+.unsplashakz0w36dpm4Icon {
+  height: 235px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  min-height: 235px;
+}
+.merge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.icon,
+.unsplashqeiufr5vpm8Icon {
+  height: 235px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  min-height: 235px;
+}
+.branch,
+.merge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.branch {
+  flex-direction: column;
+  min-width: 480px;
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .branch {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .branch {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .merge,
+  .merge1 {
+    flex-wrap: wrap;
+  }
+}

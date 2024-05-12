@@ -1,0 +1,133 @@
+.evabriefcaseFillIcon {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.movingIn,
+.sitLectusParturient {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.movingIn {
+  margin: 0;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.sitLectusParturient {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.evabriefcaseFillParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 300px;
+  max-width: 100%;
+}
+.frameChild,
+.frameItem {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text);
+  z-index: 2;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-233xl);
+}
+.evasunFillIcon {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.euismodCommodoFeugiat,
+.sitBack {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.sitBack {
+  margin: 0;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.euismodCommodoFeugiat {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.evasunFillParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.evasunFillParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.frameParent,
+.frameWrapper {
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-253xl) 0 0;
+  box-sizing: border-box;
+  min-width: 300px;
+  text-align: left;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-41xl);
+  text-align: right;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .movingIn,
+  .sitBack {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .movingIn,
+  .sitBack {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .frameWrapper {
+    padding-top: var(--padding-158xl);
+    box-sizing: border-box;
+  }
+}

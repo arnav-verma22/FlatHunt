@@ -1,0 +1,123 @@
+.flatscreenTv,
+.tv2 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 23px;
+}
+.flatscreenTv {
+  font-size: var(--desktop-description-size);
+  line-height: 16px;
+  min-width: 85px;
+  white-space: nowrap;
+}
+.tv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.mditelevisionIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fireplace1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 73px;
+}
+.mdifireplaceIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fireplace {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.phone {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 51px;
+}
+.mdiphoneClassicIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fireplace2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.withComputer,
+.workDesk1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 85px;
+}
+.withComputer {
+  font-size: var(--desktop-description-size);
+  line-height: 16px;
+  min-width: 94px;
+}
+.desk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.mdidesktopMacDashboardIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.workDesk {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.tVfridgewashingmachine {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

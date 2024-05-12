@@ -1,0 +1,202 @@
+.bg {
+  width: 1440px;
+  height: 1778px;
+  position: relative;
+  background-color: var(--bg1);
+  display: none;
+  max-width: 100%;
+}
+.images {
+  width: 0;
+  height: 24px;
+  display: none;
+}
+.howItWorks {
+  margin: 0;
+  width: 847px;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.howItWorksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.evaemailFillIcon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameChild {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text);
+  z-index: 2;
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.evaemailFillParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.evaemailFillParent {
+  width: 160px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.getInTouch,
+.utIdCras {
+  width: 462px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.getInTouch {
+  margin: 0;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.utIdCras {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 20px;
+}
+.frameGroup {
+  width: 542px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  text-align: right;
+  font-size: var(--desktop-h3-size);
+}
+.feugiatProinNamTristiqueEgInner,
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 955px;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.feugiatProinNamTristiqueEgInner {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+}
+.feugiatProinNamTristiqueEg,
+.feugiatProinNamTristiqueEgWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feugiatProinNamTristiqueEg {
+  flex: 1;
+  background-color: var(--bg1);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-81xl) var(--padding-169xl);
+  gap: var(--gap-45xl);
+}
+.feugiatProinNamTristiqueEgWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-61xl);
+  text-align: left;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .feugiatProinNamTristiqueEg {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .feugiatProinNamTristiqueEgWrapper {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    gap: var(--gap-11xl);
+  }
+  .feugiatProinNamTristiqueEg {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .feugiatProinNamTristiqueEgWrapper {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .howItWorks {
+    font-size: var(--font-size-19xl);
+    line-height: 43px;
+  }
+  .getInTouch {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .feugiatProinNamTristiqueEg {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-75xl);
+    padding-right: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howItWorks {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .getInTouch {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .feugiatProinNamTristiqueEg {
+    gap: var(--gap-base);
+    padding: var(--padding-8xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .feugiatProinNamTristiqueEgWrapper {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

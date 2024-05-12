@@ -1,0 +1,357 @@
+.month,
+.moveIn1 {
+  position: relative;
+}
+.month {
+  font-size: var(--desktop-h3-size);
+  line-height: 44px;
+}
+.moveIn1 {
+  line-height: 24px;
+  display: inline-block;
+  min-width: 65px;
+}
+.inputMoveIn {
+  align-self: stretch;
+  height: 48px;
+}
+.moveIn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 130px;
+}
+.moveOut1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 78px;
+}
+.inputMoveOut {
+  align-self: stretch;
+  height: 48px;
+}
+.moveOut,
+.moves {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moveOut {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 130px;
+}
+.moves {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-23xl);
+}
+.evapeopleFillIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.guests2 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 56px;
+}
+.guests1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.evaplusFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.b {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 11px;
+}
+.evaminusFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.guests,
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.guests {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.allUtilitiesAre {
+  position: relative;
+  line-height: 24px;
+}
+.points {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.averageMonthyRent {
+  position: relative;
+  line-height: 24px;
+}
+.div,
+.inclVat {
+  position: relative;
+  display: inline-block;
+}
+.div {
+  line-height: 24px;
+  min-width: 53px;
+  white-space: nowrap;
+}
+.inclVat {
+  font-size: var(--desktop-description-size);
+  line-height: 16px;
+  color: var(--gray);
+  min-width: 54px;
+}
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-9xs);
+}
+.btnContinue {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.payUponBooking1 {
+  position: relative;
+  line-height: 24px;
+}
+.evaalertCircleFillIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.payUponBooking {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.b1,
+.inclVat1 {
+  position: relative;
+  display: inline-block;
+}
+.b1 {
+  line-height: 24px;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.inclVat1 {
+  font-size: var(--desktop-description-size);
+  line-height: 16px;
+  color: var(--gray);
+  min-width: 54px;
+}
+.numbers1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.btnContinue1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.totalCosts1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 84px;
+}
+.evaalertCircleFillIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.totalCosts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.showMore1 {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 70px;
+}
+.showMore,
+.totalCostsParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.showMore {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--desktop-description-size);
+  color: var(--green);
+}
+.totalCostsParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.div1,
+.inclVat2 {
+  position: relative;
+  display: inline-block;
+}
+.div1 {
+  line-height: 24px;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.inclVat2 {
+  font-size: var(--desktop-description-size);
+  line-height: 16px;
+  color: var(--gray);
+  min-width: 54px;
+}
+.numbers2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.btnContinue2,
+.costs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.costs {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.buttonContinueBooking {
+  width: 223px;
+  height: 48px;
+  cursor: pointer;
+}
+.whenYouBook {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+}
+.buttom,
+.optionToBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttom {
+  align-self: stretch;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--desktop-description-size);
+}
+.optionToBook {
+  width: 522px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 522px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .optionToBook {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .month {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .moves {
+    flex-wrap: wrap;
+  }
+  .optionToBook {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .month {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .moves {
+    gap: var(--gap-2xl);
+  }
+  .btnContinue,
+  .btnContinue1,
+  .btnContinue2 {
+    flex-wrap: wrap;
+  }
+}
