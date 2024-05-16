@@ -1,0 +1,25 @@
+.results {
+  line-height: 1.5rem;
+}
+.for-1-bedroom {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.results-for-1-container {
+  position: relative;
+  z-index: 1;
+}
+.results-for-1-bedroom-propert-wrapper {
+  width: 46.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

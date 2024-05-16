@@ -1,0 +1,258 @@
+.frequently-asked-questions1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.dignissim-congue-rutrum {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon1 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.vulputate-imperdiet-fusce {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon2 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.sit-rhoncus-rhoncus {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon3 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.vulputate-nisl-non {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon4 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.est-felis-a {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon5 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.eget-nam-accumsan {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon6 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.fermentum-et-semper {
+  width: 62.5rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.close-icon7 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.a-vulputate-est {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon8 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.questions {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--desktop-h4-size);
+}
+.frequently-asked-questions,
+.output-formatter,
+.questions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frequently-asked-questions {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.output-formatter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .question-9 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .question-3,
+  .question-4,
+  .question-5,
+  .question-8 {
+    flex-wrap: wrap;
+  }
+  .output-formatter {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frequently-asked-questions1 {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+  .question-10,
+  .question-6,
+  .question-7 {
+    flex-wrap: wrap;
+  }
+  .questions {
+    gap: var(--gap-xl);
+  }
+  .frequently-asked-questions {
+    gap: var(--gap-11xl);
+  }
+  .output-formatter {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequently-asked-questions1 {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .a-vulputate-est,
+  .dignissim-congue-rutrum,
+  .eget-nam-accumsan,
+  .est-felis-a,
+  .fermentum-et-semper,
+  .sit-rhoncus-rhoncus,
+  .vulputate-imperdiet-fusce,
+  .vulputate-nisl-non {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+}

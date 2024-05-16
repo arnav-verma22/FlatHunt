@@ -1,0 +1,166 @@
+.evafacebookfillevatwitterfille {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text);
+  z-index: 2;
+}
+.evapeople-fill-icon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.evafacebookfillevatwitterfille-parent {
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.output-processor-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-141xl);
+}
+.lets-chat {
+  margin: 0;
+  width: 28.875rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.lets-chat-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.euismod-commodo-feugiat {
+  width: 28.875rem;
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.euismod-commodo-feugiat-purus-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.evaeye-fill-icon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-child {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text);
+  z-index: 2;
+}
+.evaeye-fill-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.evaeye-fill-parent {
+  width: 10rem;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.property-viewing,
+.sit-lectus-parturient {
+  width: 28.875rem;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.property-viewing {
+  margin: 0;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.sit-lectus-parturient {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.frame-container,
+.frame-div,
+.output-processor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  width: 33.875rem;
+  gap: var(--gap-xs);
+  text-align: right;
+  font-size: var(--desktop-h3-size);
+}
+.frame-container,
+.output-processor {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  font-size: var(--desktop-text-regular-size);
+}
+.output-processor {
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .lets-chat,
+  .property-viewing {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .output-processor-inner {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .lets-chat,
+  .property-viewing {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+}

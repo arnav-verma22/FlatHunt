@@ -1,0 +1,37 @@
+.amenities1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.amenities {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1050px) {
+  .amenities1 {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .amenities {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .amenities1 {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+}

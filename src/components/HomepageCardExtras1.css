@@ -1,0 +1,196 @@
+.corporate-partnerships3 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.we-work-with2 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.booking-manager-that2 {
+  margin: 0;
+}
+.we-work-with-container2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+}
+.titletext5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.evasearch-outline-icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.booking-manager,
+.we-do-the1 {
+  width: 20.831rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.we-do-the1 {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div22 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-13xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 19.375rem;
+  max-width: 100%;
+}
+.evaperson-fill-icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.account-manager,
+.preferred-partner-rates {
+  width: 20.831rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.preferred-partner-rates {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div23 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-13xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 19.375rem;
+  max-width: 100%;
+}
+.evafile-text-fill-icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extend-on-short,
+.flexible-terms {
+  width: 20.831rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.extend-on-short {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div24 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-13xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 19.375rem;
+}
+.corporate-partnerships-container,
+.corporate-partnerships2,
+.div24,
+.features3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.features3 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-h4-size);
+}
+.corporate-partnerships-container,
+.corporate-partnerships2 {
+  box-sizing: border-box;
+}
+.corporate-partnerships2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-121xl) var(--padding-61xl) 0;
+  gap: var(--gap-41xl);
+}
+.corporate-partnerships-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-121xl);
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 800px) {
+  .corporate-partnerships3 {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+  .corporate-partnerships2 {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-21xl);
+    padding-top: var(--padding-72xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .corporate-partnerships-container {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .corporate-partnerships3 {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .account-manager,
+  .booking-manager,
+  .flexible-terms {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .corporate-partnerships2 {
+    gap: var(--gap-mini);
+  }
+}

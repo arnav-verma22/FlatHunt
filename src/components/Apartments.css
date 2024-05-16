@@ -1,0 +1,21 @@
+.apartments {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--desktop-description-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .apartments {
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+}

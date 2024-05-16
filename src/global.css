@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AvertaCY-Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --desktop-text-regular: Lato;
+  --font-avertacy-regular: AvertaCY-Regular;
+
+  /* font sizes */
+  --font-size-lg: 1.125rem;
+  --desktop-text-regular-size: 1rem;
+  --desktop-h4-size: 1.5rem;
+  --font-size-lgi: 1.188rem;
+  --desktop-h2-size: 3rem;
+  --font-size-19xl: 2.375rem;
+  --font-size-10xl: 1.813rem;
+  --desktop-h1-size: 3.25rem;
+  --font-size-23xl: 2.625rem;
+  --font-size-12xl: 1.938rem;
+  --desktop-h3-size: 2.25rem;
+  --font-size-3xl: 1.375rem;
+  --desktop-description-size: 0.875rem;
+  --mobile-h4-size: 1.25rem;
+
+  /* Colors */
+  --white: #fff;
+  --bg: #49735a;
+  --text: #181a18;
+  --color-gray-100: rgba(255, 255, 255, 0.8);
+  --bg1: #e2f1e8;
+  --color-black: #000;
+  --color-whitesmoke: #f2f0f2;
+  --gray: #3b4135;
+  --green: #064749;
+  --color-silver: #c4c4c4;
+
+  /* Gaps */
+  --gap-41xl: 3.75rem;
+  --gap-11xl: 1.875rem;
+  --gap-xl: 1.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+  --gap-7xl: 1.625rem;
+  --gap-xs: 0.75rem;
+  --gap-21xl: 2.5rem;
+  --gap-60xl-5: 4.968rem;
+  --gap-3xs: 0.625rem;
+  --gap-2xs: 0.687rem;
+  --gap-mini: 0.937rem;
+  --gap-45xl: 4rem;
+  --gap-13xl: 2rem;
+  --gap-233xl: 15.75rem;
+  --gap-5xl: 1.5rem;
+  --gap-20xl: 2.437rem;
+  --gap-lgi: 1.187rem;
+  --gap-121xl: 8.75rem;
+  --gap-51xl: 4.375rem;
+  --gap-16xl: 2.187rem;
+  --gap-mid: 1.062rem;
+  --gap-52xl: 4.437rem;
+  --gap-lg: 1.125rem;
+  --gap-9xs: 0.25rem;
+  --gap-91xl: 6.875rem;
+  --gap-36xl: 3.437rem;
+  --gap-8xl: 1.687rem;
+  --gap-23xl: 2.625rem;
+  --gap-2xl: 1.312rem;
+  --gap-191xl: 13.125rem;
+  --gap-86xl: 6.562rem;
+  --gap-33xl: 3.25rem;
+  --gap-xs-8: 0.737rem;
+  --gap-xs-5: 0.718rem;
+  --gap-60xl: 4.937rem;
+  --gap-6xs: 0.437rem;
+  --gap-7xs: 0.375rem;
+  --gap-4xs: 0.562rem;
+
+  /* Paddings */
+  --padding-41xl: 3.75rem;
+  --padding-11xl: 1.875rem;
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-61xl: 5rem;
+  --padding-21xl: 2.5rem;
+  --padding-15xl: 2.125rem;
+  --padding-33xl: 3.25rem;
+  --padding-12xl: 1.937rem;
+  --padding-45xl: 4rem;
+  --padding-23xl: 2.625rem;
+  --padding-11xs: 0.125rem;
+  --padding-40xl: 3.687rem;
+  --padding-13xl: 2rem;
+  --padding-10xl: 1.812rem;
+  --padding-22xl: 2.562rem;
+  --padding-18xl: 2.312rem;
+  --padding-2xl: 1.312rem;
+  --padding-309xl: 20.5rem;
+  --padding-194xl: 13.312rem;
+  --padding-133xl: 9.5rem;
+  --padding-80xl: 6.187rem;
+  --padding-3xl: 1.375rem;
+  --padding-17xl: 2.25rem;
+  --padding-15xl-5: 2.156rem;
+  --padding-sm: 0.875rem;
+  --padding-mini-5: 0.906rem;
+  --padding-51xl: 4.375rem;
+  --padding-16xl: 2.187rem;
+  --padding-81xl: 6.25rem;
+  --padding-169xl: 11.75rem;
+  --padding-46xl: 4.062rem;
+  --padding-75xl: 5.875rem;
+  --padding-8xl: 1.687rem;
+  --padding-253xl: 17rem;
+  --padding-158xl: 11.062rem;
+  --padding-141xl: 10rem;
+  --padding-5xs: 0.5rem;
+  --padding-105xl: 7.75rem;
+  --padding-34xl: 3.312rem;
+  --padding-62xl: 5.062rem;
+  --padding-smi-5: 0.781rem;
+  --padding-142xl: 10.062rem;
+  --padding-86xl: 6.562rem;
+  --padding-7xl: 1.625rem;
+  --padding-3xs: 0.625rem;
+  --padding-base: 1rem;
+  --padding-121xl: 8.75rem;
+  --padding-72xl: 5.687rem;
+  --padding-19xl: 2.375rem;
+  --padding-205xl: 14rem;
+  --padding-76xl: 5.937rem;
+  --padding-127xl: 9.125rem;
+  --padding-12xs: 0.062rem;
+  --padding-7xs: 0.375rem;
+  --padding-36xl: 3.437rem;
+  --padding-10xs: 0.187rem;
+  --padding-9xs: 0.25rem;
+  --padding-2xs: 0.687rem;
+  --padding-74xl: 5.812rem;
+  --padding-28xl: 2.937rem;
+  --padding-20xl: 2.437rem;
+  --padding-332xl: 21.937rem;
+  --padding-68xl: 5.437rem;
+  --padding-156xl: 10.937rem;
+  --padding-5xl: 1.5rem;
+  --padding-lg: 1.125rem;
+  --padding-65xl: 5.25rem;
+  --padding-101xl: 7.5rem;
+  --padding-59xl: 4.875rem;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-41xl: 60px;
+  --br-21xl: 40px;
+
+  /* Effects */
+  --cards: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

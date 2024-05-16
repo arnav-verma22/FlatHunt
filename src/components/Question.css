@@ -1,0 +1,43 @@
+.integer-morbi-semper {
+  position: relative;
+  line-height: 2rem;
+}
+.magnis-congue-neque {
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: calc(100% - 46px);
+}
+.close-icon {
+  height: 1.5rem;
+  width: 1.625rem;
+  position: relative;
+}
+.question-1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-h4-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 450px) {
+  .integer-morbi-semper {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+}

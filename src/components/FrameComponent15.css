@@ -1,0 +1,115 @@
+.image-icon2 {
+  height: 37.75rem;
+  width: 90rem;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.dictum-nunc1 {
+  margin: 0;
+  width: 19.063rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.vel-mattis-integer {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.5rem;
+}
+.button-book-with-us {
+  align-self: stretch;
+  height: 3rem;
+  font-family: var(--desktop-text-regular);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.vel-mattis-integer-pulvinar-mo-parent {
+  width: 20.313rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.dictum-nunc,
+.dictum-nunc-wrapper,
+.we-rent-your-property {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.we-rent-your-property {
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-41xl) var(--br-xs);
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-61xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+}
+.dictum-nunc,
+.dictum-nunc-wrapper {
+  flex-direction: row;
+}
+.dictum-nunc {
+  flex: 1;
+  justify-content: center;
+  padding: var(--padding-105xl) var(--padding-xl) var(--padding-105xl)
+    var(--padding-2xl);
+  background-image: url(/public/image2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dictum-nunc-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-121xl);
+  text-align: left;
+  font-size: var(--desktop-h1-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 800px) {
+  .dictum-nunc1 {
+    font-size: var(--font-size-23xl);
+    line-height: 3rem;
+  }
+  .we-rent-your-property {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .dictum-nunc {
+    padding-top: var(--padding-62xl);
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+  .dictum-nunc-wrapper {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dictum-nunc1 {
+    font-size: var(--font-size-12xl);
+    line-height: 2.25rem;
+  }
+  .vel-mattis-integer-pulvinar-mo-parent {
+    gap: var(--gap-base);
+  }
+  .we-rent-your-property {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}

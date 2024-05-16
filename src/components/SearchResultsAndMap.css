@@ -1,0 +1,47 @@
+.apartments-parent,
+.logic-gate1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.apartments-parent {
+  flex: 1;
+  gap: var(--gap-23xl);
+}
+.logic-gate1 {
+  align-self: stretch;
+  padding: 0 var(--padding-61xl) var(--padding-121xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--desktop-description-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1250px) {
+  .apartments-parent {
+    flex-wrap: wrap;
+  }
+  .logic-gate1 {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .logic-gate1 {
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .apartments-parent {
+    gap: var(--gap-2xl);
+  }
+  .logic-gate1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

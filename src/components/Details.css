@@ -1,0 +1,20 @@
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 26.313rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--desktop-h1-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .details {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+}

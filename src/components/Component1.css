@@ -1,0 +1,46 @@
+.value-container {
+  margin: 0;
+  align-self: stretch;
+  height: 2.5rem;
+}
+.consequat-risus {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.euismod-commodo-feugiat2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 17.25rem;
+  max-width: 18.75rem;
+  text-align: center;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .consequat-risus {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .consequat-risus {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+}

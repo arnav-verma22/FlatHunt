@@ -1,0 +1,23 @@
+.neighbourhood {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-h2-size);
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: var(--desktop-text-regular);
+  color: var(--text);
+  text-align: center;
+}
+@media screen and (max-width: 1050px) {
+  .neighbourhood {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .neighbourhood {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+}

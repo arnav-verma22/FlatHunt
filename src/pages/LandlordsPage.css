@@ -1,0 +1,253 @@
+.image-icon {
+  width: 100%;
+  height: 51.25rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 5.188rem;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logo-icon {
+  width: 8.125rem;
+  height: 3.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.contact-number-02033074477 {
+  position: relative;
+  line-height: 1.25rem;
+}
+.evafacebook-fill-icon,
+.evalinkedin-fill-icon,
+.evatwitter-fill-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.flex-living {
+  position: relative;
+  line-height: 1.25rem;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.icons-copyright {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.icons-copyright,
+.icons-copyright-wrapper,
+.logo-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons-copyright-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+}
+.logo-parent {
+  flex-direction: column;
+  gap: var(--gap-7xl);
+  font-size: var(--desktop-text-regular-size);
+}
+.company {
+  min-width: 4.75rem;
+}
+.about-us,
+.company,
+.home,
+.our-team {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+}
+.home {
+  min-width: 3rem;
+  cursor: pointer;
+}
+.about-us,
+.our-team {
+  min-width: 4.5rem;
+}
+.our-team {
+  min-width: 4.688rem;
+}
+.company-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.guests {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.blog {
+  cursor: pointer;
+}
+.blog,
+.career,
+.faq {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 2.25rem;
+}
+.career {
+  min-width: 3.438rem;
+}
+.guests-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.privacy {
+  display: inline-block;
+  min-width: 3.813rem;
+}
+.privacy,
+.privacy-policy,
+.terms-of-service {
+  position: relative;
+  line-height: 1.5rem;
+}
+.privacy-policy {
+  display: inline-block;
+  min-width: 6.875rem;
+}
+.frame-group,
+.privacy-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frame-group {
+  width: 23.875rem;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.stay-up-to {
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.be-the-first,
+.stay-up-to {
+  position: relative;
+  line-height: 1.5rem;
+}
+.input-email-address {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 3rem;
+  font-family: var(--desktop-text-regular);
+  font-size: var(--font-size-lg);
+  color: var(--bg);
+}
+.be-the-first-to-know-about-our-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.button-subscribe {
+  width: 9.875rem;
+  height: 3rem;
+}
+.frame-parent,
+.stay-up-to-date-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.stay-up-to-date-parent {
+  width: 24.625rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-parent {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.landlords-page,
+.landlords-page-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.landlords-page-inner {
+  width: 88.75rem;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+.landlords-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-41xl);
+  gap: var(--gap-41xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .landlords-page-inner {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .landlords-page {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-group {
+    flex-wrap: wrap;
+    gap: var(--gap-11xl);
+  }
+}

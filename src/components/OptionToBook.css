@@ -1,0 +1,355 @@
+.month {
+  position: relative;
+  font-size: var(--desktop-h3-size);
+  line-height: 2.75rem;
+}
+.move-in1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 4.063rem;
+}
+.input-move-in {
+  align-self: stretch;
+  height: 3rem;
+}
+.move-in {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 8.125rem;
+}
+.move-out1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 4.875rem;
+}
+.input-move-out {
+  align-self: stretch;
+  height: 3rem;
+}
+.move-out,
+.moves {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.move-out {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 8.125rem;
+}
+.moves {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-23xl);
+}
+.evapeople-fill-icon1 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.guests3 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.guests2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.evaplus-fill-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.b {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 0.688rem;
+}
+.evaminus-fill-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.guests1,
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.guests1 {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.all-utilities-are {
+  position: relative;
+  line-height: 1.5rem;
+}
+.points1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.average-monthy-rent {
+  position: relative;
+  line-height: 1.5rem;
+}
+.div7,
+.incl-vat {
+  position: relative;
+  display: inline-block;
+}
+.div7 {
+  line-height: 1.5rem;
+  min-width: 3.313rem;
+  white-space: nowrap;
+}
+.incl-vat {
+  font-size: var(--desktop-description-size);
+  line-height: 1rem;
+  color: var(--gray);
+  min-width: 3.375rem;
+}
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-9xs);
+}
+.btn-continue {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.pay-upon-booking1 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.evaalert-circle-fill-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pay-upon-booking {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.b1,
+.incl-vat1 {
+  position: relative;
+  display: inline-block;
+}
+.b1 {
+  line-height: 1.5rem;
+  min-width: 4.875rem;
+  white-space: nowrap;
+}
+.incl-vat1 {
+  font-size: var(--desktop-description-size);
+  line-height: 1rem;
+  color: var(--gray);
+  min-width: 3.375rem;
+}
+.numbers1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.btn-continue1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.total-costs1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 5.25rem;
+}
+.evaalert-circle-fill-icon1 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.total-costs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.show-more1 {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 4.375rem;
+}
+.show-more,
+.total-costs-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.show-more {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--desktop-description-size);
+  color: var(--green);
+}
+.total-costs-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.div8,
+.incl-vat2 {
+  position: relative;
+  display: inline-block;
+}
+.div8 {
+  line-height: 1.5rem;
+  min-width: 4.875rem;
+  white-space: nowrap;
+}
+.incl-vat2 {
+  font-size: var(--desktop-description-size);
+  line-height: 1rem;
+  color: var(--gray);
+  min-width: 3.375rem;
+}
+.numbers2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.btn-continue2,
+.costs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.costs {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button-continue-booking {
+  width: 13.938rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.when-you-book {
+  align-self: stretch;
+  position: relative;
+  line-height: 1rem;
+}
+.buttom,
+.option-to-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttom {
+  align-self: stretch;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--desktop-description-size);
+}
+.option-to-book {
+  width: 32.625rem;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 32.625rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .option-to-book {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .month {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .moves {
+    flex-wrap: wrap;
+  }
+  .option-to-book {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .month {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+  .moves {
+    gap: var(--gap-2xl);
+  }
+  .btn-continue,
+  .btn-continue1,
+  .btn-continue2 {
+    flex-wrap: wrap;
+  }
+}

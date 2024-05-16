@@ -1,0 +1,39 @@
+.form-wrapper,
+.menu-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.form-wrapper {
+  width: 50.625rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-61xl);
+}
+.menu-parent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-105xl);
+  gap: var(--gap-41xl);
+}
+@media screen and (max-width: 1050px) {
+  .form-wrapper {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .menu-parent {
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .menu-parent {
+    gap: var(--gap-11xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
