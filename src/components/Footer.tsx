@@ -6,7 +6,7 @@ import {
   IconButton,
   Button,
 } from "@mui/material";
-import styles from "./Footer.module.css";
+import "./Footer.css";
 
 export type FooterType = {
   logo?: string;
@@ -52,71 +52,71 @@ const Footer: FunctionComponent<FooterType> = ({
   }, [propPadding1]);
 
   return (
-    <footer className={styles.dataContainer} style={dataContainerStyle}>
-      <div className={styles.shapeHandler}>
-        <div className={styles.logoParent} style={frameDiv1Style}>
-          <img className={styles.logoIcon} alt="" src={logo} />
-          <div className={styles.layerSorter}>
-            <div className={styles.iconsCopyright}>
-              <div className={styles.contactNumber02033074477}>
+    <footer className="data-container" style={dataContainerStyle}>
+      <div className="shape-handler">
+        <div className="logo-group" style={frameDiv1Style}>
+          <img className="logo-icon3" alt="" src={logo} />
+          <div className="layer-sorter">
+            <div className="icons-copyright1">
+              <div className="contact-number-020330744771">
                 Contact number: 02033074477
               </div>
-              <div className={styles.iconsParent}>
-                <div className={styles.icons}>
+              <div className="icons-parent">
+                <div className="icons2">
                   <img
-                    className={styles.evalinkedinFillIcon}
+                    className="evalinkedin-fill-icon1"
                     loading="lazy"
                     alt=""
                     src={evalinkedinFill}
                   />
                   <img
-                    className={styles.evafacebookFillIcon}
+                    className="evafacebook-fill-icon1"
                     alt=""
                     src={evafacebookFill}
                   />
                   <img
-                    className={styles.evatwitterFillIcon}
+                    className="evatwitter-fill-icon1"
                     alt=""
                     src={evatwitterFill}
                   />
                 </div>
-                <div className={styles.flexLiving}>© 2021 Flex Living</div>
+                <div className="flex-living1">© 2021 Flex Living</div>
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.frameParent}>
-          <div className={styles.companyParent}>
-            <b className={styles.company}>Company</b>
-            <div className={styles.home} onClick={onHomeText1Click}>
+        <div className="frame-parent29">
+          <div className="company-group">
+            <b className="company1">Company</b>
+            <div className="home2" onClick={onHomeText1Click}>
               Home
             </div>
-            <div className={styles.aboutUs}>About us</div>
-            <div className={styles.ourTeam}>Our team</div>
+            <div className="about-us1">About us</div>
+            <div className="our-team1">Our team</div>
           </div>
-          <div className={styles.guestsParent}>
-            <b className={styles.guests}>Guests</b>
-            <div className={styles.blog} onClick={onBlogText1Click}>
+          <div className="guests-container">
+            <b className="guests6">Guests</b>
+            <div className="blog2" onClick={onBlogText1Click}>
               Blog
             </div>
-            <div className={styles.faq}>FAQ</div>
-            <div className={styles.career}>Career</div>
+            <div className="faq1">FAQ</div>
+            <div className="career1">Career</div>
           </div>
-          <div className={styles.symbolLinker}>
-            <b className={styles.privacy}>Privacy</b>
-            <div className={styles.termsOfService}>Terms of Service</div>
-            <div className={styles.privacyPolicy}>Privacy Policy</div>
+          <div className="symbol-linker">
+            <b className="privacy1">Privacy</b>
+            <div className="terms-of-service1">Terms of Service</div>
+            <div className="privacy-policy1">Privacy Policy</div>
           </div>
         </div>
-        <div className={styles.instanceMaker}>
-          <div className={styles.styleManager}>
-            <b className={styles.stayUpTo}>Stay up to date</b>
-            <div className={styles.beTheFirst}>
+        <div className="instance-maker">
+          <div className="style-manager">
+            <b className="stay-up-to1">Stay up to date</b>
+            <div className="be-the-first1">
               Be the first to know about our newest apartments
             </div>
           </div>
           <TextField
-            className={styles.inputEmailAddress}
+            className="input-email-address1"
             placeholder="Email address"
             variant="outlined"
             sx={{
@@ -131,7 +131,7 @@ const Footer: FunctionComponent<FooterType> = ({
             }}
           />
           <Button
-            className={styles.buttonSubscribe}
+            className="button-subscribe1"
             disableElevation={true}
             variant="contained"
             sx={{

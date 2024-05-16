@@ -1,5 +1,5 @@
 import { FunctionComponent, memo, useMemo, type CSSProperties } from "react";
-import styles from "./Header.module.css";
+import "./Header.css";
 
 export type HeaderType = {
   logo?: string;
@@ -33,20 +33,20 @@ const Header: FunctionComponent<HeaderType> = memo(
     }, [menuAlignSelf, menuFlex]);
 
     return (
-      <header className={styles.menu} style={menuStyle}>
-        <div className={styles.menu1}>
-          <img className={styles.logoIcon} loading="lazy" alt="" src={logo} />
-          <nav className={styles.menu2}>
-            <div className={styles.home} onClick={onHomeTextClick}>
+      <header className="menu" style={menuStyle}>
+        <div className="menu1">
+          <img className="logo-icon2" loading="lazy" alt="" src={logo} />
+          <nav className="menu2">
+            <div className="home1" onClick={onHomeTextClick}>
               Home
             </div>
-            <div className={styles.landloards} onClick={onLandloardsTextClick}>
+            <div className="landloards" onClick={onLandloardsTextClick}>
               Landloards
             </div>
-            <div className={styles.blog} onClick={onBlogTextClick}>
+            <div className="blog1" onClick={onBlogTextClick}>
               Blog
             </div>
-            <div className={styles.contacts} onClick={onContactsTextClick}>
+            <div className="contacts" onClick={onContactsTextClick}>
               Contacts
             </div>
           </nav>

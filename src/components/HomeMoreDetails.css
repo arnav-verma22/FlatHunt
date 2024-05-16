@@ -1,0 +1,31 @@
+.homepage-inner,
+.images-1-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.images-1-parent {
+  flex: 1;
+  justify-content: center;
+  row-gap: 20px;
+}
+.homepage-inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-61xl) var(--padding-121xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1350px) {
+  .images-1-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homepage-inner {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,98 @@
+.logo-icon1 {
+  width: 4.188rem;
+  height: 2.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.icon-wrapper,
+.menu-mob {
+  justify-content: flex-start;
+}
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.menu-mob {
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: 3.125rem;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.filtres-child,
+.filtres-inner,
+.menu-mob {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.filtres-inner {
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.filtres-child {
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 19.375rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button-back,
+.button-continue {
+  height: 2.75rem;
+  width: 6.188rem;
+  cursor: pointer;
+}
+.button-continue {
+  width: 8.125rem;
+}
+.back-button {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.back-button-wrapper,
+.filtres {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.back-button-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  max-width: 100%;
+}
+.filtres {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

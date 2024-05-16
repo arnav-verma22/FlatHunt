@@ -1,7 +1,7 @@
 import { FunctionComponent, memo, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import SearchBarComponent from "./SearchBarComponent";
-import styles from "./SearchBar.module.css";
+import "./SearchBar.css";
 
 export type SearchBarType = {
   city?: string;
@@ -16,7 +16,7 @@ const SearchBar: FunctionComponent<SearchBarType> = memo(
     }, [navigate]);
 
     return (
-      <div className={styles.searchWrapper}>
+      <div className="search-wrapper">
         <SearchBarComponent
           evasearchFill="/evasearchfill.svg"
           evapeopleFill="/evapeoplefill.svg"

@@ -1,77 +1,77 @@
 import { FunctionComponent, memo } from "react";
-import styles from "./SearchMap.module.css";
+import "./SearchMap.css";
 
 const SearchMap: FunctionComponent = memo(() => {
   return (
-    <div className={styles.map}>
-      <img className={styles.mapIcon} alt="" src="/map@2x.png" />
-      <div className={styles.buttonPlusParent}>
-        <div className={styles.buttonPlus}>
+    <div className="map2">
+      <img className="map-icon1" alt="" src="/map2@2x.png" />
+      <div className="button-plus-container">
+        <div className="button-plus1">
           <img
-            className={styles.evaplusFillIcon}
+            className="evaplus-fill-icon2"
             alt=""
             src="/evaplusfill-11.svg"
           />
         </div>
-        <div className={styles.buttonMinus}>
+        <div className="button-minus1">
           <img
-            className={styles.evaminusFillIcon}
+            className="evaminus-fill-icon2"
             alt=""
             src="/evaminusfill-1.svg"
           />
         </div>
       </div>
-      <div className={styles.mapInner}>
-        <div className={styles.bgParent}>
-          <div className={styles.bg} />
-          <b className={styles.b}>2</b>
+      <div className="map-inner">
+        <div className="bg-group">
+          <div className="bg3" />
+          <b className="b2">2</b>
         </div>
       </div>
-      <div className={styles.mapChild}>
-        <div className={styles.frameParent}>
-          <div className={styles.bgGroup}>
-            <div className={styles.bg1} />
-            <b className={styles.b1}>20</b>
+      <div className="map-child">
+        <div className="frame-parent24">
+          <div className="bg-container">
+            <div className="bg4" />
+            <b className="b3">20</b>
           </div>
-          <div className={styles.frameWrapper}>
-            <div className={styles.bgContainer}>
-              <div className={styles.bg2} />
-              <b className={styles.b2}>12</b>
+          <div className="frame-wrapper5">
+            <div className="bg-parent1">
+              <div className="bg5" />
+              <b className="b4">12</b>
             </div>
           </div>
-          <div className={styles.frameContainer}>
-            <div className={styles.frameGroup}>
-              <div className={styles.frameDiv}>
-                <div className={styles.bgParent1}>
-                  <div className={styles.bg3} />
-                  <b className={styles.b3}>16</b>
+          <div className="frame-wrapper6">
+            <div className="frame-parent25">
+              <div className="frame-wrapper7">
+                <div className="bg-parent2">
+                  <div className="bg6" />
+                  <b className="b5">16</b>
                 </div>
               </div>
-              <div className={styles.bgParent2}>
-                <div className={styles.bg4} />
-                <b className={styles.b4}>1</b>
+              <div className="bg-parent3">
+                <div className="bg7" />
+                <b className="b6">1</b>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.mapInner1}>
-        <div className={styles.frameParent1}>
-          <div className={styles.frameWrapper1}>
-            <div className={styles.bgParent3}>
-              <div className={styles.bg5} />
-              <b className={styles.b5}>8</b>
+      <div className="map-inner1">
+        <div className="frame-parent26">
+          <div className="frame-wrapper8">
+            <div className="bg-parent4">
+              <div className="bg8" />
+              <b className="b7">8</b>
             </div>
           </div>
-          <div className={styles.frameParent2}>
-            <div className={styles.bgParent4}>
-              <div className={styles.bg6} />
-              <b className={styles.fAQtitle}>40</b>
+          <div className="frame-parent27">
+            <div className="bg-parent5">
+              <div className="bg9" />
+              <b className="f-a-qtitle">40</b>
             </div>
-            <div className={styles.frameWrapper2}>
-              <div className={styles.bgParent5}>
-                <div className={styles.bg7} />
-                <b className={styles.b6}>2</b>
+            <div className="frame-wrapper9">
+              <div className="bg-parent6">
+                <div className="bg10" />
+                <b className="b8">2</b>
               </div>
             </div>
           </div>

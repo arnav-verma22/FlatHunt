@@ -1,0 +1,202 @@
+.useful-links1 {
+  margin: 0;
+  width: 52.938rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.west-london-apartments {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1.5rem;
+}
+.evaarrow-forward-outline-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div33 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.riverside-apartments {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1.5rem;
+}
+.evaarrow-forward-outline-icon1 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div34 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.apartments-in-finance {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1.5rem;
+}
+.evaarrow-forward-outline-icon2 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div35 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.apartments-in-soho {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1.5rem;
+}
+.evaarrow-forward-outline-icon3 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div36 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.east-london-aaprtments {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1.5rem;
+}
+.evaarrow-forward-outline-icon4 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div37 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.div32,
+.links {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.div32 {
+  width: 24.375rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 24.375rem;
+}
+.links {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-332xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--green);
+}
+.useful-links,
+.useful-links-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.useful-links {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.useful-links-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-61xl) var(--padding-121xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1350px) {
+  .div32 {
+    flex: 1;
+  }
+  .links {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: var(--padding-156xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .div32 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .useful-links1 {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+  .links {
+    padding-right: var(--padding-68xl);
+    box-sizing: border-box;
+  }
+  .useful-links {
+    gap: var(--gap-11xl);
+  }
+  .useful-links-wrapper {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .useful-links1 {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .links {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .useful-links-wrapper {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}

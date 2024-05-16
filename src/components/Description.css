@@ -1,0 +1,86 @@
+.a-truly-global,
+.desription {
+  align-self: stretch;
+  position: relative;
+}
+.desription {
+  margin: 0;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.a-truly-global {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.titletext1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--desktop-h3-size);
+}
+.in-nullam-eget,
+.in-sed {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.in-nullam-eget {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.titletext2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.adipiscing-risus-fermentum,
+.laoreet-risus-accumsan {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.laoreet-risus-accumsan {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.desriprion,
+.titletext3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.desriprion {
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-h4-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1050px) {
+  .desription {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .desription {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+  .adipiscing-risus-fermentum,
+  .in-sed {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+}

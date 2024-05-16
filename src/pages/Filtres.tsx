@@ -2,7 +2,7 @@ import { FunctionComponent, useCallback } from "react";
 import { Button } from "@mui/material";
 import NumberOfResults from "../components/NumberOfResults";
 import FrameComponent from "../components/FrameComponent";
-import styles from "./Filtres.module.css";
+import "./Filtres.css";
 
 const Filtres: FunctionComponent = () => {
   const onIconClick = useCallback(() => {
@@ -18,19 +18,19 @@ const Filtres: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.filtres}>
-      <header className={styles.menuMob}>
-        <div className={styles.logo}>
+    <div className="filtres">
+      <header className="menu-mob">
+        <div className="logo">
           <img
-            className={styles.logoIcon}
+            className="logo-icon1"
             loading="lazy"
             alt=""
             src="/logo1@2x.png"
           />
         </div>
-        <div className={styles.iconWrapper}>
+        <div className="icon-wrapper">
           <img
-            className={styles.icon}
+            className="icon1"
             loading="lazy"
             alt=""
             src="/icon.svg"
@@ -38,7 +38,7 @@ const Filtres: FunctionComponent = () => {
           />
         </div>
       </header>
-      <div className={styles.filtresInner}>
+      <div className="filtres-inner">
         <NumberOfResults
           results="London"
           area="24.02 – 28.02"
@@ -56,7 +56,7 @@ const Filtres: FunctionComponent = () => {
           propTextAlign="unset"
           propDisplay="flex"
           propFlexDirection1="row"
-          propPadding1="0px var(--padding-3xs)"
+          propPadding1="0rem var(--padding-3xs)"
           propFontSize="unset"
           propLineHeight="unset"
           propWidth1="unset"
@@ -68,9 +68,9 @@ const Filtres: FunctionComponent = () => {
           propDisplay1="inline-block"
           propColor1="#000"
           propTextAlign1="left"
-          propMinWidth1="67px"
+          propMinWidth1="4.188rem"
           propFontSize1="20px"
-          propLineHeight1="24px"
+          propLineHeight1="1.5rem"
           propFontWeight="unset"
           propMargin="unset"
           propAlignSelf1="unset"
@@ -80,21 +80,21 @@ const Filtres: FunctionComponent = () => {
           propColor2="#181a18"
           propTextAlign2="left"
           propDisplay2="inline-block"
-          propMinWidth2="87px"
+          propMinWidth2="5.438rem"
           propFontSize2="14px"
-          propLineHeight2="18px"
+          propLineHeight2="1.125rem"
           propFontWeight1="unset"
           propWidth3="unset"
           propAlignSelf2="unset"
         />
       </div>
-      <main className={styles.filtresChild}>
+      <main className="filtres-child">
         <FrameComponent />
       </main>
-      <footer className={styles.backButtonWrapper}>
-        <div className={styles.backButton}>
+      <footer className="back-button-wrapper">
+        <div className="back-button">
           <Button
-            className={styles.buttonBack}
+            className="button-back"
             disableElevation={true}
             variant="outlined"
             sx={{
@@ -112,7 +112,7 @@ const Filtres: FunctionComponent = () => {
             Back
           </Button>
           <Button
-            className={styles.buttonContinue}
+            className="button-continue"
             disableElevation={true}
             variant="contained"
             sx={{

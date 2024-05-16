@@ -1,26 +1,26 @@
 import { FunctionComponent } from "react";
 import Component2 from "./Component2";
-import styles from "./FrameComponent8.module.css";
+import "./FrameComponent8.css";
 
 const MoreFeatures: FunctionComponent = () => {
   return (
-    <section className={styles.corporatePartnershipsWrapper}>
-      <div className={styles.corporatePartnerships}>
-        <div className={styles.titletext}>
-          <h1 className={styles.betterThanProperty}>
+    <section className="corporate-partnerships-wrapper">
+      <div className="corporate-partnerships">
+        <div className="titletext">
+          <h1 className="better-than-property">
             Better than Property Management
           </h1>
-          <div className={styles.weWorkWithContainer}>
-            <p className={styles.weWorkWith}>
+          <div className="we-work-with-container">
+            <p className="we-work-with">
               We work with 100+ companies to meet accommodation needs in London.
               Offer a dedicated
             </p>
-            <p className={styles.bookingManagerThat}>
+            <p className="booking-manager-that">
               booking manager that can help to find properties for your needs.
             </p>
           </div>
         </div>
-        <div className={styles.features}>
+        <div className="features">
           <Component2
             evalockFill="/evalockfill.svg"
             guaranteedRent="Guaranteed rent"

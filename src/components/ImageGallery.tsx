@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import MainImage from "./MainImage";
 import MoreImages from "./MoreImages";
-import styles from "./ImageGallery.module.css";
+import "./ImageGallery.css";
 
 const ImageGallery: FunctionComponent = () => {
   return (
-    <div className={styles.valueSet}>
+    <div className="value-set">
       <MainImage imageSource="/1@2x.png" />
       <MoreImages
         image1="/5@2x.png"

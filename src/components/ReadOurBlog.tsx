@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { Button } from "@mui/material";
-import styles from "./ReadOurBlog.module.css";
+import "./ReadOurBlog.css";
 
 const ReadOurBlog: FunctionComponent = () => {
   const onButtonLoadMoreClick = useCallback(() => {
@@ -8,146 +8,146 @@ const ReadOurBlog: FunctionComponent = () => {
   }, []);
 
   return (
-    <section className={styles.readOurBlog}>
-      <div className={styles.titletext}>
-        <h1 className={styles.readOurBlog1}>Read our blog</h1>
+    <section className="read-our-blog">
+      <div className="titletext6">
+        <h1 className="read-our-blog1">Read our blog</h1>
       </div>
-      <div className={styles.div}>
-        <div className={styles.div1}>
+      <div className="div26">
+        <div className="div27">
           <img
-            className={styles.unsplashR80lcluvvmIcon}
+            className="unsplash-r80lcluvvm-icon"
             loading="lazy"
             alt=""
             src="/unsplash-r80lcluvvm@2x.png"
           />
-          <div className={styles.text}>
-            <div className={styles.titletext1}>
-              <h1 className={styles.turpisElitIn}>
+          <div className="text6">
+            <div className="titletext7">
+              <h1 className="turpis-elit-in">
                 Turpis elit in dictum eget eget
               </h1>
-              <div className={styles.nequeFaucibusPharetra}>
+              <div className="neque-faucibus-pharetra">
                 Neque faucibus pharetra condimentum tincidunt commodo velit.
               </div>
             </div>
-            <div className={styles.read}>
+            <div className="read">
               <img
-                className={styles.evaclockFillIcon}
+                className="evaclock-fill-icon2"
                 loading="lazy"
                 alt=""
                 src="/evaclockfill.svg"
               />
-              <b className={styles.minRead}>1 min read</b>
+              <b className="min-read">1 min read</b>
             </div>
           </div>
         </div>
-        <div className={styles.div2}>
+        <div className="div28">
           <img
-            className={styles.unsplashmp0bgasD1cIcon}
+            className="unsplashmp0bgas-d1c-icon"
             loading="lazy"
             alt=""
             src="/unsplashmp0bgas-d1c@2x.png"
           />
-          <div className={styles.text1}>
-            <div className={styles.titletext2}>
-              <h1 className={styles.turpisElitIn1}>
+          <div className="text7">
+            <div className="titletext8">
+              <h1 className="turpis-elit-in1">
                 Turpis elit in dictum eget eget
               </h1>
-              <div className={styles.convallisEuVel}>
+              <div className="convallis-eu-vel">
                 Convallis eu vel fames feugiat et venenatis nulla ipsum.
               </div>
             </div>
-            <div className={styles.read1}>
+            <div className="read1">
               <img
-                className={styles.evaclockFillIcon1}
+                className="evaclock-fill-icon3"
                 alt=""
                 src="/evaclockfill.svg"
               />
-              <b className={styles.minRead1}>1 min read</b>
+              <b className="min-read1">1 min read</b>
             </div>
           </div>
         </div>
-        <div className={styles.div3}>
+        <div className="div29">
           <img
-            className={styles.unsplashgnvurwjskayIcon}
+            className="unsplashgnvurwjskay-icon"
             loading="lazy"
             alt=""
             src="/unsplashgnvurwjskay@2x.png"
           />
-          <div className={styles.text2}>
-            <div className={styles.titletext3}>
-              <h1 className={styles.faucibusEgestasUt}>
+          <div className="text8">
+            <div className="titletext9">
+              <h1 className="faucibus-egestas-ut">
                 Faucibus egestas ut sit purus ultricies at eu
               </h1>
-              <div className={styles.viverraTellusRisus}>
+              <div className="viverra-tellus-risus">
                 Viverra tellus risus lacus commodo urna fringilla cursus nulla
                 amet.
               </div>
             </div>
-            <div className={styles.read2}>
+            <div className="read2">
               <img
-                className={styles.evaclockFillIcon2}
+                className="evaclock-fill-icon4"
                 alt=""
                 src="/evaclockfill.svg"
               />
-              <b className={styles.minRead2}>3 min read</b>
+              <b className="min-read2">3 min read</b>
             </div>
           </div>
         </div>
-        <div className={styles.div4}>
+        <div className="div30">
           <img
-            className={styles.unsplashszyukewsdlaIcon}
+            className="unsplashszyukewsdla-icon"
             loading="lazy"
             alt=""
             src="/unsplashszyukewsdla@2x.png"
           />
-          <div className={styles.text3}>
-            <div className={styles.titletext4}>
-              <h1 className={styles.feugiatGravidaSed}>
+          <div className="text9">
+            <div className="titletext10">
+              <h1 className="feugiat-gravida-sed">
                 Feugiat gravida sed sit lacus sagittis
               </h1>
-              <div className={styles.pellentesqueUltricesHendreri}>
+              <div className="pellentesque-ultrices-hendreri">
                 Pellentesque ultrices hendrerit lacus lectus.
               </div>
             </div>
-            <div className={styles.read3}>
+            <div className="read3">
               <img
-                className={styles.evaclockFillIcon3}
+                className="evaclock-fill-icon5"
                 alt=""
                 src="/evaclockfill.svg"
               />
-              <b className={styles.minRead3}>3 min read</b>
+              <b className="min-read3">3 min read</b>
             </div>
           </div>
         </div>
-        <div className={styles.div5}>
+        <div className="div31">
           <img
-            className={styles.unsplash3wyldrjxhEIcon}
+            className="unsplash3wyldrjxh-e-icon"
             loading="lazy"
             alt=""
             src="/unsplash3wyldrjxhe@2x.png"
           />
-          <div className={styles.text4}>
-            <div className={styles.titletext5}>
-              <h1 className={styles.feugiatGravidaSed1}>
+          <div className="text10">
+            <div className="titletext11">
+              <h1 className="feugiat-gravida-sed1">
                 Feugiat gravida sed sit lacus sagittis
               </h1>
-              <div className={styles.dolorElitViverra}>
+              <div className="dolor-elit-viverra">
                 Dolor elit viverra facilisis aliquam, aliquet arcu nec.
               </div>
             </div>
-            <div className={styles.read4}>
+            <div className="read4">
               <img
-                className={styles.evaclockFillIcon4}
+                className="evaclock-fill-icon6"
                 alt=""
                 src="/evaclockfill.svg"
               />
-              <b className={styles.minRead4}>3 min read</b>
+              <b className="min-read4">3 min read</b>
             </div>
           </div>
         </div>
       </div>
       <Button
-        className={styles.buttonLoadMore}
+        className="button-load-more1"
         disableElevation={true}
         variant="contained"
         sx={{

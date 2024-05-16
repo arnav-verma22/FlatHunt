@@ -1,59 +1,53 @@
 import { FunctionComponent } from "react";
 import AmenitiesList1 from "./AmenitiesList1";
-import styles from "./UsefulLinks.module.css";
+import "./UsefulLinks.css";
 
 const UsefulLinks: FunctionComponent = () => {
   return (
-    <section className={styles.usefulLinksWrapper}>
-      <div className={styles.usefulLinks}>
-        <h1 className={styles.usefulLinks1}>Useful links</h1>
-        <div className={styles.links}>
-          <div className={styles.div}>
-            <div className={styles.div1}>
-              <b className={styles.westLondonApartments}>
-                West London Apartments
-              </b>
+    <section className="useful-links-wrapper">
+      <div className="useful-links">
+        <h1 className="useful-links1">Useful links</h1>
+        <div className="links">
+          <div className="div32">
+            <div className="div33">
+              <b className="west-london-apartments">West London Apartments</b>
               <img
-                className={styles.evaarrowForwardOutlineIcon}
+                className="evaarrow-forward-outline-icon"
                 loading="lazy"
                 alt=""
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className={styles.div2}>
-              <b className={styles.riversideApartments}>Riverside Apartments</b>
+            <div className="div34">
+              <b className="riverside-apartments">Riverside Apartments</b>
               <img
-                className={styles.evaarrowForwardOutlineIcon1}
+                className="evaarrow-forward-outline-icon1"
                 alt=""
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className={styles.div3}>
-              <b className={styles.apartmentsInFinance}>
+            <div className="div35">
+              <b className="apartments-in-finance">
                 Apartments in Finance Sector City of London
               </b>
               <img
-                className={styles.evaarrowForwardOutlineIcon2}
+                className="evaarrow-forward-outline-icon2"
                 alt=""
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className={styles.div4}>
-              <b className={styles.apartmentsInSoho}>
-                Apartments in Soho, Fitrovia
-              </b>
+            <div className="div36">
+              <b className="apartments-in-soho">Apartments in Soho, Fitrovia</b>
               <img
-                className={styles.evaarrowForwardOutlineIcon3}
+                className="evaarrow-forward-outline-icon3"
                 alt=""
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className={styles.div5}>
-              <b className={styles.eastLondonAaprtments}>
-                East London Aaprtments
-              </b>
+            <div className="div37">
+              <b className="east-london-aaprtments">East London Aaprtments</b>
               <img
-                className={styles.evaarrowForwardOutlineIcon4}
+                className="evaarrow-forward-outline-icon4"
                 alt=""
                 src="/evaarrowforwardoutline.svg"
               />
@@ -71,7 +65,7 @@ const UsefulLinks: FunctionComponent = () => {
             propWidth="unset"
             propPadding="unset"
             propGap="11px"
-            propMinWidth="379px"
+            propMinWidth="23.688rem"
             propAlignSelf="unset"
             propGap1="9px"
             propDisplay="unset"
@@ -79,8 +73,8 @@ const UsefulLinks: FunctionComponent = () => {
             propColor="4px solid #064749"
             propTextDecoration="underline"
             propFontWeight="bold"
-            propHeight="20px"
-            propWidth1="20px"
+            propHeight="1.25rem"
+            propWidth1="1.25rem"
             propAlignSelf1="unset"
             propGap2="10px"
             propColor1="4px solid #064749"
@@ -88,8 +82,8 @@ const UsefulLinks: FunctionComponent = () => {
             propMinWidth2="unset"
             propTextDecoration1="underline"
             propFontWeight1="bold"
-            propHeight1="20px"
-            propWidth2="20px"
+            propHeight1="1.25rem"
+            propWidth2="1.25rem"
             propAlignSelf2="unset"
             propGap3="10px"
             propMinWidth3="unset"
@@ -97,8 +91,8 @@ const UsefulLinks: FunctionComponent = () => {
             propDisplay2="unset"
             propTextDecoration2="underline"
             propFontWeight2="bold"
-            propHeight2="20px"
-            propWidth3="20px"
+            propHeight2="1.25rem"
+            propWidth3="1.25rem"
             propAlignSelf3="unset"
             propGap4="8px"
             propMinWidth4="unset"
@@ -106,8 +100,8 @@ const UsefulLinks: FunctionComponent = () => {
             propDisplay3="unset"
             propTextDecoration3="underline"
             propFontWeight3="bold"
-            propHeight3="20px"
-            propWidth4="20px"
+            propHeight3="1.25rem"
+            propWidth4="1.25rem"
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import NumberOfResults from "./NumberOfResults";
-import styles from "./PropertyCard.module.css";
+import "./PropertyCard.css";
 
 export type PropertyCardType = {
   image?: string;
@@ -24,43 +24,41 @@ const PropertyCard: FunctionComponent<PropertyCardType> = ({
   propertName,
 }) => {
   return (
-    <div className={styles.div} onClick={onContainer4Click}>
-      <img className={styles.child} alt="" src={image} />
-      <div className={styles.text}>
-        <img className={styles.titlesubtitleIcon} alt="" src={propertName} />
-        <div className={styles.div1}>
-          <div className={styles.points}>
-            <div className={styles.bedroomBath}>
-              <div className={styles.bedroom}>
+    <div className="div17" onClick={onContainer4Click}>
+      <img className="rectangle-icon" alt="" src={image} />
+      <div className="text2">
+        <img className="titlesubtitle-icon" alt="" src={propertName} />
+        <div className="div18">
+          <div className="points4">
+            <div className="bedroom-bath1">
+              <div className="bedroom2">
                 <img
-                  className={styles.fluentbed24FilledIcon}
+                  className="fluentbed-24-filled-icon2"
                   alt=""
                   src={fluentbed24Filled}
                 />
-                <div className={styles.bedroom1}>{bedroom}</div>
+                <div className="bedroom3">{bedroom}</div>
               </div>
-              <div className={styles.bath}>
+              <div className="bath2">
                 <img
-                  className={styles.faSolidbathIcon}
+                  className="fa-solidbath-icon2"
                   alt=""
                   src="/fasolidbath1.svg"
                 />
-                <div className={styles.bath1}>{bath}</div>
+                <div className="bath3">{bath}</div>
               </div>
-              <div className={styles.wifi}>
+              <div className="wifi">
                 <img
-                  className={styles.evawifiFillIcon}
+                  className="evawifi-fill-icon"
                   alt=""
                   src="/evawififill1.svg"
                 />
-                <div className={styles.wifi1}>WiFi</div>
+                <div className="wifi1">WiFi</div>
               </div>
             </div>
-            <div
-              className={styles.cityView}
-            >{`City view  |  3rd floor  |  Elevator | Parking `}</div>
+            <div className="city-view">{`City view  |  3rd floor  |  Elevator | Parking `}</div>
           </div>
-          <div className={styles.priceavailability}>
+          <div className="priceavailability">
             <NumberOfResults
               results="Available "
               area="28 Nov 2021"
@@ -70,8 +68,8 @@ const PropertyCard: FunctionComponent<PropertyCardType> = ({
               propGap="unset"
               propFlex="1"
               propBorderRadius="30px"
-              propBackgroundColor="#49735a"
-              propMinWidth="130px"
+              propBackgroundColor="1px solid #49735a"
+              propMinWidth="8.125rem"
               propAlignSelf="unset"
               propPosition="relative"
               propColor="#fff"
@@ -80,7 +78,7 @@ const PropertyCard: FunctionComponent<PropertyCardType> = ({
               propFlexDirection1="unset"
               propPadding1="unset"
               propFontSize="16px"
-              propLineHeight="20px"
+              propLineHeight="1.25rem"
               propWidth1="unset"
               propGap1="unset"
               propFlex1="unset"
@@ -109,7 +107,7 @@ const PropertyCard: FunctionComponent<PropertyCardType> = ({
               propWidth3="unset"
               propAlignSelf2="unset"
             />
-            <div className={styles.from3490MonthContainer}>
+            <div className="from-3490-month-container">
               <span>{`from `}</span>
               <b>{prop}</b>
               <span> /month</span>

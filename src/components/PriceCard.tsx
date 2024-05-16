@@ -1,95 +1,95 @@
 import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import styles from "./PriceCard.module.css";
+import "./PriceCard.css";
 
 const PriceCard: FunctionComponent = () => {
   return (
-    <div className={styles.div}>
-      <div className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <b className={styles.flexLivingGuaranteed}>
+    <div className="div5">
+      <div className="rectangle-group">
+        <div className="frame-child2" />
+        <b className="flex-living-guaranteed">
           Flex Living (guaranteed Rental)
         </b>
-        <div className={styles.frameWrapper}>
-          <div className={styles.fixedPriceParent}>
-            <h1 className={styles.fixedPrice}>Fixed price</h1>
-            <div className={styles.monthlyWrapper}>
-              <div className={styles.monthly}>monthly</div>
+        <div className="frame-wrapper4">
+          <div className="fixed-price-parent">
+            <h1 className="fixed-price">Fixed price</h1>
+            <div className="monthly-wrapper">
+              <div className="monthly">monthly</div>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.child} />
-      <div className={styles.item} />
-      <div className={styles.inner} />
-      <div className={styles.ellipseDiv} />
-      <div className={styles.child1} />
-      <div className={styles.child2} />
-      <div className={styles.frameDiv}>
-        <div className={styles.frameParent}>
-          <div className={styles.frameGroup}>
-            <div className={styles.evacheckmarkFillWrapper}>
+      <div className="child4" />
+      <div className="child5" />
+      <div className="child6" />
+      <div className="child7" />
+      <div className="child8" />
+      <div className="child9" />
+      <div className="inner2">
+        <div className="frame-parent12">
+          <div className="frame-parent13">
+            <div className="evacheckmark-fill-wrapper4">
               <img
-                className={styles.evacheckmarkFillIcon}
+                className="evacheckmark-fill-icon6"
                 alt=""
                 src="/evacheckmarkfill1.svg"
               />
             </div>
-            <div className={styles.to5Years}>3 to 5 years</div>
+            <div className="to-5-years">3 to 5 years</div>
           </div>
-          <div className={styles.frameContainer}>
-            <div className={styles.evacheckmarkFillContainer}>
+          <div className="frame-parent14">
+            <div className="evacheckmark-fill-wrapper5">
               <img
-                className={styles.evacheckmarkFillIcon1}
+                className="evacheckmark-fill-icon7"
                 alt=""
                 src="/evacheckmarkfill1.svg"
               />
             </div>
-            <div className={styles.freeMaintenance}>Free maintenance</div>
+            <div className="free-maintenance">Free maintenance</div>
           </div>
-          <div className={styles.frameParent1}>
-            <div className={styles.evacheckmarkFillFrame}>
+          <div className="frame-parent15">
+            <div className="evacheckmark-fill-wrapper6">
               <img
-                className={styles.evacheckmarkFillIcon2}
+                className="evacheckmark-fill-icon8"
                 alt=""
                 src="/evacheckmarkfill1.svg"
               />
             </div>
-            <div className={styles.weeklyCleaning}>Weekly cleaning</div>
+            <div className="weekly-cleaning">Weekly cleaning</div>
           </div>
-          <div className={styles.frameParent2}>
-            <div className={styles.evacheckmarkFillWrapper1}>
+          <div className="frame-parent16">
+            <div className="evacheckmark-fill-wrapper7">
               <img
-                className={styles.evacheckmarkFillIcon3}
+                className="evacheckmark-fill-icon9"
                 alt=""
                 src="/evacheckmarkfill1.svg"
               />
             </div>
-            <div className={styles.interiorDesign}>Interior design</div>
+            <div className="interior-design">Interior design</div>
           </div>
-          <div className={styles.frameParent3}>
-            <div className={styles.evacheckmarkFillWrapper2}>
+          <div className="frame-parent17">
+            <div className="evacheckmark-fill-wrapper8">
               <img
-                className={styles.evacheckmarkFillIcon4}
+                className="evacheckmark-fill-icon10"
                 alt=""
                 src="/evacheckmarkfill1.svg"
               />
             </div>
-            <div className={styles.noVoid}>No void</div>
+            <div className="no-void">No void</div>
           </div>
-          <div className={styles.frameParent4}>
-            <div className={styles.evacheckmarkFillWrapper3}>
+          <div className="frame-parent18">
+            <div className="evacheckmark-fill-wrapper9">
               <img
-                className={styles.evacheckmarkFillIcon5}
+                className="evacheckmark-fill-icon11"
                 alt=""
                 src="/evacheckmarkfill1.svg"
               />
             </div>
-            <div className={styles.div1}>£30,000</div>
+            <div className="div6">£30,000</div>
           </div>
-          <div className={styles.buttonGetStartedWrapper}>
+          <div className="button-get-started-wrapper">
             <Button
-              className={styles.buttonGetStarted}
+              className="button-get-started"
               disableElevation={true}
               variant="contained"
               sx={{

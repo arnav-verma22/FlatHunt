@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { Button } from "@mui/material";
-import styles from "./OptionToBook.module.css";
+import "./OptionToBook.css";
 
 const OptionToBook: FunctionComponent = () => {
   const onButtonContinueBookingClick = useCallback(() => {
@@ -8,14 +8,14 @@ const OptionToBook: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.optionToBook}>
-      <b className={styles.month}>£3990 / Month</b>
-      <div className={styles.points}>
-        <div className={styles.moves}>
-          <div className={styles.moveIn}>
-            <b className={styles.moveIn1}>Move in</b>
+    <div className="option-to-book">
+      <b className="month">£3990 / Month</b>
+      <div className="points1">
+        <div className="moves">
+          <div className="move-in">
+            <b className="move-in1">Move in</b>
             <Button
-              className={styles.inputMoveIn}
+              className="input-move-in"
               startIcon={
                 <img width="20px" height="20px" src="/evacalendarfill.svg" />
               }
@@ -34,10 +34,10 @@ const OptionToBook: FunctionComponent = () => {
               31.12.2021
             </Button>
           </div>
-          <div className={styles.moveOut}>
-            <b className={styles.moveOut1}>Move out</b>
+          <div className="move-out">
+            <b className="move-out1">Move out</b>
             <Button
-              className={styles.inputMoveOut}
+              className="input-move-out"
               startIcon={
                 <img width="20px" height="20px" src="/evacalendarfill-1.svg" />
               }
@@ -57,79 +57,79 @@ const OptionToBook: FunctionComponent = () => {
             </Button>
           </div>
         </div>
-        <div className={styles.guests}>
-          <div className={styles.guests1}>
+        <div className="guests1">
+          <div className="guests2">
             <img
-              className={styles.evapeopleFillIcon}
+              className="evapeople-fill-icon1"
               loading="lazy"
               alt=""
               src="/evapeoplefill.svg"
             />
-            <b className={styles.guests2}>Guests</b>
+            <b className="guests3">Guests</b>
           </div>
-          <div className={styles.quantity}>
+          <div className="quantity">
             <img
-              className={styles.evaplusFillIcon}
+              className="evaplus-fill-icon"
               loading="lazy"
               alt=""
               src="/evaplusfill1.svg"
             />
-            <b className={styles.b}>1</b>
+            <b className="b">1</b>
             <img
-              className={styles.evaminusFillIcon}
+              className="evaminus-fill-icon"
               loading="lazy"
               alt=""
               src="/evaminusfill.svg"
             />
           </div>
         </div>
-        <div className={styles.allUtilitiesAre}>All utilities are included</div>
+        <div className="all-utilities-are">All utilities are included</div>
       </div>
-      <div className={styles.costs}>
-        <div className={styles.btnContinue}>
-          <div className={styles.averageMonthyRent}>Average monthy rent</div>
-          <div className={styles.numbers}>
-            <div className={styles.div}>£3700</div>
-            <div className={styles.inclVat}>incl. VAT</div>
+      <div className="costs">
+        <div className="btn-continue">
+          <div className="average-monthy-rent">Average monthy rent</div>
+          <div className="numbers">
+            <div className="div7">£3700</div>
+            <div className="incl-vat">incl. VAT</div>
           </div>
         </div>
-        <div className={styles.btnContinue1}>
-          <div className={styles.payUponBooking}>
-            <b className={styles.payUponBooking1}>Pay upon booking</b>
+        <div className="btn-continue1">
+          <div className="pay-upon-booking">
+            <b className="pay-upon-booking1">Pay upon booking</b>
             <img
-              className={styles.evaalertCircleFillIcon}
+              className="evaalert-circle-fill-icon"
               alt=""
               src="/evaalertcirclefill.svg"
             />
           </div>
-          <div className={styles.numbers1}>
-            <b className={styles.b1}>£3989.23</b>
-            <div className={styles.inclVat1}>incl. VAT</div>
+          <div className="numbers1">
+            <b className="b1">£3989.23</b>
+            <div className="incl-vat1">incl. VAT</div>
           </div>
         </div>
-        <div className={styles.btnContinue2}>
-          <div className={styles.totalCostsParent}>
-            <div className={styles.totalCosts}>
-              <div className={styles.totalCosts1}>Total costs</div>
+        <div className="btn-continue2">
+          <div className="total-costs-parent">
+            <div className="total-costs">
+              <div className="total-costs1">Total costs</div>
               <img
-                className={styles.evaalertCircleFillIcon1}
+                className="evaalert-circle-fill-icon1"
                 alt=""
                 src="/evaalertcirclefill.svg"
               />
             </div>
-            <div className={styles.showMore}>
-              <div className={styles.showMore1}>Show more</div>
+            <div className="show-more">
+              <div className="show-more1">Show more</div>
             </div>
           </div>
-          <div className={styles.numbers2}>
-            <div className={styles.div1}>£4001.70</div>
-            <div className={styles.inclVat2}>incl. VAT</div>
+          <div className="numbers2">
+            <div className="div8">£4001.70</div>
+            <div className="incl-vat2">incl. VAT</div>
           </div>
         </div>
       </div>
-      <div className={styles.buttom}>
+      <div className="buttom">
         <Button
-          className={styles.buttonContinueBooking}
+          className="button-continue-booking"
           disableElevation={true}
           variant="contained"
           sx={{
@@ -146,7 +146,7 @@ const OptionToBook: FunctionComponent = () => {
         >
           Continue booking
         </Button>
-        <div className={styles.whenYouBook}>
+        <div className="when-you-book">
           When you book this apartment, your reservation will be cofirmed
           instantly
         </div>

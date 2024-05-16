@@ -1,11 +1,11 @@
 import { FunctionComponent, memo } from "react";
 import PropertyCards from "./PropertyCards";
 import Button1 from "./Button1";
-import styles from "./Apartments.module.css";
+import "./Apartments.css";
 
 const Apartments: FunctionComponent = memo(() => {
   return (
-    <div className={styles.apartments}>
+    <div className="apartments">
       <PropertyCards />
       <Button1 text="Show more apartments" />
     </div>

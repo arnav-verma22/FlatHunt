@@ -1,15 +1,15 @@
 import { FunctionComponent } from "react";
 import Question from "./Question";
-import styles from "./FrameComponent1.module.css";
+import "./FrameComponent1.css";
 
 const FAQs: FunctionComponent = () => {
   return (
-    <section className={styles.outputFormatter}>
-      <div className={styles.frequentlyAskedQuestions}>
-        <h1 className={styles.frequentlyAskedQuestions1}>
+    <section className="output-formatter">
+      <div className="frequently-asked-questions">
+        <h1 className="frequently-asked-questions1">
           Frequently Asked Questions
         </h1>
-        <div className={styles.questions}>
+        <div className="questions">
           <Question
             integerMorbiSemperSodales="Integer morbi semper sodales sit facilisi habitant pulvinar sed venenatis?"
             magnisCongueNequeSociisUt="Magnis congue neque sociis ut nisl. Quis dui lobortis lectus viverra."
@@ -17,58 +17,58 @@ const FAQs: FunctionComponent = () => {
           <Question
             integerMorbiSemperSodales="Massa massa nulla rhoncus a quam consectetur sed purus, enim?"
             magnisCongueNequeSociisUt="Nunc molestie sit in sed sodales. Bibendum pharetra, id viverra suspendisse pharetra ac aenean neque. Sodales ornare penatibus eros consectetur potenti in feugiat purus. Posuere amet, sodales nibh eget. A et, a ante pretium praesent elementum feugiat pharetra congue."
-            propWidth="1000px"
+            propWidth="62.5rem"
             propDisplay="inline-block"
             propDisplay1="unset"
             propAlignSelf="stretch"
           />
-          <div className={styles.question3}>
-            <b className={styles.dignissimCongueRutrum}>
+          <div className="question-3">
+            <b className="dignissim-congue-rutrum">
               Dignissim congue rutrum pretium nunc sed nibh vitae tortor ut?
             </b>
-            <img className={styles.closeIcon} alt="" src="/close-2.svg" />
+            <img className="close-icon1" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question4}>
-            <b className={styles.vulputateImperdietFusce}>
+          <div className="question-4">
+            <b className="vulputate-imperdiet-fusce">
               Vulputate imperdiet fusce vivamus nunc leo morbi scelerisque in?
             </b>
-            <img className={styles.closeIcon1} alt="" src="/close-2.svg" />
+            <img className="close-icon2" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question5}>
-            <b className={styles.sitRhoncusRhoncus}>
+          <div className="question-5">
+            <b className="sit-rhoncus-rhoncus">
               Sit rhoncus rhoncus malesuada massa adipiscing arcu, semper ut in?
             </b>
-            <img className={styles.closeIcon2} alt="" src="/close-2.svg" />
+            <img className="close-icon3" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question6}>
-            <b className={styles.vulputateNislNon}>
+          <div className="question-6">
+            <b className="vulputate-nisl-non">
               Vulputate nisl non neque iaculis lacus dui, habitant gravida?
             </b>
-            <img className={styles.closeIcon3} alt="" src="/close-2.svg" />
+            <img className="close-icon4" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question7}>
-            <b className={styles.estFelisA}>
+          <div className="question-7">
+            <b className="est-felis-a">
               Est felis a velit at vitae venenatis rhoncus?
             </b>
-            <img className={styles.closeIcon4} alt="" src="/close-2.svg" />
+            <img className="close-icon5" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question8}>
-            <b className={styles.egetNamAccumsan}>
+          <div className="question-8">
+            <b className="eget-nam-accumsan">
               Eget nam accumsan elementum accumsan imperdiet eu, cras?
             </b>
-            <img className={styles.closeIcon5} alt="" src="/close-2.svg" />
+            <img className="close-icon6" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question9}>
-            <b className={styles.fermentumEtSemper}>
+          <div className="question-9">
+            <b className="fermentum-et-semper">
               Fermentum et semper aliquet justo, facilisis?
             </b>
-            <img className={styles.closeIcon6} alt="" src="/close-2.svg" />
+            <img className="close-icon7" alt="" src="/close-2.svg" />
           </div>
-          <div className={styles.question10}>
-            <b className={styles.aVulputateEst}>
+          <div className="question-10">
+            <b className="a-vulputate-est">
               A vulputate est diam tempus condimentum in?
             </b>
-            <img className={styles.closeIcon7} alt="" src="/close-2.svg" />
+            <img className="close-icon8" alt="" src="/close-2.svg" />
           </div>
         </div>
       </div>

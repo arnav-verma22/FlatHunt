@@ -1,0 +1,221 @@
+.logo-icon3 {
+  width: 8.125rem;
+  height: 3.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.contact-number-020330744771 {
+  position: relative;
+  line-height: 1.25rem;
+}
+.evafacebook-fill-icon1,
+.evalinkedin-fill-icon1,
+.evatwitter-fill-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.icons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.flex-living1 {
+  position: relative;
+  line-height: 1.25rem;
+}
+.icons-parent {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.icons-copyright1,
+.icons-parent,
+.layer-sorter,
+.logo-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons-copyright1 {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.layer-sorter,
+.logo-group {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+}
+.logo-group {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-7xl);
+  font-size: var(--desktop-text-regular-size);
+}
+.company1 {
+  min-width: 4.75rem;
+}
+.about-us1,
+.company1,
+.home2,
+.our-team1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+}
+.home2 {
+  min-width: 3rem;
+  cursor: pointer;
+}
+.about-us1,
+.our-team1 {
+  min-width: 4.5rem;
+}
+.our-team1 {
+  min-width: 4.688rem;
+}
+.company-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.guests6 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.5rem;
+}
+.blog2 {
+  cursor: pointer;
+}
+.blog2,
+.career1,
+.faq1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 2.25rem;
+}
+.career1 {
+  min-width: 3.438rem;
+}
+.guests-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.privacy1 {
+  display: inline-block;
+  min-width: 3.813rem;
+}
+.privacy-policy1,
+.privacy1,
+.terms-of-service1 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.privacy-policy1 {
+  display: inline-block;
+  min-width: 6.875rem;
+}
+.frame-parent29,
+.symbol-linker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frame-parent29 {
+  width: 23.875rem;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.stay-up-to1 {
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.be-the-first1,
+.stay-up-to1 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.style-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.input-email-address1 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 3rem;
+  font-family: var(--desktop-text-regular);
+  font-size: var(--font-size-lg);
+  color: var(--bg);
+}
+.button-subscribe1 {
+  width: 9.875rem;
+  height: 3rem;
+}
+.data-container,
+.instance-maker,
+.shape-handler {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.instance-maker {
+  width: 24.625rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.data-container,
+.shape-handler {
+  flex-direction: row;
+}
+.shape-handler {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.data-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1250px) {
+  .shape-handler {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .data-container {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-parent29 {
+    flex-wrap: wrap;
+    gap: var(--gap-11xl);
+  }
+}

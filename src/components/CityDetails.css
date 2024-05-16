@@ -1,0 +1,356 @@
+.apartments-for-rent {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.a-truly-global1,
+.blank-line1,
+.blank-line2,
+.furnished-apartment-rentals,
+.the-choice-is {
+  margin: 0;
+}
+.a-truly-global-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.apartments-for-rent-in-london-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.integer-morbi-semper1 {
+  position: relative;
+  line-height: 2rem;
+}
+.magnis-congue-neque1 {
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: calc(100% - 46px);
+}
+.close-icon9 {
+  height: 1.5rem;
+  width: 1.625rem;
+  position: relative;
+}
+.question-11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.massa-massa-nulla {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.nunc-molestie-sit {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.text4 {
+  width: 62.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: calc(100% - 46px);
+}
+.close-icon10 {
+  height: 1.5rem;
+  width: 1.625rem;
+  position: relative;
+}
+.question-111 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.dignissim-congue-rutrum1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon11 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-31 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.vulputate-imperdiet-fusce1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon12 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-41 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.sit-rhoncus-rhoncus1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon13 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-51 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.vulputate-nisl-non1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon14 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-61 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.est-felis-a1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon15 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-71 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.eget-nam-accumsan1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon16 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-81 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.fermentum-et-semper1 {
+  width: 62.5rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.close-icon17 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-91 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.a-vulputate-est1 {
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.close-icon18 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.question-101,
+.questions1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.questions1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.frequently-asked-questions2 {
+  align-self: stretch;
+  flex-direction: column;
+  font-size: var(--desktop-h4-size);
+}
+.booking-page-inner,
+.frame-parent28,
+.frequently-asked-questions2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent28 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.booking-page-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) var(--padding-121xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1250px) {
+  .question-91 {
+    flex-wrap: wrap;
+  }
+  .booking-page-inner {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .question-31,
+  .question-41,
+  .question-51,
+  .question-81 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .apartments-for-rent {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+  .question-101,
+  .question-61,
+  .question-71 {
+    flex-wrap: wrap;
+  }
+  .questions1 {
+    gap: var(--gap-xl);
+  }
+  .frequently-asked-questions2 {
+    gap: var(--gap-11xl);
+  }
+  .frame-parent28 {
+    gap: var(--gap-xl);
+  }
+  .booking-page-inner {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .apartments-for-rent {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+  .a-vulputate-est1,
+  .dignissim-congue-rutrum1,
+  .eget-nam-accumsan1,
+  .est-felis-a1,
+  .fermentum-et-semper1,
+  .integer-morbi-semper1,
+  .massa-massa-nulla,
+  .sit-rhoncus-rhoncus1,
+  .vulputate-imperdiet-fusce1,
+  .vulputate-nisl-non1 {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+}

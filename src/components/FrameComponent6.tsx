@@ -1,28 +1,28 @@
 import { FunctionComponent } from "react";
-import styles from "./FrameComponent6.module.css";
+import "./FrameComponent6.css";
 
 const FrameComponent6: FunctionComponent = () => {
   return (
-    <div className={styles.frameParent}>
-      <div className={styles.ellipseParent}>
-        <div className={styles.frameChild} />
+    <div className="frame-parent1">
+      <div className="ellipse-parent">
+        <div className="frame-item" />
         <img
-          className={styles.evapantoneFillIcon}
+          className="evapantone-fill-icon"
           loading="lazy"
           alt=""
           src="/evapantonefill.svg"
         />
       </div>
-      <div className={styles.timeToDecorateWrapper}>
-        <h1 className={styles.timeToDecorate}>Time to decorate</h1>
+      <div className="time-to-decorate-wrapper">
+        <h1 className="time-to-decorate">Time to decorate</h1>
       </div>
-      <div className={styles.adipiscingMagnaUtJustoEtParent}>
-        <div className={styles.adipiscingMagnaUt}>
+      <div className="adipiscing-magna-ut-justo-et-parent">
+        <div className="adipiscing-magna-ut">
           Adipiscing magna ut justo, et. Sem pellentesque eu risus euismod et.
           Sapien est tellus dapibus sed varius lorem tellus, turpis nisl.
           Elementum scelerisque elit in nibh aliquet phasellus.
         </div>
-        <div className={styles.magnisCongueNequeSociis} />
+        <div className="magnis-congue-neque-sociis" />
       </div>
     </div>
   );

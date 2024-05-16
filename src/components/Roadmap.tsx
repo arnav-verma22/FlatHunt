@@ -2,35 +2,35 @@ import { FunctionComponent } from "react";
 import FrameComponent7 from "./FrameComponent7";
 import FrameComponent6 from "./FrameComponent6";
 import FrameComponent5 from "./FrameComponent5";
-import styles from "./Roadmap.module.css";
+import "./Roadmap.css";
 
 const Roadmap: FunctionComponent = () => {
   return (
-    <section className={styles.feugiatProinNamTristiqueEgWrapper}>
-      <div className={styles.feugiatProinNamTristiqueEg}>
-        <div className={styles.bg} />
-        <div className={styles.images} />
-        <div className={styles.feugiatProinNamTristiqueEgInner}>
-          <div className={styles.frameParent}>
-            <div className={styles.howItWorksWrapper}>
-              <h1 className={styles.howItWorks}>How it Works</h1>
+    <section className="feugiat-proin-nam-tristique-eg-wrapper">
+      <div className="feugiat-proin-nam-tristique-eg">
+        <div className="bg" />
+        <div className="images" />
+        <div className="feugiat-proin-nam-tristique-eg-inner">
+          <div className="frame-parent3">
+            <div className="how-it-works-wrapper">
+              <h1 className="how-it-works">How it Works</h1>
             </div>
-            <div className={styles.frameGroup}>
-              <div className={styles.frameWrapper}>
-                <div className={styles.evaemailFillParent}>
+            <div className="frame-parent4">
+              <div className="frame-wrapper2">
+                <div className="evaemail-fill-parent">
                   <img
-                    className={styles.evaemailFillIcon}
+                    className="evaemail-fill-icon"
                     loading="lazy"
                     alt=""
                     src="/evaemailfill.svg"
                   />
-                  <div className={styles.ellipseWrapper}>
-                    <div className={styles.frameChild} />
+                  <div className="ellipse-wrapper">
+                    <div className="frame-child1" />
                   </div>
                 </div>
               </div>
-              <h1 className={styles.getInTouch}>Get in touch</h1>
-              <div className={styles.utIdCras}>
+              <h1 className="get-in-touch">Get in touch</h1>
+              <div className="ut-id-cras">
                 Ut id cras malesuada dolor. Consectetur eget malesuada enim
                 massa viverra mauris
               </div>

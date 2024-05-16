@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
 import AllDetails from "./AllDetails";
-import styles from "./PropertyDetailsContainer.module.css";
+import "./PropertyDetailsContainer.css";
 
 const PropertyDetailsContainer: FunctionComponent = () => {
   return (
-    <main className={styles.function}>
+    <main className="function">
       <AllDetails />
     </main>
   );

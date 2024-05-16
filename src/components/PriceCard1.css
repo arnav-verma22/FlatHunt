@@ -1,0 +1,263 @@
+.rectangle-div {
+  width: 28.438rem;
+  height: 16.5rem;
+  position: relative;
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: var(--bg1);
+  display: none;
+  max-width: 100%;
+}
+.high-street-agents {
+  position: relative;
+  line-height: 2rem;
+  z-index: 1;
+}
+.frame-wrapper3,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl) 0 var(--padding-15xl-5);
+}
+.rectangle-parent {
+  align-self: stretch;
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: var(--bg1);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.child,
+.child1,
+.child2,
+.child3,
+.inner,
+.item {
+  width: 0.75rem;
+  height: 0.75rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--bg);
+  display: none;
+}
+.evacheckmark-fill-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmark-fill-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.to-12-months {
+  flex: 1;
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.frame-parent6 {
+  width: 9.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmark-fill-icon1 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmark-fill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.no-maintenance {
+  flex: 1;
+  position: relative;
+  line-height: 1.5rem;
+}
+.frame-parent7 {
+  width: 10.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmark-fill-icon2 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmark-fill-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.no-weekly-cleaning {
+  flex: 1;
+  position: relative;
+  line-height: 1.5rem;
+}
+.frame-parent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmark-fill-icon3 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmark-fill-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.no-interior-design {
+  position: relative;
+  line-height: 1.5rem;
+}
+.frame-parent9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmark-fill-icon4 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmark-fill-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.void {
+  flex: 1;
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.938rem;
+}
+.frame-parent10 {
+  width: 5.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmark-fill-icon5 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmark-fill-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.div4 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 4.188rem;
+  white-space: nowrap;
+}
+.frame-parent11 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.div3,
+.frame-parent11,
+.frame-parent5,
+.inner1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.div3,
+.inner1 {
+  box-sizing: border-box;
+}
+.inner1 {
+  width: 16.563rem;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  font-size: var(--font-size-lg);
+}
+.div3 {
+  flex: 1;
+  box-shadow: -2px -2px 2px rgba(229, 229, 229, 0.5),
+    2px 2px 2px rgba(229, 229, 229, 0.5);
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: 0 0 var(--padding-133xl);
+  gap: var(--gap-21xl);
+  min-width: 18.5rem;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .div3 {
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .high-street-agents {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .div3 {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import styles from "./Heading.module.css";
+import "./Heading.css";
 
 export type HeadingType = {
   heading?: string;
@@ -19,7 +19,7 @@ const Heading: FunctionComponent<HeadingType> = ({
   }, [headingFontSize]);
 
   return (
-    <h1 className={styles.neighbourhood} style={neighbourhoodStyle}>
+    <h1 className="neighbourhood" style={neighbourhoodStyle}>
       {heading}
     </h1>
   );

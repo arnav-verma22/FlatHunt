@@ -1,0 +1,410 @@
+.evapeople-fill-icon2 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.guests5 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 3.063rem;
+}
+.evapeople-fill-parent,
+.guests-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.evapeople-fill-parent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.guests-inner {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.button-plus-icon {
+  height: 2.25rem;
+  width: 2.25rem;
+  position: relative;
+  min-height: 2.25rem;
+  cursor: pointer;
+}
+.checkmark-icon {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 0.625rem;
+}
+.checkmark-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.button-minus-icon {
+  height: 2.25rem;
+  width: 2.25rem;
+  position: relative;
+  min-height: 2.25rem;
+  cursor: pointer;
+}
+.button-plus-group,
+.guests4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.guests4 {
+  width: 21.438rem;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fluentbed-24-filled-icon1 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fluentbed-24-filled-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.bedrooms {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 4.813rem;
+}
+.bedrooms-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.studio {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 2.75rem;
+}
+.studio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-5xs) 0 0;
+  color: var(--green);
+}
+.bg1,
+.div11 {
+  position: absolute;
+}
+.bg1 {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--bg);
+  width: 100%;
+  height: 100%;
+}
+.div11 {
+  top: 0.125rem;
+  left: 0.438rem;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 0.625rem;
+  z-index: 1;
+}
+.bg-parent {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  color: var(--white);
+}
+.frame-parent23 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  gap: var(--gap-xs-5);
+}
+.div12 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 0.625rem;
+}
+.container,
+.frame-parent22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  color: var(--green);
+}
+.frame-parent22 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.div13 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 0.625rem;
+}
+.frame,
+.frame-parent21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  color: var(--green);
+}
+.frame-parent21 {
+  width: 18rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.fa-solidbath-icon1 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.bathrooms,
+.div14 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+}
+.bathrooms {
+  color: var(--text);
+  min-width: 5.125rem;
+  flex-shrink: 0;
+}
+.div14 {
+  min-width: 0.625rem;
+}
+.wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.div15 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 0.625rem;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.div16 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 0.625rem;
+  flex-shrink: 0;
+}
+.fa-solidbath-parent {
+  width: 13.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs-8);
+  color: var(--green);
+}
+.elwheelchair-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.disabled-access {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 6.938rem;
+}
+.elwheelchair-parent {
+  width: 10.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.fa-solidcar-alt-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.parking1 {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 3.375rem;
+}
+.fa-solidcar-alt-parent,
+.parking-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fa-solidcar-alt-parent {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.parking-inner {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.evacheckmark-fill-icon12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.check,
+.parking {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.check {
+  border-radius: var(--br-9xs);
+  background-color: var(--bg);
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.parking {
+  width: 21.438rem;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--bg);
+}
+.mdielevator-passenger-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.elevator {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 3.75rem;
+}
+.mdielevator-passenger-parent {
+  width: 6.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.mdidishwasher-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.dishwasher {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 5.188rem;
+}
+.mdidishwasher-parent {
+  width: 8.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.mdiwashing-machine-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.washing-machine {
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  min-width: 7.75rem;
+}
+.guests-group,
+.mdiwashing-machine-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.mdiwashing-machine-parent {
+  width: 11rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.guests-group {
+  flex: 1;
+  overflow-x: auto;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--desktop-text-regular-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

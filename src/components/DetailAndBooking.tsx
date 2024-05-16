@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import Details from "./Details";
 import OptionToBook from "./OptionToBook";
-import styles from "./DetailAndBooking.module.css";
+import "./DetailAndBooking.css";
 
 const DetailAndBooking: FunctionComponent = () => {
   return (
-    <div className={styles.whileLoop}>
+    <div className="while-loop">
       <Details />
       <OptionToBook />
     </div>

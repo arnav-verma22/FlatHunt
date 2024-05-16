@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import styles from "./Button1.module.css";
+import "./Button1.css";
 
 export type Button1Type = {
   text?: string;
@@ -10,7 +10,7 @@ export type Button1Type = {
 const Button1: FunctionComponent<Button1Type> = ({ text, onClick }) => {
   return (
     <Button
-      className={styles.buttonShowMoreApartments}
+      className="button-show-more-apartments"
       disableElevation={true}
       variant="contained"
       sx={{

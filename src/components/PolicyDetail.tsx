@@ -1,95 +1,89 @@
 import { FunctionComponent } from "react";
-import styles from "./PolicyDetail.module.css";
+import "./PolicyDetail.css";
 
 const PolicyDetail: FunctionComponent = () => {
   return (
-    <div className={styles.policyDetail}>
-      <div className={styles.policyDetail1}>
-        <h1 className={styles.policyDetail2}>Policy detail</h1>
+    <div className="policy-detail">
+      <div className="policy-detail1">
+        <h1 className="policy-detail2">Policy detail</h1>
       </div>
-      <div className={styles.dataAggregator}>
-        <div className={styles.hourseRules}>
-          <b className={styles.houseRules}>House rules</b>
-          <div className={styles.points}>
-            <div className={styles.mapButtonPlus}>
+      <div className="data-aggregator">
+        <div className="hourse-rules">
+          <b className="house-rules">House rules</b>
+          <div className="points3">
+            <div className="map-button-plus">
               <img
-                className={styles.evaclockFillIcon}
+                className="evaclock-fill-icon"
                 loading="lazy"
                 alt=""
                 src="/evaclockfill1.svg"
               />
-              <div className={styles.checkinTime}>Checkin time</div>
+              <div className="checkin-time">Checkin time</div>
             </div>
-            <div className={styles.mapButtonPlus1}>
+            <div className="map-button-plus1">
               <img
-                className={styles.evaclockFillIcon1}
+                className="evaclock-fill-icon1"
                 loading="lazy"
                 alt=""
                 src="/evaclockfill1.svg"
               />
-              <div className={styles.checkoutTime}>Checkout time</div>
+              <div className="checkout-time">Checkout time</div>
             </div>
-            <div className={styles.mapButtonPlus2}>
+            <div className="map-button-plus2">
               <img
-                className={styles.foundationnoSmokingIcon}
+                className="foundationno-smoking-icon"
                 loading="lazy"
                 alt=""
                 src="/foundationnosmoking.svg"
               />
-              <div className={styles.noSmoking}>No smoking</div>
+              <div className="no-smoking">No smoking</div>
             </div>
-            <div className={styles.mapButtonPlus3}>
+            <div className="map-button-plus3">
               <img
-                className={styles.ictwotonePetsIcon}
+                className="ictwotone-pets-icon"
                 loading="lazy"
                 alt=""
                 src="/ictwotonepets.svg"
               />
-              <div className={styles.noPets}>No pets</div>
+              <div className="no-pets">No pets</div>
             </div>
-            <div className={styles.mapButtonPlus4}>
+            <div className="map-button-plus4">
               <img
-                className={styles.bxbxsPartyIcon}
+                className="bxbxs-party-icon"
                 loading="lazy"
                 alt=""
                 src="/bxbxsparty.svg"
               />
-              <div className={styles.noPartiesOr}>No parties or events</div>
+              <div className="no-parties-or">No parties or events</div>
             </div>
           </div>
         </div>
-        <div className={styles.cancellationPolicy}>
-          <b className={styles.cancellationPolicy1}>Cancellation Policy</b>
-          <div className={styles.div}>
+        <div className="cancellation-policy">
+          <b className="cancellation-policy1">Cancellation Policy</b>
+          <div className="div9">
             <img
-              className={styles.evacloseCircleFillIcon}
+              className="evaclose-circle-fill-icon"
               loading="lazy"
               alt=""
               src="/evaclosecirclefill.svg"
             />
-            <div className={styles.freeCancellationUpContainer}>
-              <p
-                className={styles.freeCancellationUp}
-              >{`Free Cancellation up to 24hrs `}</p>
-              <p className={styles.beforeCheckin}>before checkin</p>
+            <div className="free-cancellation-up-container">
+              <p className="free-cancellation-up">{`Free Cancellation up to 24hrs `}</p>
+              <p className="before-checkin">before checkin</p>
             </div>
           </div>
         </div>
-        <div className={styles.healthSafty}>
-          <b className={styles.healthSafty1}>{`Health & Safty`}</b>
-          <div className={styles.div1}>
+        <div className="health-safty">
+          <b className="health-safty1">{`Health & Safty`}</b>
+          <div className="div10">
             <img
-              className={styles.evashieldFillIcon}
+              className="evashield-fill-icon"
               alt=""
               src="/evashieldfill.svg"
             />
-            <div className={styles.cleanerInAccordanceContainer}>
-              <p
-                className={styles.cleanerInAccordance}
-              >{`Cleaner in accordance with our `}</p>
-              <p className={styles.covidSafeCleaning}>
-                COVID safe cleaning policy
-              </p>
+            <div className="cleaner-in-accordance-container">
+              <p className="cleaner-in-accordance">{`Cleaner in accordance with our `}</p>
+              <p className="covid-safe-cleaning">COVID safe cleaning policy</p>
             </div>
           </div>
         </div>

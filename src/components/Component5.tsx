@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import styles from "./Component5.module.css";
+import "./Component5.css";
 
 export type Component5Type = {
   evacalendarFill?: string;
@@ -15,16 +15,12 @@ const Component5: FunctionComponent<Component5Type> = ({
   monthContracts,
 }) => {
   return (
-    <div className={styles.div}>
-      <img
-        className={styles.evacalendarFillIcon}
-        alt=""
-        src={evacalendarFill}
-      />
-      <b className={styles.flexibleLiving}>{flexibleLiving}</b>
-      <div className={styles.stayAsLongContainer}>
-        <p className={styles.stayAsLong}>{stayAsLongOrAsLittleAsYou}</p>
-        <p className={styles.monthContracts}>{monthContracts}</p>
+    <div className="div19">
+      <img className="evacalendar-fill-icon" alt="" src={evacalendarFill} />
+      <b className="flexible-living">{flexibleLiving}</b>
+      <div className="stay-as-long-container">
+        <p className="stay-as-long">{stayAsLongOrAsLittleAsYou}</p>
+        <p className="month-contracts">{monthContracts}</p>
       </div>
     </div>
   );

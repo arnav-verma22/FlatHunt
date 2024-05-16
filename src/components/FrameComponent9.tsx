@@ -2,7 +2,7 @@ import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import PostPropertyForm from "./PostPropertyForm";
-import styles from "./FrameComponent9.module.css";
+import "./FrameComponent9.css";
 
 const LandLordsPageDetails: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -24,7 +24,7 @@ const LandLordsPageDetails: FunctionComponent = () => {
   }, []);
 
   return (
-    <section className={styles.menuParent}>
+    <section className="menu-parent">
       <Header
         logo="/logo2@2x.png"
         menuAlignSelf="stretch"
@@ -34,7 +34,7 @@ const LandLordsPageDetails: FunctionComponent = () => {
         onBlogTextClick={onBlogTextClick}
         onContactsTextClick={onContactsTextClick}
       />
-      <div className={styles.formWrapper}>
+      <div className="form-wrapper">
         <PostPropertyForm />
       </div>
     </section>

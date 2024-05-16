@@ -11,24 +11,24 @@ import {
   FormControl,
   Button,
 } from "@mui/material";
-import styles from "./PostPropertyForm.module.css";
+import "./PostPropertyForm.css";
 
 const PostPropertyForm: FunctionComponent = memo(() => {
   return (
-    <div className={styles.form}>
-      <form className={styles.main}>
-        <div className={styles.titledescription}>
-          <h1 className={styles.earnMoreFrom}>
+    <div className="form">
+      <form className="main">
+        <div className="titledescription">
+          <h1 className="earn-more-from">
             Earn more from your property, do less
           </h1>
-          <div className={styles.findOutIf}>
+          <div className="find-out-if">
             Find out if your property meets our criteria
           </div>
         </div>
-        <div className={styles.form1}>
-          <div className={styles.inputs}>
+        <div className="form1">
+          <div className="inputs">
             <TextField
-              className={styles.input1Big}
+              className="input-1-big"
               placeholder="Name *"
               variant="outlined"
               sx={{
@@ -42,7 +42,7 @@ const PostPropertyForm: FunctionComponent = memo(() => {
               }}
             />
             <TextField
-              className={styles.input1Big1}
+              className="input-1-big1"
               placeholder="Email *"
               variant="outlined"
               sx={{
@@ -56,7 +56,7 @@ const PostPropertyForm: FunctionComponent = memo(() => {
               }}
             />
             <TextField
-              className={styles.input1Big2}
+              className="input-1-big2"
               placeholder="Phone number *"
               variant="outlined"
               sx={{
@@ -70,11 +70,11 @@ const PostPropertyForm: FunctionComponent = memo(() => {
               }}
             />
           </div>
-          <div className={styles.propertyDetails}>
-            <b className={styles.propertyDetails1}>Property details</b>
-            <div className={styles.inputs1}>
+          <div className="property-details1">
+            <b className="property-details2">Property details</b>
+            <div className="inputs1">
               <FormControl
-                className={styles.input1Big3}
+                className="input-1-big3"
                 variant="standard"
                 sx={{
                   borderTopWidth: "1px",
@@ -144,7 +144,7 @@ const PostPropertyForm: FunctionComponent = memo(() => {
                 <FormHelperText />
               </FormControl>
               <FormControl
-                className={styles.input1Big4}
+                className="input-1-big4"
                 variant="standard"
                 sx={{
                   borderTopWidth: "1px",
@@ -215,7 +215,7 @@ const PostPropertyForm: FunctionComponent = memo(() => {
               </FormControl>
             </div>
             <FormControl
-              className={styles.input1Big5}
+              className="input-1-big5"
               variant="standard"
               sx={{
                 borderTopWidth: "1px",
@@ -287,7 +287,7 @@ const PostPropertyForm: FunctionComponent = memo(() => {
           </div>
         </div>
         <Button
-          className={styles.button1Big}
+          className="button-1-big"
           disableElevation={true}
           variant="contained"
           sx={{

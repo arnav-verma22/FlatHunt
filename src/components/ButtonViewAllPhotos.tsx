@@ -1,7 +1,7 @@
 import { FunctionComponent, useCallback } from "react";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import styles from "./ButtonViewAllPhotos.module.css";
+import "./ButtonViewAllPhotos.css";
 
 const ButtonViewAllPhotos: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ const ButtonViewAllPhotos: FunctionComponent = () => {
 
   return (
     <Button
-      className={styles.buttonViewAllPhotos}
+      className="button-view-all-photos"
       disableElevation={true}
       variant="contained"
       sx={{

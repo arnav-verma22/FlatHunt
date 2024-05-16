@@ -1,12 +1,12 @@
 import { FunctionComponent } from "react";
 import Component1 from "./Component1";
 import Component from "./Component";
-import styles from "./FrameComponent3.module.css";
+import "./FrameComponent3.css";
 
 const NotNeeded: FunctionComponent = () => {
   return (
-    <section className={styles.iconsWrapper}>
-      <div className={styles.icons}>
+    <section className="icons-wrapper">
+      <div className="icons1">
         <Component1
           consequatRisus="Consequat risus"
           euismodCommodoFeugiatPuru="Euismod commodo feugiat purus egestas diam. Facilisi sed senectus consequat risus. Porta purus nec dui odio vehicula."

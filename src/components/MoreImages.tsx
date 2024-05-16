@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import styles from "./MoreImages.module.css";
+import "./MoreImages.css";
 
 export type MoreImagesType = {
   image1?: string;
@@ -231,33 +231,33 @@ const MoreImages: FunctionComponent<MoreImagesType> = ({
   ]);
 
   return (
-    <div className={styles.branch} style={branchStyle}>
-      <div className={styles.merge} style={mergeStyle}>
+    <div className="branch" style={branchStyle}>
+      <div className="merge" style={mergeStyle}>
         <img
-          className={styles.checkinTimeIcon}
+          className="checkin-time-icon"
           loading="lazy"
           alt=""
           src={image1}
           style={checkinTimeIconStyle}
         />
         <img
-          className={styles.unsplashakz0w36dpm4Icon}
+          className="unsplashakz0w36dpm4-icon"
           loading="lazy"
           alt=""
           src={image2}
           style={unsplashakz0w36DpM4IconStyle}
         />
       </div>
-      <div className={styles.merge1} style={merge1Style}>
+      <div className="merge1" style={merge1Style}>
         <img
-          className={styles.icon}
+          className="icon3"
           loading="lazy"
           alt=""
           src={image3}
           style={iconStyle}
         />
         <img
-          className={styles.unsplashqeiufr5vpm8Icon}
+          className="unsplashqeiufr5vpm8-icon"
           loading="lazy"
           alt=""
           src={image4}

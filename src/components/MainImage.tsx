@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import ButtonViewAllPhotos from "./ButtonViewAllPhotos";
-import styles from "./MainImage.module.css";
+import "./MainImage.css";
 
 export type MainImageType = {
   imageSource?: string;
@@ -8,11 +8,11 @@ export type MainImageType = {
 
 const MainImage: FunctionComponent<MainImageType> = ({ imageSource }) => {
   return (
-    <div className={styles.functionBlock}>
-      <img className={styles.icon} alt="" src={imageSource} />
+    <div className="function-block">
+      <img className="icon2" alt="" src={imageSource} />
       <ButtonViewAllPhotos />
-      <div className={styles.variable}>
-        <div className={styles.map} />
+      <div className="variable">
+        <div className="map" />
       </div>
     </div>
   );

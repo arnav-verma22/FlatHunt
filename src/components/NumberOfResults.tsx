@@ -1,5 +1,5 @@
 import { FunctionComponent, memo, useMemo, type CSSProperties } from "react";
-import styles from "./NumberOfResults.module.css";
+import "./NumberOfResults.css";
 
 export type NumberOfResultsType = {
   results?: string;
@@ -215,17 +215,17 @@ const NumberOfResults: FunctionComponent<NumberOfResultsType> = memo(
 
     return (
       <div
-        className={styles.resultsFor1BedroomPropertWrapper}
+        className="results-for-1-bedroom-propert-wrapper"
         style={frameDivStyle}
       >
         <div
-          className={styles.resultsFor1Container}
+          className="results-for-1-container"
           style={resultsFor1ContainerStyle}
         >
-          <b className={styles.results} style={resultsStyle}>
+          <b className="results" style={resultsStyle}>
             {results}
           </b>
-          <span className={styles.for1Bedroom} style={for1BedroomStyle}>
+          <span className="for-1-bedroom" style={for1BedroomStyle}>
             {area}
           </span>
         </div>

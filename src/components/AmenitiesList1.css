@@ -1,0 +1,98 @@
+.fridge1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.188rem;
+}
+.mdifridge-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fridge {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.kettle1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.063rem;
+}
+.mdikettle-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kettle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.coffee-machine1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 7.75rem;
+}
+.mdicoffee-maker-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coffee-machine {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dishes1 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 3.375rem;
+}
+.mdipot-steam-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dishes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.t-vfridgewashingmachine1 {
+  width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

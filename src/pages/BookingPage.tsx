@@ -5,7 +5,7 @@ import SearchFilter from "../components/SearchFilter";
 import SearchResultsAndMap from "../components/SearchResultsAndMap";
 import CityDetails from "../components/CityDetails";
 import Footer from "../components/Footer";
-import styles from "./BookingPage.module.css";
+import "./BookingPage.css";
 
 const BookingPage: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -35,7 +35,7 @@ const BookingPage: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.bookingPage}>
+    <div className="booking-page">
       <Header
         logo="/logo@2x.png"
         onHomeTextClick={onHomeTextClick}

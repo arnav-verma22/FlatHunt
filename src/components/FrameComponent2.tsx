@@ -2,18 +2,18 @@ import { FunctionComponent } from "react";
 import NumberOfResults from "./NumberOfResults";
 import PriceCard1 from "./PriceCard1";
 import PriceCard from "./PriceCard";
-import styles from "./FrameComponent2.module.css";
+import "./FrameComponent2.css";
 
 const Pricing: FunctionComponent = () => {
   return (
-    <section className={styles.landlordsPageInner}>
-      <div className={styles.frameParent}>
+    <section className="landlords-page-child">
+      <div className="frame-parent19">
         <NumberOfResults
           results="Pricing"
           area="Compare our pricing model to high street agents"
-          propWidth="1097px"
+          propWidth="68.563rem"
           propFlexDirection="row"
-          propPadding="0px var(--padding-xl)"
+          propPadding="0rem var(--padding-xl)"
           propGap="unset"
           propFlex="unset"
           propBorderRadius="unset"
@@ -28,7 +28,7 @@ const Pricing: FunctionComponent = () => {
           propPadding1="unset"
           propFontSize="unset"
           propLineHeight="unset"
-          propWidth1="381px"
+          propWidth1="23.813rem"
           propGap1="16px"
           propFlex1="unset"
           propBorderRadius1="unset"
@@ -39,7 +39,7 @@ const Pricing: FunctionComponent = () => {
           propTextAlign1="center"
           propMinWidth1="unset"
           propFontSize1="48px"
-          propLineHeight1="54px"
+          propLineHeight1="3.375rem"
           propFontWeight="700"
           propMargin="0"
           propAlignSelf1="stretch"
@@ -51,15 +51,15 @@ const Pricing: FunctionComponent = () => {
           propDisplay2="unset"
           propMinWidth2="unset"
           propFontSize2="18px"
-          propLineHeight2="24px"
+          propLineHeight2="1.5rem"
           propFontWeight1="unset"
           propWidth3="unset"
           propAlignSelf2="unset"
         />
-        <div className={styles.parent}>
+        <div className="parent">
           <PriceCard1 />
-          <div className={styles.dataProcessor}>
-            <h1 className={styles.vs}>Vs</h1>
+          <div className="data-processor">
+            <h1 className="vs">Vs</h1>
           </div>
           <PriceCard />
         </div>

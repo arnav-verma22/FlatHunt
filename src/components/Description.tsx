@@ -1,12 +1,12 @@
 import { FunctionComponent } from "react";
-import styles from "./Description.module.css";
+import "./Description.css";
 
 const Description: FunctionComponent = () => {
   return (
-    <div className={styles.desriprion}>
-      <div className={styles.titletext}>
-        <h1 className={styles.desription}>Desription</h1>
-        <div className={styles.aTrulyGlobal}>
+    <div className="desriprion">
+      <div className="titletext1">
+        <h1 className="desription">Desription</h1>
+        <div className="a-truly-global">
           A truly global city, London has long been considered a cutting-edge
           metropolis and hub for culture, style and finance. With each borough,
           Tube zone and neighborhood of London sporting its own vibe and
@@ -16,19 +16,15 @@ const Description: FunctionComponent = () => {
           to month rental in London, Blueground has you covered.
         </div>
       </div>
-      <div className={styles.titletext1}>
-        <b className={styles.inSed}>In sed</b>
-        <div
-          className={styles.inNullamEget}
-        >{`In nullam eget urna suspendisse odio nunc. Eu sodales vestibulum, donec rutrum justo, amet porttitor vitae et. Interdum consectetur dictum mattis gravida sed vulputate. Tempus sagittis cras sagittis viverra erat proin duis enim. `}</div>
+      <div className="titletext2">
+        <b className="in-sed">In sed</b>
+        <div className="in-nullam-eget">{`In nullam eget urna suspendisse odio nunc. Eu sodales vestibulum, donec rutrum justo, amet porttitor vitae et. Interdum consectetur dictum mattis gravida sed vulputate. Tempus sagittis cras sagittis viverra erat proin duis enim. `}</div>
       </div>
-      <div className={styles.titletext2}>
-        <b className={styles.adipiscingRisusFermentum}>
+      <div className="titletext3">
+        <b className="adipiscing-risus-fermentum">
           Adipiscing risus, fermentum
         </b>
-        <div
-          className={styles.laoreetRisusAccumsan}
-        >{`Laoreet risus accumsan pellentesque lacus, in nulla eu elementum. Mollis enim fringilla aenean diam tellus diam morbi ipsum placerat. `}</div>
+        <div className="laoreet-risus-accumsan">{`Laoreet risus accumsan pellentesque lacus, in nulla eu elementum. Mollis enim fringilla aenean diam tellus diam morbi ipsum placerat. `}</div>
       </div>
     </div>
   );

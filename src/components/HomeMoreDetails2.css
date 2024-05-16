@@ -1,0 +1,156 @@
+.id-aliquam-molestie {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.euismod-condimentum-tempus {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+}
+.titletext4 {
+  width: 52.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.mdisofa-icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.move-in-ready,
+.ready-to-move {
+  width: 14.063rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+}
+.ready-to-move {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div20 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-33xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 14.313rem;
+  max-width: 19.063rem;
+}
+.evamessage-circle-fill-icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.on-hand-team,
+.support {
+  width: 14.063rem;
+  position: relative;
+  line-height: 2rem;
+  display: inline-block;
+}
+.on-hand-team {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div21,
+.features1 {
+  display: flex;
+  align-items: flex-start;
+}
+.div21 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--bg1);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-33xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 14.313rem;
+  max-width: 19.063rem;
+}
+.features1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-h4-size);
+}
+.id-aliquam,
+.id-aliquam-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.id-aliquam {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-41xl);
+}
+.id-aliquam-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-121xl);
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 800px) {
+  .id-aliquam-molestie {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+  .id-aliquam {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .id-aliquam-wrapper {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .id-aliquam-molestie {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .move-in-ready,
+  .support {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .id-aliquam {
+    gap: var(--gap-mini);
+  }
+}

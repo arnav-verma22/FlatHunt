@@ -1,7 +1,7 @@
 import { FunctionComponent, memo, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import PropertyCard from "./PropertyCard";
-import styles from "./PropertyCards.module.css";
+import "./PropertyCards.css";
 
 const PropertyCards: FunctionComponent = memo(() => {
   const navigate = useNavigate();
@@ -39,8 +39,8 @@ const PropertyCards: FunctionComponent = memo(() => {
   }, [navigate]);
 
   return (
-    <div className={styles.blocks}>
-      <div className={styles.searchIcon}>
+    <div className="blocks">
+      <div className="search-icon">
         <PropertyCard
           image="/rectangle-222@2x.png"
           fluentbed24Filled="/fluentbed24filled.svg"
@@ -60,7 +60,7 @@ const PropertyCards: FunctionComponent = memo(() => {
           propertName="/titlesubtitle@2x.png"
         />
       </div>
-      <div className={styles.searchIcon1}>
+      <div className="search-icon1">
         <PropertyCard
           image="/rectangle-222-2@2x.png"
           fluentbed24Filled="/fluentbed24filled.svg"
@@ -80,7 +80,7 @@ const PropertyCards: FunctionComponent = memo(() => {
           propertName="/titlesubtitle@2x.png"
         />
       </div>
-      <div className={styles.searchIcon2}>
+      <div className="search-icon2">
         <PropertyCard
           image="/rectangle-222-4@2x.png"
           fluentbed24Filled="/fluentbed24filled.svg"
@@ -100,7 +100,7 @@ const PropertyCards: FunctionComponent = memo(() => {
           propertName="/titlesubtitle@2x.png"
         />
       </div>
-      <div className={styles.searchIcon3}>
+      <div className="search-icon3">
         <PropertyCard
           image="/rectangle-222-6@2x.png"
           fluentbed24Filled="/fluentbed24filled.svg"

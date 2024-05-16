@@ -7,15 +7,15 @@ import {
   FormControl,
   InputAdornment,
 } from "@mui/material";
-import styles from "./FiltersAndSorting.module.css";
+import "./FiltersAndSorting.css";
 
 const FiltersAndSorting: FunctionComponent = memo(() => {
   return (
-    <div className={styles.filtersAnsSorting}>
-      <div className={styles.buttons}>
-        <div className={styles.filtres}>
+    <div className="filters-ans-sorting">
+      <div className="buttons">
+        <div className="filtres1">
           <FormControl
-            className={styles.buttonMoreFilters}
+            className="button-more-filters"
             variant="standard"
             sx={{
               borderTopWidth: "1px",
@@ -85,27 +85,23 @@ const FiltersAndSorting: FunctionComponent = memo(() => {
             <FormHelperText />
           </FormControl>
         </div>
-        <div className={styles.parking}>
-          <div className={styles.text}>
+        <div className="parking2">
+          <div className="text1">
             <img
-              className={styles.faSolidcarAltIcon}
+              className="fa-solidcar-alt-icon1"
               alt=""
               src="/fasolidcaralt1.svg"
             />
-            <div className={styles.parking1}>Parking</div>
+            <div className="parking3">Parking</div>
           </div>
-          <img
-            className={styles.evacloseFillIcon}
-            alt=""
-            src="/evaclosefill.svg"
-          />
+          <img className="evaclose-fill-icon" alt="" src="/evaclosefill.svg" />
         </div>
       </div>
-      <div className={styles.onMapSortBy}>
-        <div className={styles.sortBy}>
-          <b className={styles.sortBy1}>Sort by:</b>
+      <div className="on-map-sort-by">
+        <div className="sort-by">
+          <b className="sort-by1">Sort by:</b>
           <FormControl
-            className={styles.availability}
+            className="availability"
             variant="standard"
             sx={{
               borderTopWidth: "1px",

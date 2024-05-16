@@ -14,7 +14,7 @@ import NotNeeded from "../components/FrameComponent3";
 import Pricing from "../components/FrameComponent2";
 import FAQs from "../components/FAQs";
 import { useNavigate } from "react-router-dom";
-import styles from "./LandlordsPage.module.css";
+import "./LandlordsPage.css";
 
 const LandlordsPage: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -28,8 +28,8 @@ const LandlordsPage: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.landlordsPage}>
-      <img className={styles.imageIcon} alt="" src="/image@2x.png" />
+    <div className="landlords-page">
+      <img className="image-icon" alt="" src="/image@2x.png" />
       <LandLordsPageDetails />
       <MoreFeatures />
       <Roadmap />
@@ -37,69 +37,69 @@ const LandlordsPage: FunctionComponent = () => {
       <NotNeeded />
       <Pricing />
       <FAQs />
-      <footer className={styles.landlordsPageInner}>
-        <div className={styles.frameParent}>
-          <div className={styles.logoParent}>
-            <img className={styles.logoIcon} alt="" src="/logo-11@2x.png" />
-            <div className={styles.iconsCopyrightWrapper}>
-              <div className={styles.iconsCopyright}>
-                <div className={styles.contactNumber02033074477}>
+      <footer className="landlords-page-inner">
+        <div className="frame-parent">
+          <div className="logo-parent">
+            <img className="logo-icon" alt="" src="/logo-11@2x.png" />
+            <div className="icons-copyright-wrapper">
+              <div className="icons-copyright">
+                <div className="contact-number-02033074477">
                   Contact number: 02033074477
                 </div>
-                <div className={styles.icon}>
-                  <div className={styles.icons}>
+                <div className="icon">
+                  <div className="icons">
                     <img
-                      className={styles.evalinkedinFillIcon}
+                      className="evalinkedin-fill-icon"
                       alt=""
                       src="/evalinkedinfill2.svg"
                     />
                     <img
-                      className={styles.evafacebookFillIcon}
+                      className="evafacebook-fill-icon"
                       alt=""
                       src="/evafacebookfill1.svg"
                     />
                     <img
-                      className={styles.evatwitterFillIcon}
+                      className="evatwitter-fill-icon"
                       alt=""
                       src="/evatwitterfill1.svg"
                     />
                   </div>
-                  <div className={styles.flexLiving}>© 2021 Flex Living</div>
+                  <div className="flex-living">© 2021 Flex Living</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.frameGroup}>
-            <div className={styles.companyParent}>
-              <b className={styles.company}>Company</b>
-              <div className={styles.home} onClick={onHomeText1Click}>
+          <div className="frame-group">
+            <div className="company-parent">
+              <b className="company">Company</b>
+              <div className="home" onClick={onHomeText1Click}>
                 Home
               </div>
-              <div className={styles.aboutUs}>About us</div>
-              <div className={styles.ourTeam}>Our team</div>
+              <div className="about-us">About us</div>
+              <div className="our-team">Our team</div>
             </div>
-            <div className={styles.guestsParent}>
-              <b className={styles.guests}>Guests</b>
-              <div className={styles.blog} onClick={onBlogText1Click}>
+            <div className="guests-parent">
+              <b className="guests">Guests</b>
+              <div className="blog" onClick={onBlogText1Click}>
                 Blog
               </div>
-              <div className={styles.faq}>FAQ</div>
-              <div className={styles.career}>Career</div>
+              <div className="faq">FAQ</div>
+              <div className="career">Career</div>
             </div>
-            <div className={styles.privacyParent}>
-              <b className={styles.privacy}>Privacy</b>
-              <div className={styles.termsOfService}>Terms of Service</div>
-              <div className={styles.privacyPolicy}>Privacy Policy</div>
+            <div className="privacy-parent">
+              <b className="privacy">Privacy</b>
+              <div className="terms-of-service">Terms of Service</div>
+              <div className="privacy-policy">Privacy Policy</div>
             </div>
           </div>
-          <div className={styles.stayUpToDateParent}>
-            <b className={styles.stayUpTo}>Stay up to date</b>
-            <div className={styles.beTheFirstToKnowAboutOurParent}>
-              <div className={styles.beTheFirst}>
+          <div className="stay-up-to-date-parent">
+            <b className="stay-up-to">Stay up to date</b>
+            <div className="be-the-first-to-know-about-our-parent">
+              <div className="be-the-first">
                 Be the first to know about our newest apartments
               </div>
               <TextField
-                className={styles.inputEmailAddress}
+                className="input-email-address"
                 placeholder="Email address"
                 variant="outlined"
                 sx={{
@@ -115,7 +115,7 @@ const LandlordsPage: FunctionComponent = () => {
               />
             </div>
             <Button
-              className={styles.buttonSubscribe}
+              className="button-subscribe"
               disableElevation={true}
               variant="contained"
               sx={{

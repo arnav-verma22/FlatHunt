@@ -1,5 +1,5 @@
 import { FunctionComponent, useCallback } from "react";
-import styles from "./FrameComponent.module.css";
+import "./FrameComponent.css";
 
 const FrameComponent: FunctionComponent = () => {
   const onButtonPlusIconClick = useCallback(() => {
@@ -11,140 +11,140 @@ const FrameComponent: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.guestsParent}>
-      <div className={styles.guests}>
-        <div className={styles.guestsInner}>
-          <div className={styles.evapeopleFillParent}>
+    <div className="guests-group">
+      <div className="guests4">
+        <div className="guests-inner">
+          <div className="evapeople-fill-parent">
             <img
-              className={styles.evapeopleFillIcon}
+              className="evapeople-fill-icon2"
               loading="lazy"
               alt=""
               src="/evapeoplefill.svg"
             />
-            <div className={styles.guests1}>Guests</div>
+            <div className="guests5">Guests</div>
           </div>
         </div>
-        <div className={styles.buttonPlusParent}>
+        <div className="button-plus-group">
           <img
-            className={styles.buttonPlusIcon}
+            className="button-plus-icon"
             loading="lazy"
             alt=""
             src="/button-plus.svg"
             onClick={onButtonPlusIconClick}
           />
-          <div className={styles.checkmarkIconWrapper}>
-            <b className={styles.checkmarkIcon}>1</b>
+          <div className="checkmark-icon-wrapper">
+            <b className="checkmark-icon">1</b>
           </div>
           <img
-            className={styles.buttonMinusIcon}
+            className="button-minus-icon"
             alt=""
             src="/button-minus.svg"
             onClick={onButtonMinusIconClick}
           />
         </div>
       </div>
-      <div className={styles.frameParent}>
-        <div className={styles.frameGroup}>
-          <div className={styles.fluentbed24FilledWrapper}>
+      <div className="frame-parent21">
+        <div className="frame-parent22">
+          <div className="fluentbed-24-filled-wrapper">
             <img
-              className={styles.fluentbed24FilledIcon}
+              className="fluentbed-24-filled-icon1"
               loading="lazy"
               alt=""
               src="/fluentbed24filled.svg"
             />
           </div>
-          <div className={styles.frameContainer}>
-            <div className={styles.bedroomsWrapper}>
-              <div className={styles.bedrooms}>Bedrooms:</div>
+          <div className="frame-parent23">
+            <div className="bedrooms-wrapper">
+              <div className="bedrooms">Bedrooms:</div>
             </div>
-            <div className={styles.studioWrapper}>
-              <div className={styles.studio}>studio</div>
+            <div className="studio-wrapper">
+              <div className="studio">studio</div>
             </div>
-            <div className={styles.bgParent}>
-              <div className={styles.bg} />
-              <div className={styles.div}>1</div>
+            <div className="bg-parent">
+              <div className="bg1" />
+              <div className="div11">1</div>
             </div>
           </div>
-          <div className={styles.wrapper}>
-            <div className={styles.div1}>2</div>
+          <div className="container">
+            <div className="div12">2</div>
           </div>
         </div>
-        <div className={styles.container}>
-          <div className={styles.div2}>3</div>
+        <div className="frame">
+          <div className="div13">3</div>
         </div>
       </div>
-      <div className={styles.faSolidbathParent}>
+      <div className="fa-solidbath-parent">
         <img
-          className={styles.faSolidbathIcon}
+          className="fa-solidbath-icon1"
           loading="lazy"
           alt=""
           src="/fasolidbath.svg"
         />
-        <div className={styles.bathrooms}>Bathrooms:</div>
-        <div className={styles.frame}>
-          <div className={styles.div3}>1</div>
+        <div className="bathrooms">Bathrooms:</div>
+        <div className="wrapper1">
+          <div className="div14">1</div>
         </div>
-        <div className={styles.frameDiv}>
-          <div className={styles.div4}>2</div>
+        <div className="wrapper2">
+          <div className="div15">2</div>
         </div>
-        <div className={styles.div5}>3</div>
+        <div className="div16">3</div>
       </div>
-      <div className={styles.elwheelchairParent}>
+      <div className="elwheelchair-parent">
         <img
-          className={styles.elwheelchairIcon}
+          className="elwheelchair-icon"
           loading="lazy"
           alt=""
           src="/elwheelchair.svg"
         />
-        <div className={styles.disabledAccess}>Disabled access</div>
+        <div className="disabled-access">Disabled access</div>
       </div>
-      <div className={styles.parking}>
-        <div className={styles.parkingInner}>
-          <div className={styles.faSolidcarAltParent}>
+      <div className="parking">
+        <div className="parking-inner">
+          <div className="fa-solidcar-alt-parent">
             <img
-              className={styles.faSolidcarAltIcon}
+              className="fa-solidcar-alt-icon"
               loading="lazy"
               alt=""
               src="/fasolidcaralt.svg"
             />
-            <div className={styles.parking1}>Parking</div>
+            <div className="parking1">Parking</div>
           </div>
         </div>
-        <div className={styles.check}>
+        <div className="check">
           <img
-            className={styles.evacheckmarkFillIcon}
+            className="evacheckmark-fill-icon12"
             loading="lazy"
             alt=""
             src="/evacheckmarkfill.svg"
           />
         </div>
       </div>
-      <div className={styles.mdielevatorPassengerParent}>
+      <div className="mdielevator-passenger-parent">
         <img
-          className={styles.mdielevatorPassengerIcon}
+          className="mdielevator-passenger-icon"
           loading="lazy"
           alt=""
           src="/mdielevatorpassenger.svg"
         />
-        <div className={styles.elevator}>Elevator</div>
+        <div className="elevator">Elevator</div>
       </div>
-      <div className={styles.mdidishwasherParent}>
+      <div className="mdidishwasher-parent">
         <img
-          className={styles.mdidishwasherIcon}
+          className="mdidishwasher-icon"
           loading="lazy"
           alt=""
           src="/mdidishwasher.svg"
         />
-        <div className={styles.dishwasher}>Dishwasher</div>
+        <div className="dishwasher">Dishwasher</div>
       </div>
-      <div className={styles.mdiwashingMachineParent}>
+      <div className="mdiwashing-machine-parent">
         <img
-          className={styles.mdiwashingMachineIcon}
+          className="mdiwashing-machine-icon"
           loading="lazy"
           alt=""
           src="/mdiwashingmachine1.svg"
         />
-        <div className={styles.washingMachine}>Washing machine</div>
+        <div className="washing-machine">Washing machine</div>
       </div>
     </div>
   );

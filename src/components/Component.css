@@ -1,0 +1,57 @@
+.evaaward-fill-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evaaward-fill-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.eu-vulputate-mi,
+.morbi-pulvinar {
+  align-self: stretch;
+  position: relative;
+}
+.morbi-pulvinar {
+  margin: 0;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.eu-vulputate-mi {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.div2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 17.25rem;
+  max-width: 18.75rem;
+  text-align: center;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 750px) {
+  .morbi-pulvinar {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .morbi-pulvinar {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+}

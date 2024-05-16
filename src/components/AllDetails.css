@@ -1,0 +1,28 @@
+.if-else {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-121xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .if-else {
+    gap: var(--gap-51xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .if-else {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .if-else {
+    gap: var(--gap-mid);
+  }
+}

@@ -7,21 +7,19 @@ import {
   FormControl,
   InputAdornment,
 } from "@mui/material";
-import styles from "./FrameComponent15.module.css";
+import "./FrameComponent15.css";
 
 const FrameComponent15: FunctionComponent = () => {
   return (
-    <section className={styles.dictumNuncWrapper}>
-      <div className={styles.dictumNunc}>
-        <img className={styles.imageIcon} alt="" src="/image@2x.png" />
-        <div className={styles.weRentYourProperty}>
-          <h1 className={styles.dictumNunc1}>Dictum nunc</h1>
-          <div className={styles.velMattisIntegerPulvinarMoParent}>
-            <div
-              className={styles.velMattisInteger}
-            >{`Vel mattis integer pulvinar morbi quis amet eu. In nunc facilisis proin fermentum, consectetur cursus. `}</div>
+    <section className="dictum-nunc-wrapper">
+      <div className="dictum-nunc">
+        <img className="image-icon2" alt="" src="/image2@2x.png" />
+        <div className="we-rent-your-property">
+          <h1 className="dictum-nunc1">Dictum nunc</h1>
+          <div className="vel-mattis-integer-pulvinar-mo-parent">
+            <div className="vel-mattis-integer">{`Vel mattis integer pulvinar morbi quis amet eu. In nunc facilisis proin fermentum, consectetur cursus. `}</div>
             <FormControl
-              className={styles.buttonBookWithUs}
+              className="button-book-with-us"
               variant="standard"
               sx={{
                 borderTopWidth: "1px",

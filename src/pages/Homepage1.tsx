@@ -13,7 +13,7 @@ import ReadOurBlog from "../components/ReadOurBlog";
 import UsefulLinks from "../components/UsefulLinks";
 import FrameComponent15 from "../components/FrameComponent15";
 import Footer1 from "../components/Footer1";
-import styles from "./Homepage1.module.css";
+import "./Homepage1.css";
 
 const Homepage1: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -35,9 +35,9 @@ const Homepage1: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className={styles.homepage}>
-      <img className={styles.imageIcon} alt="" src="/image@2x.png" />
-      <section className={styles.inputCollector}>
+    <div className="homepage">
+      <img className="image-icon1" alt="" src="/image1@2x.png" />
+      <section className="input-collector">
         <Header
           logo="/logo@2x.png"
           menuAlignSelf="unset"
@@ -50,9 +50,9 @@ const Homepage1: FunctionComponent = () => {
       <NumberOfResults
         results="We rent your property"
         area="Vel mattis integer pulvinar morbi quis amet eu. In nunc facilisis proin fermentum, consectetur cursus. "
-        propWidth="513px"
+        propWidth="32.063rem"
         propFlexDirection="row"
-        propPadding="0px var(--padding-xl) 261px 0px"
+        propPadding="0rem var(--padding-xl) 16.312rem 0rem"
         propGap="unset"
         propFlex="unset"
         propBorderRadius="unset"
@@ -78,11 +78,11 @@ const Homepage1: FunctionComponent = () => {
         propTextAlign1="left"
         propMinWidth1="unset"
         propFontSize1="52px"
-        propLineHeight1="60px"
+        propLineHeight1="3.75rem"
         propFontWeight="700"
         propMargin="0"
         propAlignSelf1="unset"
-        propWidth2="305px"
+        propWidth2="19.063rem"
         propLetterSpacing="-0.19px"
         propPosition2="relative"
         propColor2="#181a18"
@@ -90,15 +90,15 @@ const Homepage1: FunctionComponent = () => {
         propDisplay2="inline-block"
         propMinWidth2="unset"
         propFontSize2="18px"
-        propLineHeight2="24px"
+        propLineHeight2="1.5rem"
         propFontWeight1="unset"
-        propWidth3="325px"
+        propWidth3="20.313rem"
         propAlignSelf2="unset"
       />
-      <section className={styles.arithmeticProcessor}>
+      <section className="arithmetic-processor">
         <SearchBarComponent
           evasearchFill="/evasearchfill.svg"
-          evapeopleFill="/evapeoplefill.svg"
+          evapeopleFill="/evapeoplefill2.svg"
           evaplusFill="/evaplusfill.svg"
           evaminusFill="/evaminusfill.svg"
           onButtonSearchClick={onButtonSearchClick}

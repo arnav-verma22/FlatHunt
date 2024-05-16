@@ -1,37 +1,35 @@
 import { FunctionComponent } from "react";
-import styles from "./KeyDetails.module.css";
+import "./KeyDetails.css";
 
 const KeyDetails: FunctionComponent = () => {
   return (
-    <div className={styles.keyDetails}>
-      <div className={styles.apartmentNameLocation}>
-        <h1 className={styles.rhoncusSuspendisse}>Rhoncus suspendisse</h1>
-        <div className={styles.londonNottingHill}>London, Notting Hill</div>
+    <div className="key-details">
+      <div className="apartment-name-location">
+        <h1 className="rhoncus-suspendisse">Rhoncus suspendisse</h1>
+        <div className="london-notting-hill">London, Notting Hill</div>
       </div>
-      <div className={styles.points}>
-        <div className={styles.bedroomBath}>
-          <div className={styles.bedroom}>
+      <div className="points">
+        <div className="bedroom-bath">
+          <div className="bedroom">
             <img
-              className={styles.fluentbed24FilledIcon}
+              className="fluentbed-24-filled-icon"
               loading="lazy"
               alt=""
               src="/fluentbed24filled.svg"
             />
-            <div className={styles.bedroom1}>2 bedroom</div>
+            <div className="bedroom1">2 bedroom</div>
           </div>
-          <div className={styles.bath}>
+          <div className="bath">
             <img
-              className={styles.faSolidbathIcon}
+              className="fa-solidbath-icon"
               loading="lazy"
               alt=""
               src="/fasolidbath.svg"
             />
-            <div className={styles.bath1}>2 bath</div>
+            <div className="bath1">2 bath</div>
           </div>
         </div>
-        <div
-          className={styles.sqftCity}
-        >{`500 sq.ft | City view  |  3rd floor  |  Elevator `}</div>
+        <div className="sqft-city">{`500 sq.ft | City view  |  3rd floor  |  Elevator `}</div>
       </div>
     </div>
   );

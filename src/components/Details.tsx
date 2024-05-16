@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import KeyDetails from "./KeyDetails";
 import Description from "./Description";
-import styles from "./Details.module.css";
+import "./Details.css";
 
 const Details: FunctionComponent = () => {
   return (
-    <div className={styles.details}>
+    <div className="details">
       <KeyDetails />
       <Description />
     </div>

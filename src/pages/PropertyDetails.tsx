@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import ImageGallery from "../components/ImageGallery";
 import PropertyDetailsContainer from "../components/PropertyDetailsContainer";
 import Footer from "../components/Footer";
-import styles from "./PropertyDetails.module.css";
+import "./PropertyDetails.css";
 
 const PropertyDetails: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -34,8 +34,8 @@ const PropertyDetails: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.propertyDetails}>
-      <div className={styles.logicGate}>
+    <div className="property-details">
+      <div className="logic-gate">
         <Header
           logo="/logo@2x.png"
           menuAlignSelf="stretch"
@@ -54,8 +54,8 @@ const PropertyDetails: FunctionComponent = () => {
         evafacebookFill="/evafacebookfill.svg"
         evatwitterFill="/evatwitterfill.svg"
         propAlignSelf="unset"
-        propPadding="0px var(--padding-41xl)"
-        propWidth="1420px"
+        propPadding="0rem var(--padding-41xl)"
+        propWidth="88.75rem"
         propPadding1="unset"
         onHomeText1Click={onHomeText1Click}
         onBlogText1Click={onBlogText1Click}

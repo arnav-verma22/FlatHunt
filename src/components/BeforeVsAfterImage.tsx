@@ -1,6 +1,6 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
 import { Button } from "@mui/material";
-import styles from "./BeforeVsAfterImage.module.css";
+import "./BeforeVsAfterImage.css";
 
 export type BeforeVsAfterImageType = {
   unsplashitC9yfRIM?: string;
@@ -83,10 +83,10 @@ const BeforeVsAfterImage: FunctionComponent<BeforeVsAfterImageType> = ({
   }, [propWidth1]);
 
   return (
-    <div className={styles.before} style={beforeStyle}>
+    <div className="before" style={beforeStyle}>
       {showUnsplashitC9yfRIMIcon && (
         <img
-          className={styles.unsplashitC9yfrimIcon}
+          className="unsplashit-c9yfrim-icon"
           loading="lazy"
           alt=""
           src={unsplashitC9yfRIM}
@@ -94,7 +94,7 @@ const BeforeVsAfterImage: FunctionComponent<BeforeVsAfterImageType> = ({
         />
       )}
       <Button
-        className={styles.beforeChild}
+        className="before-child"
         disableElevation={true}
         variant="contained"
         sx={{

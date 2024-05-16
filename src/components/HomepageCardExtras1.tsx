@@ -1,55 +1,53 @@
 import { FunctionComponent } from "react";
-import styles from "./HomepageCardExtras1.module.css";
+import "./HomepageCardExtras1.css";
 
 const HomepageCardExtras1: FunctionComponent = () => {
   return (
-    <section className={styles.corporatePartnershipsWrapper}>
-      <div className={styles.corporatePartnerships}>
-        <div className={styles.titletext}>
-          <h1 className={styles.corporatePartnerships1}>
-            Corporate Partnerships
-          </h1>
-          <div className={styles.weWorkWithContainer}>
-            <p className={styles.weWorkWith}>
+    <section className="corporate-partnerships-container">
+      <div className="corporate-partnerships2">
+        <div className="titletext5">
+          <h1 className="corporate-partnerships3">Corporate Partnerships</h1>
+          <div className="we-work-with-container2">
+            <p className="we-work-with2">
               We work with 100+ companies to meet accommodation needs in London.
               Offer a dedicated
             </p>
-            <p className={styles.bookingManagerThat}>
+            <p className="booking-manager-that2">
               booking manager that can help to find properties for your needs.
             </p>
           </div>
         </div>
-        <div className={styles.features}>
-          <div className={styles.div}>
+        <div className="features3">
+          <div className="div22">
             <img
-              className={styles.evasearchOutlineIcon}
+              className="evasearch-outline-icon"
               loading="lazy"
               alt=""
               src="/evasearchoutline.svg"
             />
-            <b className={styles.bookingManager}>Booking manager</b>
-            <div className={styles.weDoThe}>We do the searching for you</div>
+            <b className="booking-manager">Booking manager</b>
+            <div className="we-do-the1">We do the searching for you</div>
           </div>
-          <div className={styles.div1}>
+          <div className="div23">
             <img
-              className={styles.evapersonFillIcon}
+              className="evaperson-fill-icon"
               loading="lazy"
               alt=""
               src="/evapersonfill.svg"
             />
-            <b className={styles.accountManager}>Account manager</b>
-            <div className={styles.preferredPartnerRates}>
+            <b className="account-manager">Account manager</b>
+            <div className="preferred-partner-rates">
               Preferred partner rates
             </div>
           </div>
-          <div className={styles.div2}>
+          <div className="div24">
             <img
-              className={styles.evafileTextFillIcon}
+              className="evafile-text-fill-icon"
               alt=""
               src="/evafiletextfill.svg"
             />
-            <b className={styles.flexibleTerms}>Flexible terms</b>
-            <div className={styles.extendOnShort}>Extend on short notice</div>
+            <b className="flexible-terms">Flexible terms</b>
+            <div className="extend-on-short">Extend on short notice</div>
           </div>
         </div>
       </div>

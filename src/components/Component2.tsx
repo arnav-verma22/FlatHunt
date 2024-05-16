@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import styles from "./Component2.module.css";
+import "./Component2.css";
 
 export type Component2Type = {
   evalockFill?: string;
@@ -13,15 +13,15 @@ const Component2: FunctionComponent<Component2Type> = ({
   weDoTheSearchingForYou,
 }) => {
   return (
-    <div className={styles.div}>
+    <div className="div">
       <img
-        className={styles.evalockFillIcon}
+        className="evalock-fill-icon"
         loading="lazy"
         alt=""
         src={evalockFill}
       />
-      <b className={styles.guaranteedRent}>{guaranteedRent}</b>
-      <div className={styles.weDoThe}>{weDoTheSearchingForYou}</div>
+      <b className="guaranteed-rent">{guaranteedRent}</b>
+      <div className="we-do-the">{weDoTheSearchingForYou}</div>
     </div>
   );
 };

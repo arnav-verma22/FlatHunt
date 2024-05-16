@@ -4,11 +4,11 @@ import Amenities from "./Amenities";
 import MoreDetails from "./MoreDetails";
 import PropertyLocation from "./PropertyLocation";
 import PolicyDetail from "./PolicyDetail";
-import styles from "./AllDetails.module.css";
+import "./AllDetails.css";
 
 const AllDetails: FunctionComponent = () => {
   return (
-    <section className={styles.ifElse}>
+    <section className="if-else">
       <DetailAndBooking />
       <Amenities />
       <MoreDetails

@@ -1,0 +1,14 @@
+.value-set {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .value-set {
+    flex-wrap: wrap;
+  }
+}

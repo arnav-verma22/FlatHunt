@@ -2,7 +2,7 @@ import { FunctionComponent, memo, useState } from "react";
 import { TextField, Icon, Button } from "@mui/material";
 import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
-import styles from "./SearchBarComponent.module.css";
+import "./SearchBarComponent.css";
 
 export type SearchBarComponentType = {
   evasearchFill?: string;
@@ -26,23 +26,23 @@ const SearchBarComponent: FunctionComponent<SearchBarComponentType> = memo(
       useState(null);
     return (
       <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <div className={styles.search}>
-          <div className={styles.dictionaryProcessor}>
-            <div className={styles.selectACity}>
-              <div className={styles.eventTrigger}>
+        <div className="search">
+          <div className="dictionary-processor">
+            <div className="select-a-city">
+              <div className="event-trigger">
                 <img
-                  className={styles.evasearchFillIcon}
+                  className="evasearch-fill-icon"
                   loading="lazy"
                   alt=""
                   src={evasearchFill}
                 />
               </div>
-              <b className={styles.selectACity1}>Select a city</b>
+              <b className="select-a-city1">Select a city</b>
             </div>
           </div>
-          <div className={styles.listProcessor} />
-          <div className={styles.checkWrapper}>
-            <div className={styles.check}>
+          <div className="list-processor" />
+          <div className="check-wrapper">
+            <div className="check1">
               <DatePicker
                 value={checkDateTimePickerValue}
                 onChange={(newValue: any) => {
@@ -101,29 +101,29 @@ const SearchBarComponent: FunctionComponent<SearchBarComponentType> = memo(
               />
             </div>
           </div>
-          <div className={styles.listProcessor1} />
-          <div className={styles.searchInner}>
-            <div className={styles.frameParent}>
-              <div className={styles.frameGroup}>
-                <div className={styles.evapeopleFillWrapper}>
+          <div className="list-processor1" />
+          <div className="search-inner">
+            <div className="frame-parent30">
+              <div className="frame-parent31">
+                <div className="evapeople-fill-wrapper">
                   <img
-                    className={styles.evapeopleFillIcon}
+                    className="evapeople-fill-icon3"
                     alt=""
                     src={evapeopleFill}
                   />
                 </div>
-                <b className={styles.guests}>Guests</b>
+                <b className="guests7">Guests</b>
               </div>
-              <div className={styles.evaplusFillParent}>
+              <div className="evaplus-fill-parent">
                 <img
-                  className={styles.evaplusFillIcon}
+                  className="evaplus-fill-icon3"
                   loading="lazy"
                   alt=""
                   src={evaplusFill}
                 />
-                <b className={styles.b}>1</b>
+                <b className="b9">1</b>
                 <img
-                  className={styles.evaminusFillIcon}
+                  className="evaminus-fill-icon3"
                   loading="lazy"
                   alt=""
                   src={evaminusFill}
@@ -132,7 +132,7 @@ const SearchBarComponent: FunctionComponent<SearchBarComponentType> = memo(
             </div>
           </div>
           <Button
-            className={styles.buttonSearch}
+            className="button-search"
             disableElevation={true}
             variant="contained"
             sx={{

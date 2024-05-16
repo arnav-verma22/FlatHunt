@@ -1,0 +1,211 @@
+.choose-your-location {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.shoreditch {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.unsplashkzogdvyb-hm-icon {
+  width: 12.25rem;
+  height: 12.25rem;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.shoreditch-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 12rem;
+  max-width: 12.25rem;
+}
+.city-of-london {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.unsplashtrpi4zxpaqu-icon {
+  width: 12.25rem;
+  height: 12.25rem;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.city-of-london-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 12rem;
+  max-width: 12.25rem;
+}
+.the-west-end {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.unsplash-7aftbn2jo4-icon {
+  width: 12.25rem;
+  height: 12.25rem;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.the-west-end-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 12rem;
+  max-width: 12.25rem;
+}
+.kensington {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.unsplashu3gtiojlmpg-icon {
+  width: 12.25rem;
+  height: 12.25rem;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.kensington-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 12rem;
+  max-width: 12.25rem;
+}
+.kingston-upon-thames {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.unsplash19szvauj7ka-icon {
+  width: 12.25rem;
+  height: 12.25rem;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.kingston-upon-thames-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 12rem;
+  max-width: 12.25rem;
+}
+.hammersmith {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+}
+.unsplashyxlzv4sg4eg-icon {
+  width: 12.25rem;
+  height: 12.25rem;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.features2,
+.hammersmith-parent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.hammersmith-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 12rem;
+  max-width: 12.25rem;
+}
+.features2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 0 var(--padding-11xs);
+  text-align: center;
+  font-size: var(--desktop-h4-size);
+}
+.button-view-all-spaces {
+  width: 12.563rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.a-world-of-choice,
+.a-world-of-choice-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.a-world-of-choice {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-41xl);
+}
+.a-world-of-choice-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-121xl);
+  text-align: left;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 800px) {
+  .choose-your-location {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+  .a-world-of-choice {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .a-world-of-choice-wrapper {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .choose-your-location {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .city-of-london,
+  .hammersmith,
+  .kensington,
+  .kingston-upon-thames,
+  .shoreditch,
+  .the-west-end {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .a-world-of-choice {
+    gap: var(--gap-mini);
+  }
+}

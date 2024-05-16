@@ -1,34 +1,34 @@
 import { FunctionComponent } from "react";
-import styles from "./PropertyLocation.module.css";
+import "./PropertyLocation.css";
 
 const PropertyLocation: FunctionComponent = () => {
   return (
-    <div className={styles.frameParent}>
-      <div className={styles.locationWrapper}>
-        <h1 className={styles.location}>Location</h1>
+    <div className="frame-parent20">
+      <div className="location-wrapper">
+        <h1 className="location">Location</h1>
       </div>
-      <div className={styles.map}>
-        <img className={styles.mapIcon} alt="" src="/map@2x.png" />
-        <div className={styles.buttonPlusParent}>
-          <div className={styles.buttonPlus}>
+      <div className="map1">
+        <img className="map-icon" alt="" src="/map@2x.png" />
+        <div className="button-plus-parent">
+          <div className="button-plus">
             <img
-              className={styles.evaplusFillIcon}
+              className="evaplus-fill-icon1"
               loading="lazy"
               alt=""
               src="/evaplusfill-1.svg"
             />
           </div>
-          <div className={styles.buttonMinus}>
+          <div className="button-minus">
             <img
-              className={styles.evaminusFillIcon}
+              className="evaminus-fill-icon1"
               loading="lazy"
               alt=""
               src="/evaminusfill-1.svg"
             />
           </div>
         </div>
-        <div className={styles.wrapper}>
-          <img className={styles.icon} loading="lazy" alt="" src="/40.svg" />
+        <div className="wrapper">
+          <img className="icon4" loading="lazy" alt="" src="/40.svg" />
         </div>
       </div>
     </div>

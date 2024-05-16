@@ -1,16 +1,14 @@
 import { FunctionComponent } from "react";
-import styles from "./CityDetails.module.css";
+import "./CityDetails.css";
 
 const CityDetails: FunctionComponent = () => {
   return (
-    <section className={styles.bookingPageInner}>
-      <div className={styles.frameParent}>
-        <div className={styles.apartmentsForRentInLondonParent}>
-          <h1 className={styles.apartmentsForRent}>
-            Apartments for rent in London
-          </h1>
-          <div className={styles.aTrulyGlobalContainer}>
-            <p className={styles.aTrulyGlobal}>
+    <section className="booking-page-inner">
+      <div className="frame-parent28">
+        <div className="apartments-for-rent-in-london-parent">
+          <h1 className="apartments-for-rent">Apartments for rent in London</h1>
+          <div className="a-truly-global-container">
+            <p className="a-truly-global1">
               A truly global city, London has long been considered a
               cutting-edge metropolis and hub for culture, style and finance.
               With each borough, Tube zone and neighborhood of London sporting
@@ -22,8 +20,8 @@ const CityDetails: FunctionComponent = () => {
               corner and beautiful parks in all major neighborhoods, you’ll feel
               right at home across all of Blueground’s exquisite London flats.
             </p>
-            <p className={styles.blankLine}>&nbsp;</p>
-            <p className={styles.furnishedApartmentRentals}>
+            <p className="blank-line1">&nbsp;</p>
+            <p className="furnished-apartment-rentals">
               Furnished apartment rentals in London. Getting the most out of
               living in London starts with securing a furnished flat for rent.
               Fortunately, Blueground’s flats for rent across London marry
@@ -34,8 +32,8 @@ const CityDetails: FunctionComponent = () => {
               must-have amenities on our site. Moving to London has never been
               simpler!
             </p>
-            <p className={styles.blankLine1}>&nbsp;</p>
-            <p className={styles.theChoiceIs}>
+            <p className="blank-line2">&nbsp;</p>
+            <p className="the-choice-is">
               The choice is yours from Chelsea to Soho to Shoreditch, always
               within a short walk from Tube stops and local hangouts. Show up
               and start living in your new London accommodation with furnishings
@@ -48,32 +46,32 @@ const CityDetails: FunctionComponent = () => {
             </p>
           </div>
         </div>
-        <div className={styles.frequentlyAskedQuestions}>
-          <div className={styles.questions}>
-            <div className={styles.question1}>
-              <div className={styles.text}>
-                <b className={styles.integerMorbiSemper}>
+        <div className="frequently-asked-questions2">
+          <div className="questions1">
+            <div className="question-11">
+              <div className="text3">
+                <b className="integer-morbi-semper1">
                   Integer morbi semper sodales sit facilisi habitant pulvinar
                   sed venenatis?
                 </b>
-                <div className={styles.magnisCongueNeque}>
+                <div className="magnis-congue-neque1">
                   Magnis congue neque sociis ut nisl. Quis dui lobortis lectus
                   viverra.
                 </div>
               </div>
               <img
-                className={styles.closeIcon}
+                className="close-icon9"
                 loading="lazy"
                 alt=""
                 src="/close.svg"
               />
             </div>
-            <div className={styles.question11}>
-              <div className={styles.text1}>
-                <b className={styles.massaMassaNulla}>
+            <div className="question-111">
+              <div className="text4">
+                <b className="massa-massa-nulla">
                   Massa massa nulla rhoncus a quam consectetur sed purus, enim?
                 </b>
-                <div className={styles.nuncMolestieSit}>
+                <div className="nunc-molestie-sit">
                   Nunc molestie sit in sed sodales. Bibendum pharetra, id
                   viverra suspendisse pharetra ac aenean neque. Sodales ornare
                   penatibus eros consectetur potenti in feugiat purus. Posuere
@@ -81,56 +79,56 @@ const CityDetails: FunctionComponent = () => {
                   elementum feugiat pharetra congue.
                 </div>
               </div>
-              <img className={styles.closeIcon1} alt="" src="/close.svg" />
+              <img className="close-icon10" alt="" src="/close.svg" />
             </div>
-            <div className={styles.question3}>
-              <b className={styles.dignissimCongueRutrum}>
+            <div className="question-31">
+              <b className="dignissim-congue-rutrum1">
                 Dignissim congue rutrum pretium nunc sed nibh vitae tortor ut?
               </b>
-              <img className={styles.closeIcon2} alt="" src="/close-2.svg" />
+              <img className="close-icon11" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question4}>
-              <b className={styles.vulputateImperdietFusce}>
+            <div className="question-41">
+              <b className="vulputate-imperdiet-fusce1">
                 Vulputate imperdiet fusce vivamus nunc leo morbi scelerisque in?
               </b>
-              <img className={styles.closeIcon3} alt="" src="/close-2.svg" />
+              <img className="close-icon12" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question5}>
-              <b className={styles.sitRhoncusRhoncus}>
+            <div className="question-51">
+              <b className="sit-rhoncus-rhoncus1">
                 Sit rhoncus rhoncus malesuada massa adipiscing arcu, semper ut
                 in?
               </b>
-              <img className={styles.closeIcon4} alt="" src="/close-2.svg" />
+              <img className="close-icon13" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question6}>
-              <b className={styles.vulputateNislNon}>
+            <div className="question-61">
+              <b className="vulputate-nisl-non1">
                 Vulputate nisl non neque iaculis lacus dui, habitant gravida?
               </b>
-              <img className={styles.closeIcon5} alt="" src="/close-2.svg" />
+              <img className="close-icon14" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question7}>
-              <b className={styles.estFelisA}>
+            <div className="question-71">
+              <b className="est-felis-a1">
                 Est felis a velit at vitae venenatis rhoncus?
               </b>
-              <img className={styles.closeIcon6} alt="" src="/close-2.svg" />
+              <img className="close-icon15" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question8}>
-              <b className={styles.egetNamAccumsan}>
+            <div className="question-81">
+              <b className="eget-nam-accumsan1">
                 Eget nam accumsan elementum accumsan imperdiet eu, cras?
               </b>
-              <img className={styles.closeIcon7} alt="" src="/close-2.svg" />
+              <img className="close-icon16" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question9}>
-              <b className={styles.fermentumEtSemper}>
+            <div className="question-91">
+              <b className="fermentum-et-semper1">
                 Fermentum et semper aliquet justo, facilisis?
               </b>
-              <img className={styles.closeIcon8} alt="" src="/close-2.svg" />
+              <img className="close-icon17" alt="" src="/close-2.svg" />
             </div>
-            <div className={styles.question10}>
-              <b className={styles.aVulputateEst}>
+            <div className="question-101">
+              <b className="a-vulputate-est1">
                 A vulputate est diam tempus condimentum in?
               </b>
-              <img className={styles.closeIcon9} alt="" src="/close-2.svg" />
+              <img className="close-icon18" alt="" src="/close-2.svg" />
             </div>
           </div>
         </div>

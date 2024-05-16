@@ -6,7 +6,7 @@ import {
   IconButton,
   Button,
 } from "@mui/material";
-import styles from "./Footer1.module.css";
+import "./Footer1.css";
 
 const Footer1: FunctionComponent = () => {
   const onBlogText1Click = useCallback(() => {
@@ -14,70 +14,70 @@ const Footer1: FunctionComponent = () => {
   }, []);
 
   return (
-    <footer className={styles.homepageInner}>
-      <div className={styles.frameParent}>
-        <div className={styles.logoParent}>
-          <img className={styles.logoIcon} alt="" src="/logo-1@2x.png" />
-          <div className={styles.iconsCopyrightWrapper}>
-            <div className={styles.iconsCopyright}>
-              <div className={styles.contactNumber02033074477}>
+    <footer className="homepage-child">
+      <div className="frame-parent36">
+        <div className="logo-container">
+          <img className="logo-icon4" alt="" src="/logo-1@2x.png" />
+          <div className="icons-copyright-container">
+            <div className="icons-copyright2">
+              <div className="contact-number-020330744772">
                 Contact number: 02033074477
               </div>
-              <div className={styles.iconsParent}>
-                <div className={styles.icons}>
+              <div className="icons-group">
+                <div className="icons3">
                   <img
-                    className={styles.evalinkedinFillIcon}
+                    className="evalinkedin-fill-icon2"
                     loading="lazy"
                     alt=""
                     src="/evalinkedinfill.svg"
                   />
                   <img
-                    className={styles.evafacebookFillIcon}
+                    className="evafacebook-fill-icon2"
                     loading="lazy"
                     alt=""
                     src="/evafacebookfill.svg"
                   />
                   <img
-                    className={styles.evatwitterFillIcon}
+                    className="evatwitter-fill-icon2"
                     loading="lazy"
                     alt=""
                     src="/evatwitterfill.svg"
                   />
                 </div>
-                <div className={styles.flexLiving}>© 2021 Flex Living</div>
+                <div className="flex-living2">© 2021 Flex Living</div>
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.frameGroup}>
-          <div className={styles.companyParent}>
-            <b className={styles.company}>Company</b>
-            <div className={styles.home}>Home</div>
-            <div className={styles.aboutUs}>About us</div>
-            <div className={styles.ourTeam}>Our team</div>
+        <div className="frame-parent37">
+          <div className="company-container">
+            <b className="company2">Company</b>
+            <div className="home3">Home</div>
+            <div className="about-us2">About us</div>
+            <div className="our-team2">Our team</div>
           </div>
-          <div className={styles.guestsParent}>
-            <b className={styles.guests}>Guests</b>
-            <div className={styles.blog} onClick={onBlogText1Click}>
+          <div className="guests-parent1">
+            <b className="guests8">Guests</b>
+            <div className="blog3" onClick={onBlogText1Click}>
               Blog
             </div>
-            <div className={styles.faq}>FAQ</div>
-            <div className={styles.career}>Career</div>
+            <div className="faq2">FAQ</div>
+            <div className="career2">Career</div>
           </div>
-          <div className={styles.privacyParent}>
-            <b className={styles.privacy}>Privacy</b>
-            <div className={styles.termsOfService}>Terms of Service</div>
-            <div className={styles.privacyPolicy}>Privacy Policy</div>
+          <div className="privacy-group">
+            <b className="privacy2">Privacy</b>
+            <div className="terms-of-service2">Terms of Service</div>
+            <div className="privacy-policy2">Privacy Policy</div>
           </div>
         </div>
-        <div className={styles.stayUpToDateParent}>
-          <b className={styles.stayUpTo}>Stay up to date</b>
-          <div className={styles.beTheFirstToKnowAboutOurParent}>
-            <div className={styles.beTheFirst}>
+        <div className="stay-up-to-date-group">
+          <b className="stay-up-to2">Stay up to date</b>
+          <div className="be-the-first-to-know-about-our-group">
+            <div className="be-the-first2">
               Be the first to know about our newest apartments
             </div>
             <TextField
-              className={styles.inputEmailAddress}
+              className="input-email-address2"
               placeholder="Email address"
               variant="outlined"
               sx={{
@@ -93,7 +93,7 @@ const Footer1: FunctionComponent = () => {
             />
           </div>
           <Button
-            className={styles.buttonSubscribe}
+            className="button-subscribe2"
             disableElevation={true}
             variant="contained"
             sx={{

@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import styles from "./AmenitiesList1.module.css";
+import "./AmenitiesList1.css";
 
 export type AmenitiesList1Type = {
   fridge?: string;
@@ -235,51 +235,51 @@ const AmenitiesList1: FunctionComponent<AmenitiesList1Type> = ({
 
   return (
     <div
-      className={styles.tVfridgewashingmachine}
+      className="t-vfridgewashingmachine1"
       style={tVfridgewashingmachineStyle}
     >
-      <div className={styles.fridge} style={fridgeStyle}>
-        <div className={styles.fridge1} style={fridge1Style}>
+      <div className="fridge" style={fridgeStyle}>
+        <div className="fridge1" style={fridge1Style}>
           {fridge}
         </div>
         <img
-          className={styles.mdifridgeIcon}
+          className="mdifridge-icon"
           loading="lazy"
           alt=""
           src={mdifridge}
           style={mdifridgeIconStyle}
         />
       </div>
-      <div className={styles.kettle} style={kettleStyle}>
-        <div className={styles.kettle1} style={kettle1Style}>
+      <div className="kettle" style={kettleStyle}>
+        <div className="kettle1" style={kettle1Style}>
           {kettle}
         </div>
         <img
-          className={styles.mdikettleIcon}
+          className="mdikettle-icon"
           loading="lazy"
           alt=""
           src={mdikettle}
           style={mdikettleIconStyle}
         />
       </div>
-      <div className={styles.coffeeMachine} style={coffeeMachineStyle}>
-        <div className={styles.coffeeMachine1} style={coffeeMachine1Style}>
+      <div className="coffee-machine" style={coffeeMachineStyle}>
+        <div className="coffee-machine1" style={coffeeMachine1Style}>
           {coffeeMachine}
         </div>
         <img
-          className={styles.mdicoffeeMakerIcon}
+          className="mdicoffee-maker-icon"
           loading="lazy"
           alt=""
           src={mdicoffeeMaker}
           style={mdicoffeeMakerIconStyle}
         />
       </div>
-      <div className={styles.dishes} style={dishesStyle}>
-        <div className={styles.dishes1} style={dishes1Style}>
+      <div className="dishes" style={dishesStyle}>
+        <div className="dishes1" style={dishes1Style}>
           {dishes}
         </div>
         <img
-          className={styles.mdipotSteamIcon}
+          className="mdipot-steam-icon"
           loading="lazy"
           alt=""
           src={mdipotSteam}

@@ -1,0 +1,25 @@
+.bg2,
+.search-filter {
+  align-self: stretch;
+  background-color: var(--white);
+}
+.bg2 {
+  height: 14.25rem;
+  position: relative;
+  display: none;
+}
+.search-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}

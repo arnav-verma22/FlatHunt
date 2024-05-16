@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { Button } from "@mui/material";
-import styles from "./HomepageCardExtras.module.css";
+import "./HomepageCardExtras.css";
 
 const HomepageCardExtras: FunctionComponent = () => {
   const onButtonLoadMoreClick = useCallback(() => {
@@ -8,17 +8,17 @@ const HomepageCardExtras: FunctionComponent = () => {
   }, []);
 
   return (
-    <section className={styles.bespokePartnerships}>
-      <div className={styles.text}>
-        <div className={styles.titlesubtext}>
-          <h1 className={styles.bespokeSpaces}>Bespoke spaces</h1>
-          <div className={styles.expertlyDesignedTo}>
+    <section className="bespoke-partnerships">
+      <div className="text5">
+        <div className="titlesubtext">
+          <h1 className="bespoke-spaces">Bespoke spaces</h1>
+          <div className="expertly-designed-to">
             Expertly designed to create extraordinary spaces with the flexible
             renter in mind
           </div>
         </div>
         <Button
-          className={styles.buttonLoadMore}
+          className="button-load-more"
           disableElevation={true}
           variant="contained"
           sx={{

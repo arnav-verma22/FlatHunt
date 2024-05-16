@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import styles from "./Question.module.css";
+import "./Question.css";
 
 export type QuestionType = {
   integerMorbiSemperSodales?: string;
@@ -40,27 +40,16 @@ const Question: FunctionComponent<QuestionType> = ({
   }, [propDisplay1, propAlignSelf]);
 
   return (
-    <div className={styles.question1}>
-      <div className={styles.text} style={textStyle}>
-        <b
-          className={styles.integerMorbiSemper}
-          style={integerMorbiSemperStyle}
-        >
+    <div className="question-1">
+      <div className="text" style={textStyle}>
+        <b className="integer-morbi-semper" style={integerMorbiSemperStyle}>
           {integerMorbiSemperSodales}
         </b>
-        <div
-          className={styles.magnisCongueNeque}
-          style={magnisCongueNequeStyle}
-        >
+        <div className="magnis-congue-neque" style={magnisCongueNequeStyle}>
           {magnisCongueNequeSociisUt}
         </div>
       </div>
-      <img
-        className={styles.closeIcon}
-        loading="lazy"
-        alt=""
-        src="/close1.svg"
-      />
+      <img className="close-icon" loading="lazy" alt="" src="/close1.svg" />
     </div>
   );
 };

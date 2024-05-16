@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import AmenitiesList2 from "./AmenitiesList2";
 import AmenitiesList1 from "./AmenitiesList1";
-import styles from "./AmenitiesList.module.css";
+import "./AmenitiesList.css";
 
 const AmenitiesList: FunctionComponent = () => {
   return (
-    <div className={styles.points}>
+    <div className="points2">
       <AmenitiesList2 />
       <AmenitiesList1
         fridge="Fridge"
@@ -26,8 +26,8 @@ const AmenitiesList: FunctionComponent = () => {
         mdicoffeeMaker="/mdicurling.svg"
         dishes="Wardrobe"
         mdipotSteam="/mdiwardrobe.svg"
-        propWidth="280px"
-        propPadding="0px 0px var(--padding-5xs)"
+        propWidth="17.5rem"
+        propPadding="0rem 0rem var(--padding-5xs)"
         propGap="16px"
         propMinWidth="unset"
         propAlignSelf="stretch"
@@ -37,35 +37,35 @@ const AmenitiesList: FunctionComponent = () => {
         propColor="#181a18"
         propTextDecoration="unset"
         propFontWeight="unset"
-        propHeight="40px"
-        propWidth1="40px"
+        propHeight="2.5rem"
+        propWidth1="2.5rem"
         propAlignSelf1="stretch"
         propGap2="20px"
         propColor1="#181a18"
         propDisplay1="inline-block"
-        propMinWidth2="47px"
+        propMinWidth2="2.938rem"
         propTextDecoration1="unset"
         propFontWeight1="unset"
-        propHeight1="40px"
-        propWidth2="40px"
+        propHeight1="2.5rem"
+        propWidth2="2.5rem"
         propAlignSelf2="stretch"
         propGap3="20px"
-        propMinWidth3="33px"
+        propMinWidth3="2.063rem"
         propColor2="#181a18"
         propDisplay2="inline-block"
         propTextDecoration2="unset"
         propFontWeight2="unset"
-        propHeight2="40px"
-        propWidth3="40px"
+        propHeight2="2.5rem"
+        propWidth3="2.5rem"
         propAlignSelf3="stretch"
         propGap4="20px"
-        propMinWidth4="81px"
+        propMinWidth4="5.063rem"
         propColor3="#181a18"
         propDisplay3="inline-block"
         propTextDecoration3="unset"
         propFontWeight3="unset"
-        propHeight3="40px"
-        propWidth4="40px"
+        propHeight3="2.5rem"
+        propWidth4="2.5rem"
       />
     </div>
   );

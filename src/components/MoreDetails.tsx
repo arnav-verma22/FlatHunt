@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import Heading from "./Heading";
-import styles from "./MoreDetails.module.css";
+import "./MoreDetails.css";
 
 export type MoreDetailsType = {
   description?: string;
@@ -12,12 +12,12 @@ const MoreDetails: FunctionComponent<MoreDetailsType> = ({
   heading,
 }) => {
   return (
-    <div className={styles.neighbourhoodParent}>
+    <div className="neighbourhood-parent">
       <Heading heading="Neighbourhood" />
-      <div className={styles.ultriciesEtiamSitContainer}>
-        <p className={styles.ultriciesEtiamSit}>{description}</p>
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.molestieAmetPretium}>
+      <div className="ultricies-etiam-sit-container">
+        <p className="ultricies-etiam-sit">{description}</p>
+        <p className="blank-line">&nbsp;</p>
+        <p className="molestie-amet-pretium">
           Molestie amet, pretium eu massa a, pharetra. Tellus quisque
           sollicitudin tristique maecenas vitae fames eget ut. Nisl commodo
           lacinia ultrices ut odio dui at. Adipiscing ac auctor hac urna dictum.

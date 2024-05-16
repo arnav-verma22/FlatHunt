@@ -1,0 +1,202 @@
+.bg {
+  width: 90rem;
+  height: 111.125rem;
+  position: relative;
+  background-color: var(--bg1);
+  display: none;
+  max-width: 100%;
+}
+.images {
+  width: 0;
+  height: 1.5rem;
+  display: none;
+}
+.how-it-works {
+  margin: 0;
+  width: 52.938rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.375rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.how-it-works-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.evaemail-fill-icon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-child1 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text);
+  z-index: 2;
+}
+.ellipse-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.evaemail-fill-parent,
+.frame-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.evaemail-fill-parent {
+  width: 10rem;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.get-in-touch,
+.ut-id-cras {
+  width: 28.875rem;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.get-in-touch {
+  margin: 0;
+  font-size: inherit;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ut-id-cras {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 1.25rem;
+}
+.frame-parent4 {
+  width: 33.875rem;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  text-align: right;
+  font-size: var(--desktop-h3-size);
+}
+.feugiat-proin-nam-tristique-eg-inner,
+.frame-parent3,
+.frame-parent4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent3 {
+  width: 59.688rem;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.feugiat-proin-nam-tristique-eg-inner {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+}
+.feugiat-proin-nam-tristique-eg,
+.feugiat-proin-nam-tristique-eg-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feugiat-proin-nam-tristique-eg {
+  flex: 1;
+  background-color: var(--bg1);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-81xl) var(--padding-169xl);
+  gap: var(--gap-45xl);
+}
+.feugiat-proin-nam-tristique-eg-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-61xl);
+  text-align: left;
+  font-size: var(--desktop-h3-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .feugiat-proin-nam-tristique-eg {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .feugiat-proin-nam-tristique-eg-wrapper {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frame-parent3 {
+    gap: var(--gap-11xl);
+  }
+  .feugiat-proin-nam-tristique-eg {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .feugiat-proin-nam-tristique-eg-wrapper {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .how-it-works {
+    font-size: var(--font-size-19xl);
+    line-height: 2.688rem;
+  }
+  .get-in-touch {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+  .feugiat-proin-nam-tristique-eg {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-75xl);
+    padding-right: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .how-it-works {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .get-in-touch {
+    font-size: var(--font-size-3xl);
+    line-height: 1.625rem;
+  }
+  .feugiat-proin-nam-tristique-eg {
+    gap: var(--gap-base);
+    padding: var(--padding-8xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .feugiat-proin-nam-tristique-eg-wrapper {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

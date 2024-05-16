@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import styles from "./Component.module.css";
+import "./Component.css";
 
 export type ComponentType = {
   morbiPulvinar?: string;
@@ -11,17 +11,17 @@ const Component: FunctionComponent<ComponentType> = ({
   euVulputateMiCrasQuamLect,
 }) => {
   return (
-    <div className={styles.div}>
-      <div className={styles.evaawardFillWrapper}>
+    <div className="div2">
+      <div className="evaaward-fill-wrapper">
         <img
-          className={styles.evaawardFillIcon}
+          className="evaaward-fill-icon"
           loading="lazy"
           alt=""
           src="/evaawardfill.svg"
         />
       </div>
-      <h1 className={styles.morbiPulvinar}>{morbiPulvinar}</h1>
-      <div className={styles.euVulputateMi}>{euVulputateMiCrasQuamLect}</div>
+      <h1 className="morbi-pulvinar">{morbiPulvinar}</h1>
+      <div className="eu-vulputate-mi">{euVulputateMiCrasQuamLect}</div>
     </div>
   );
 };
