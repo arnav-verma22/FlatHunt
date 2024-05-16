@@ -8,15 +8,15 @@ const Roadmap: FunctionComponent = () => {
   return (
     <section className="feugiat-proin-nam-tristique-eg-wrapper">
       <div className="feugiat-proin-nam-tristique-eg">
-        <div className="bg" />
+        <div className="bg10" />
         <div className="images" />
         <div className="feugiat-proin-nam-tristique-eg-inner">
-          <div className="frame-parent3">
+          <div className="frame-parent20">
             <div className="how-it-works-wrapper">
               <h1 className="how-it-works">How it Works</h1>
             </div>
-            <div className="frame-parent4">
-              <div className="frame-wrapper2">
+            <div className="frame-parent21">
+              <div className="frame-wrapper8">
                 <div className="evaemail-fill-parent">
                   <img
                     className="evaemail-fill-icon"
@@ -25,7 +25,7 @@ const Roadmap: FunctionComponent = () => {
                     src="/evaemailfill.svg"
                   />
                   <div className="ellipse-wrapper">
-                    <div className="frame-child1" />
+                    <div className="frame-child4" />
                   </div>
                 </div>
               </div>

@@ -22,7 +22,7 @@ const Filtres: FunctionComponent = () => {
       <header className="menu-mob">
         <div className="logo">
           <img
-            className="logo-icon1"
+            className="logo-icon"
             loading="lazy"
             alt=""
             src="/logo1@2x.png"
@@ -30,7 +30,7 @@ const Filtres: FunctionComponent = () => {
         </div>
         <div className="icon-wrapper">
           <img
-            className="icon1"
+            className="icon"
             loading="lazy"
             alt=""
             src="/icon.svg"

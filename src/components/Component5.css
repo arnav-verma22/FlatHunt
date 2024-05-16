@@ -18,11 +18,11 @@
 .stay-as-long-container {
   width: 14.063rem;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
   display: inline-block;
 }
-.div19 {
+.div12 {
   flex: 1;
   border-radius: var(--br-11xl);
   background-color: var(--bg1);
@@ -39,7 +39,7 @@
   text-align: left;
   font-size: var(--desktop-h4-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 450px) {
   .flexible-living {

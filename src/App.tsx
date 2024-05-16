@@ -6,10 +6,10 @@ import {
   useLocation,
 } from "react-router-dom";
 import Homepage1 from "./pages/Homepage1";
-import LandlordsPage from "./pages/LandlordsPage";
-import PropertyDetails from "./pages/PropertyDetails";
 import Filtres from "./pages/Filtres";
+import PropertyDetails from "./pages/PropertyDetails";
 import BookingPage from "./pages/BookingPage";
+import LandlordsPage from "./pages/LandlordsPage";
 
 function App() {
   const action = useNavigationType();
@@ -31,7 +31,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/landlords-page":
+      case "/filtres":
         title = "";
         metaDescription = "";
         break;
@@ -39,11 +39,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/filtres":
+      case "/booking-page":
         title = "";
         metaDescription = "";
         break;
-      case "/booking-page":
+      case "/landlords-page":
         title = "";
         metaDescription = "";
         break;
@@ -66,10 +66,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Homepage1 />} />
-      <Route path="/landlords-page" element={<LandlordsPage />} />
-      <Route path="/property-details" element={<PropertyDetails />} />
       <Route path="/filtres" element={<Filtres />} />
+      <Route path="/property-details" element={<PropertyDetails />} />
       <Route path="/booking-page" element={<BookingPage />} />
+      <Route path="/landlords-page" element={<LandlordsPage />} />
     </Routes>
   );
 }

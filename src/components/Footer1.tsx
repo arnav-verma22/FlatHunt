@@ -15,7 +15,7 @@ const Footer1: FunctionComponent = () => {
 
   return (
     <footer className="homepage-child">
-      <div className="frame-parent36">
+      <div className="frame-parent14">
         <div className="logo-container">
           <img className="logo-icon4" alt="" src="/logo-1@2x.png" />
           <div className="icons-copyright-container">
@@ -24,7 +24,7 @@ const Footer1: FunctionComponent = () => {
                 Contact number: 02033074477
               </div>
               <div className="icons-group">
-                <div className="icons3">
+                <div className="icons2">
                   <img
                     className="evalinkedin-fill-icon2"
                     loading="lazy"
@@ -49,7 +49,7 @@ const Footer1: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="frame-parent37">
+        <div className="frame-parent15">
           <div className="company-container">
             <b className="company2">Company</b>
             <div className="home3">Home</div>

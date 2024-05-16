@@ -17,7 +17,7 @@
 .a-truly-global-container {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
 .apartments-for-rent-in-london-parent {
@@ -28,18 +28,18 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-.integer-morbi-semper1 {
+.integer-morbi-semper {
   position: relative;
   line-height: 2rem;
 }
-.magnis-congue-neque1 {
+.magnis-congue-neque {
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
   display: inline-block;
   max-width: 100%;
 }
-.text3 {
+.text2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -47,12 +47,12 @@
   gap: var(--gap-base);
   max-width: calc(100% - 46px);
 }
-.close-icon9 {
+.close-icon {
   height: 1.5rem;
   width: 1.625rem;
   position: relative;
 }
-.question-11 {
+.question-1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -70,10 +70,10 @@
 .nunc-molestie-sit {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.text4 {
+.text3 {
   width: 62.5rem;
   display: flex;
   flex-direction: column;
@@ -82,12 +82,12 @@
   gap: var(--gap-base);
   max-width: calc(100% - 46px);
 }
-.close-icon10 {
+.close-icon1 {
   height: 1.5rem;
   width: 1.625rem;
   position: relative;
 }
-.question-111 {
+.question-11 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -96,18 +96,18 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.dignissim-congue-rutrum1 {
+.dignissim-congue-rutrum {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon11 {
+.close-icon2 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-31 {
+.question-3 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -116,18 +116,18 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.vulputate-imperdiet-fusce1 {
+.vulputate-imperdiet-fusce {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon12 {
+.close-icon3 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-41 {
+.question-4 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -136,18 +136,18 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.sit-rhoncus-rhoncus1 {
+.sit-rhoncus-rhoncus {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon13 {
+.close-icon4 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-51 {
+.question-5 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -156,18 +156,18 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.vulputate-nisl-non1 {
+.vulputate-nisl-non {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon14 {
+.close-icon5 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-61 {
+.question-6 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -176,18 +176,18 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.est-felis-a1 {
+.est-felis-a {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon15 {
+.close-icon6 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-71 {
+.question-7 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -196,18 +196,18 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.eget-nam-accumsan1 {
+.eget-nam-accumsan {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon16 {
+.close-icon7 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-81 {
+.question-8 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -216,7 +216,7 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.fermentum-et-semper1 {
+.fermentum-et-semper {
   width: 62.5rem;
   position: relative;
   line-height: 2rem;
@@ -224,12 +224,12 @@
   flex-shrink: 0;
   max-width: 100%;
 }
-.close-icon17 {
+.close-icon8 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-91 {
+.question-9 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -238,19 +238,18 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.a-vulputate-est1 {
+.a-vulputate-est {
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.close-icon18 {
+.close-icon9 {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
 }
-.question-101,
-.questions1 {
+.question-10 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -259,25 +258,30 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.questions1 {
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: var(--gap-21xl);
-}
-.frequently-asked-questions2 {
+.frequently-asked-questions,
+.questions {
   align-self: stretch;
   flex-direction: column;
+}
+.questions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.frequently-asked-questions {
   font-size: var(--desktop-h4-size);
 }
 .booking-page-inner,
-.frame-parent28,
-.frequently-asked-questions2 {
+.frame-parent7,
+.frequently-asked-questions {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-parent28 {
+.frame-parent7 {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-21xl);
@@ -290,10 +294,10 @@
   text-align: left;
   font-size: var(--desktop-h3-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1250px) {
-  .question-91 {
+  .question-9 {
     flex-wrap: wrap;
   }
   .booking-page-inner {
@@ -302,10 +306,10 @@
   }
 }
 @media screen and (max-width: 1050px) {
-  .question-31,
-  .question-41,
-  .question-51,
-  .question-81 {
+  .question-3,
+  .question-4,
+  .question-5,
+  .question-8 {
     flex-wrap: wrap;
   }
 }
@@ -314,18 +318,18 @@
     font-size: var(--font-size-10xl);
     line-height: 2.188rem;
   }
-  .question-101,
-  .question-61,
-  .question-71 {
+  .question-10,
+  .question-6,
+  .question-7 {
     flex-wrap: wrap;
   }
-  .questions1 {
+  .questions {
     gap: var(--gap-xl);
   }
-  .frequently-asked-questions2 {
+  .frequently-asked-questions {
     gap: var(--gap-11xl);
   }
-  .frame-parent28 {
+  .frame-parent7 {
     gap: var(--gap-xl);
   }
   .booking-page-inner {
@@ -340,16 +344,16 @@
     font-size: var(--font-size-3xl);
     line-height: 1.625rem;
   }
-  .a-vulputate-est1,
-  .dignissim-congue-rutrum1,
-  .eget-nam-accumsan1,
-  .est-felis-a1,
-  .fermentum-et-semper1,
-  .integer-morbi-semper1,
+  .a-vulputate-est,
+  .dignissim-congue-rutrum,
+  .eget-nam-accumsan,
+  .est-felis-a,
+  .fermentum-et-semper,
+  .integer-morbi-semper,
   .massa-massa-nulla,
-  .sit-rhoncus-rhoncus1,
-  .vulputate-imperdiet-fusce1,
-  .vulputate-nisl-non1 {
+  .sit-rhoncus-rhoncus,
+  .vulputate-imperdiet-fusce,
+  .vulputate-nisl-non {
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }

@@ -48,7 +48,7 @@
   flex-shrink: 0;
 }
 .button-minus,
-.button-plus-parent {
+.button-plus-group {
   display: flex;
   align-items: flex-start;
 }
@@ -60,7 +60,7 @@
   padding: var(--padding-5xs);
   z-index: 1;
 }
-.button-plus-parent {
+.button-plus-group {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-5xs);
@@ -71,19 +71,19 @@
   position: relative;
   z-index: 1;
 }
-.frame-parent20,
+.frame-parent2,
 .map1,
-.wrapper {
+.wrapper2 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.wrapper {
+.wrapper2 {
   width: 45.375rem;
   flex-direction: row;
   justify-content: center;
 }
-.frame-parent20,
+.frame-parent2,
 .map1 {
   align-self: stretch;
   flex-direction: column;
@@ -99,12 +99,12 @@
   background-repeat: no-repeat;
   background-position: top;
 }
-.frame-parent20 {
+.frame-parent2 {
   gap: var(--gap-41xl);
   text-align: left;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1050px) {
   .location {
@@ -116,7 +116,7 @@
   .map1 {
     gap: var(--gap-16xl);
   }
-  .frame-parent20 {
+  .frame-parent2 {
     gap: var(--gap-11xl);
   }
 }

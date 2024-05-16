@@ -15,7 +15,7 @@ const Component5: FunctionComponent<Component5Type> = ({
   monthContracts,
 }) => {
   return (
-    <div className="div19">
+    <div className="div12">
       <img className="evacalendar-fill-icon" alt="" src={evacalendarFill} />
       <b className="flexible-living">{flexibleLiving}</b>
       <div className="stay-as-long-container">

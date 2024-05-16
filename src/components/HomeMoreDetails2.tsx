@@ -6,7 +6,7 @@ const HomeMoreDetails2: FunctionComponent = () => {
   return (
     <section className="id-aliquam-wrapper">
       <div className="id-aliquam">
-        <div className="titletext4">
+        <div className="titletext3">
           <h1 className="id-aliquam-molestie">
             Id aliquam molestie nunc quis turpis imperdiet quis
           </h1>
@@ -16,14 +16,14 @@ const HomeMoreDetails2: FunctionComponent = () => {
             enim adipiscing interdum purus.
           </div>
         </div>
-        <div className="features1">
+        <div className="features">
           <Component5
             evacalendarFill="/evacalendarfill-1.svg"
             flexibleLiving="Flexible living"
             stayAsLongOrAsLittleAsYou="Stay as Long or as little as you need with month-to-"
             monthContracts="month contracts"
           />
-          <div className="div20">
+          <div className="div13">
             <img
               className="mdisofa-icon"
               loading="lazy"
@@ -41,7 +41,7 @@ const HomeMoreDetails2: FunctionComponent = () => {
             stayAsLongOrAsLittleAsYou="Best in class internet speeds suitable for working "
             monthContracts="from home"
           />
-          <div className="div21">
+          <div className="div14">
             <img
               className="evamessage-circle-fill-icon"
               loading="lazy"

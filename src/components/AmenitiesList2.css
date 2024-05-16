@@ -6,7 +6,7 @@
   min-width: 1.438rem;
 }
 .flatscreen-tv {
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   line-height: 1rem;
   min-width: 5.313rem;
   white-space: nowrap;
@@ -83,7 +83,7 @@
   min-width: 5.313rem;
 }
 .with-computer {
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   line-height: 1rem;
   min-width: 5.875rem;
 }
@@ -119,5 +119,5 @@
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }

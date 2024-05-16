@@ -4,7 +4,7 @@ import "./PeopleReviews.css";
 
 const PeopleReviews: FunctionComponent = () => {
   return (
-    <section className="frame-parent32">
+    <section className="frame-section">
       <NumberOfResults
         results="What our partners think"
         area="See what our partners say about us"
@@ -53,12 +53,12 @@ const PeopleReviews: FunctionComponent = () => {
         propWidth3="unset"
         propAlignSelf2="stretch"
       />
-      <div className="frame-parent33">
-        <div className="frame-parent34">
-          <div className="rectangle-container">
-            <div className="frame-child3" />
+      <div className="frame-parent11">
+        <div className="frame-parent12">
+          <div className="rectangle-parent">
+            <div className="frame-child" />
             <img
-              className="ellipse-icon"
+              className="frame-item"
               loading="lazy"
               alt=""
               src="/ellipse-7@2x.png"
@@ -76,10 +76,10 @@ const PeopleReviews: FunctionComponent = () => {
             aliquam.
           </div>
         </div>
-        <div className="div25">
-          <div className="child10" />
-          <div className="ellipse-container">
-            <img className="frame-child4" alt="" src="/ellipse-7-1@2x.png" />
+        <div className="div18">
+          <div className="item" />
+          <div className="ellipse-parent">
+            <img className="frame-inner" alt="" src="/ellipse-7-1@2x.png" />
             <NumberOfResults
               results="Annie"
               area="Landlord in SE1"
@@ -137,10 +137,10 @@ const PeopleReviews: FunctionComponent = () => {
             aliquam.
           </div>
         </div>
-        <div className="frame-parent35">
-          <div className="rectangle-parent1">
-            <div className="frame-child5" />
-            <img className="frame-child6" alt="" src="/ellipse-7-2@2x.png" />
+        <div className="frame-parent13">
+          <div className="rectangle-group">
+            <div className="rectangle-div" />
+            <img className="ellipse-icon" alt="" src="/ellipse-7-2@2x.png" />
           </div>
           <NumberOfResults
             results="Gabriel"
@@ -199,7 +199,7 @@ const PeopleReviews: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="frame-wrapper10">
+      <div className="frame-wrapper5">
         <div className="left-parent">
           <div className="left">
             <img

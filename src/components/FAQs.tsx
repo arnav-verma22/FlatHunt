@@ -5,11 +5,11 @@ import "./FrameComponent1.css";
 const FAQs: FunctionComponent = () => {
   return (
     <section className="output-formatter">
-      <div className="frequently-asked-questions">
-        <h1 className="frequently-asked-questions1">
+      <div className="frequently-asked-questions1">
+        <h1 className="frequently-asked-questions2">
           Frequently Asked Questions
         </h1>
-        <div className="questions">
+        <div className="questions1">
           <Question
             integerMorbiSemperSodales="Integer morbi semper sodales sit facilisi habitant pulvinar sed venenatis?"
             magnisCongueNequeSociisUt="Magnis congue neque sociis ut nisl. Quis dui lobortis lectus viverra."
@@ -22,53 +22,53 @@ const FAQs: FunctionComponent = () => {
             propDisplay1="unset"
             propAlignSelf="stretch"
           />
-          <div className="question-3">
-            <b className="dignissim-congue-rutrum">
+          <div className="question-31">
+            <b className="dignissim-congue-rutrum1">
               Dignissim congue rutrum pretium nunc sed nibh vitae tortor ut?
             </b>
-            <img className="close-icon1" alt="" src="/close-2.svg" />
+            <img className="close-icon11" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-4">
-            <b className="vulputate-imperdiet-fusce">
+          <div className="question-41">
+            <b className="vulputate-imperdiet-fusce1">
               Vulputate imperdiet fusce vivamus nunc leo morbi scelerisque in?
             </b>
-            <img className="close-icon2" alt="" src="/close-2.svg" />
+            <img className="close-icon12" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-5">
-            <b className="sit-rhoncus-rhoncus">
+          <div className="question-51">
+            <b className="sit-rhoncus-rhoncus1">
               Sit rhoncus rhoncus malesuada massa adipiscing arcu, semper ut in?
             </b>
-            <img className="close-icon3" alt="" src="/close-2.svg" />
+            <img className="close-icon13" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-6">
-            <b className="vulputate-nisl-non">
+          <div className="question-61">
+            <b className="vulputate-nisl-non1">
               Vulputate nisl non neque iaculis lacus dui, habitant gravida?
             </b>
-            <img className="close-icon4" alt="" src="/close-2.svg" />
+            <img className="close-icon14" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-7">
-            <b className="est-felis-a">
+          <div className="question-71">
+            <b className="est-felis-a1">
               Est felis a velit at vitae venenatis rhoncus?
             </b>
-            <img className="close-icon5" alt="" src="/close-2.svg" />
+            <img className="close-icon15" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-8">
-            <b className="eget-nam-accumsan">
+          <div className="question-81">
+            <b className="eget-nam-accumsan1">
               Eget nam accumsan elementum accumsan imperdiet eu, cras?
             </b>
-            <img className="close-icon6" alt="" src="/close-2.svg" />
+            <img className="close-icon16" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-9">
-            <b className="fermentum-et-semper">
+          <div className="question-91">
+            <b className="fermentum-et-semper1">
               Fermentum et semper aliquet justo, facilisis?
             </b>
-            <img className="close-icon7" alt="" src="/close-2.svg" />
+            <img className="close-icon17" alt="" src="/close-2.svg" />
           </div>
-          <div className="question-10">
-            <b className="a-vulputate-est">
+          <div className="question-101">
+            <b className="a-vulputate-est1">
               A vulputate est diam tempus condimentum in?
             </b>
-            <img className="close-icon8" alt="" src="/close-2.svg" />
+            <img className="close-icon18" alt="" src="/close-2.svg" />
           </div>
         </div>
       </div>

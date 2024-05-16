@@ -7,7 +7,7 @@ import "./FrameComponent2.css";
 const Pricing: FunctionComponent = () => {
   return (
     <section className="landlords-page-child">
-      <div className="frame-parent19">
+      <div className="frame-parent37">
         <NumberOfResults
           results="Pricing"
           area="Compare our pricing model to high street agents"

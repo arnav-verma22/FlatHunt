@@ -8,7 +8,7 @@ const FrameComponent7: FunctionComponent = () => {
         <div className="evafacebookfillevatwitterfille-parent">
           <div className="evafacebookfillevatwitterfille" />
           <img
-            className="evapeople-fill-icon"
+            className="evapeople-fill-icon3"
             loading="lazy"
             alt=""
             src="/evapeoplefill1.svg"
@@ -18,15 +18,15 @@ const FrameComponent7: FunctionComponent = () => {
       <div className="lets-chat-wrapper">
         <h1 className="lets-chat">Let’s chat</h1>
       </div>
-      <div className="frame-container">
+      <div className="frame-parent16">
         <div className="euismod-commodo-feugiat-purus-wrapper">
           <div className="euismod-commodo-feugiat">
             Euismod commodo feugiat purus egestas diam. Facilisi sed senectus
             consequat risus. Porta purus nec dui odio vehicula.
           </div>
         </div>
-        <div className="frame-div">
-          <div className="frame-wrapper">
+        <div className="frame-parent17">
+          <div className="frame-wrapper6">
             <div className="evaeye-fill-parent">
               <img
                 className="evaeye-fill-icon"
@@ -34,7 +34,7 @@ const FrameComponent7: FunctionComponent = () => {
                 alt=""
                 src="/evaeyefill.svg"
               />
-              <div className="frame-child" />
+              <div className="ellipse-div" />
             </div>
           </div>
           <h1 className="property-viewing">Property viewing</h1>

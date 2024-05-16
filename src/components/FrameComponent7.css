@@ -6,7 +6,7 @@
   background-color: var(--text);
   z-index: 2;
 }
-.evapeople-fill-icon {
+.evapeople-fill-icon3 {
   height: 5rem;
   width: 5rem;
   position: relative;
@@ -76,7 +76,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.frame-child {
+.ellipse-div {
   height: 1.25rem;
   width: 1.25rem;
   position: relative;
@@ -85,7 +85,7 @@
   z-index: 2;
 }
 .evaeye-fill-parent,
-.frame-wrapper {
+.frame-wrapper6 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -95,7 +95,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.frame-wrapper {
+.frame-wrapper6 {
   align-self: stretch;
   justify-content: flex-end;
 }
@@ -115,11 +115,11 @@
   font-family: inherit;
 }
 .sit-lectus-parturient {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.frame-container,
-.frame-div,
+.frame-parent16,
+.frame-parent17,
 .output-processor {
   display: flex;
   flex-direction: column;
@@ -127,24 +127,24 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-div {
+.frame-parent17 {
   width: 33.875rem;
   gap: var(--gap-xs);
   text-align: right;
   font-size: var(--desktop-h3-size);
 }
-.frame-container,
+.frame-parent16,
 .output-processor {
   align-self: stretch;
   gap: var(--gap-xl);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
 }
 .output-processor {
   gap: var(--gap-xs);
   text-align: left;
   font-size: var(--desktop-h3-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 750px) {
   .lets-chat,

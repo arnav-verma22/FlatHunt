@@ -11,7 +11,7 @@ const Component: FunctionComponent<ComponentType> = ({
   euVulputateMiCrasQuamLect,
 }) => {
   return (
-    <div className="div2">
+    <div className="div33">
       <div className="evaaward-fill-wrapper">
         <img
           className="evaaward-fill-icon"

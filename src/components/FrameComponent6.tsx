@@ -3,9 +3,9 @@ import "./FrameComponent6.css";
 
 const FrameComponent6: FunctionComponent = () => {
   return (
-    <div className="frame-parent1">
-      <div className="ellipse-parent">
-        <div className="frame-item" />
+    <div className="frame-parent18">
+      <div className="ellipse-group">
+        <div className="frame-child1" />
         <img
           className="evapantone-fill-icon"
           loading="lazy"

@@ -1,4 +1,4 @@
-.frame-child3 {
+.frame-child {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@
   width: 100%;
   height: 100%;
 }
-.ellipse-icon {
+.frame-item {
   position: absolute;
   top: 3.75rem;
   left: 3.75rem;
@@ -17,7 +17,7 @@
   object-fit: contain;
   z-index: 1;
 }
-.rectangle-container {
+.rectangle-parent {
   width: 52.938rem;
   height: 100%;
   position: absolute;
@@ -39,7 +39,7 @@
 .landlord-in-se1 {
   align-self: stretch;
   height: 1.25rem;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
 .annie-parent {
@@ -64,7 +64,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.frame-parent34 {
+.frame-parent12 {
   width: 14.75rem;
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@
   gap: var(--gap-11xl);
   font-size: var(--desktop-h4-size);
 }
-.child10 {
+.item {
   width: 52.938rem;
   height: 19.75rem;
   position: relative;
@@ -85,7 +85,7 @@
   display: none;
   max-width: 100%;
 }
-.frame-child4 {
+.frame-inner {
   height: 5rem;
   width: 5rem;
   position: relative;
@@ -93,7 +93,7 @@
   object-fit: cover;
   z-index: 1;
 }
-.ellipse-container {
+.ellipse-parent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -108,12 +108,12 @@
   max-width: 100%;
   z-index: 1;
 }
-.div25,
-.frame-child5 {
+.div18,
+.rectangle-div {
   border-radius: var(--br-41xl) var(--br-41xl) var(--br-41xl) var(--br-xs);
   background-color: var(--color-whitesmoke);
 }
-.div25 {
+.div18 {
   width: 52.938rem;
   display: flex;
   flex-direction: column;
@@ -126,14 +126,14 @@
   min-height: 19.75rem;
   max-width: 100%;
 }
-.frame-child5 {
+.rectangle-div {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.frame-child6 {
+.ellipse-icon {
   position: absolute;
   top: 3.75rem;
   left: 3.75rem;
@@ -143,7 +143,7 @@
   object-fit: contain;
   z-index: 1;
 }
-.rectangle-parent1 {
+.rectangle-group {
   width: 52.938rem;
   height: 100%;
   position: absolute;
@@ -161,12 +161,12 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.frame-parent33,
-.frame-parent35 {
+.frame-parent11,
+.frame-parent13 {
   display: flex;
   align-items: flex-start;
 }
-.frame-parent35 {
+.frame-parent13 {
   width: 14.813rem;
   flex-direction: column;
   justify-content: flex-start;
@@ -175,7 +175,7 @@
   position: relative;
   gap: var(--gap-11xl);
 }
-.frame-parent33 {
+.frame-parent11 {
   flex-direction: row;
   justify-content: center;
   gap: var(--gap-41xl);
@@ -210,8 +210,8 @@
   justify-content: flex-start;
   padding: var(--padding-lg);
 }
-.frame-parent32,
-.frame-wrapper10,
+.frame-section,
+.frame-wrapper5,
 .left-parent,
 .right {
   display: flex;
@@ -223,13 +223,13 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.frame-parent32,
-.frame-wrapper10 {
+.frame-section,
+.frame-wrapper5 {
   align-self: stretch;
   justify-content: center;
   padding: 0 var(--padding-3xl) 0 var(--padding-xl);
 }
-.frame-parent32 {
+.frame-section {
   flex-direction: column;
   justify-content: flex-start;
   padding: 0 0 var(--padding-121xl);
@@ -239,24 +239,24 @@
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1350px) {
-  .frame-parent33 {
+  .frame-parent11 {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 800px) {
-  .div25,
-  .frame-parent35 {
+  .div18,
+  .frame-parent13 {
     padding-left: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .frame-parent32,
-  .frame-parent33 {
+  .frame-parent11,
+  .frame-section {
     gap: var(--gap-11xl);
   }
-  .frame-parent32 {
+  .frame-section {
     padding-bottom: var(--padding-72xl);
     box-sizing: border-box;
   }
@@ -266,7 +266,7 @@
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }
-  .frame-parent35 {
+  .frame-parent13 {
     gap: var(--gap-mini);
   }
 }

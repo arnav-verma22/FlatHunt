@@ -10,7 +10,7 @@
   text-align: left;
   font-size: var(--desktop-h1-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 750px) {
   .details {

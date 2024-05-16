@@ -13,7 +13,7 @@ const Component2: FunctionComponent<Component2Type> = ({
   weDoTheSearchingForYou,
 }) => {
   return (
-    <div className="div">
+    <div className="div31">
       <img
         className="evalock-fill-icon"
         loading="lazy"
@@ -21,7 +21,7 @@ const Component2: FunctionComponent<Component2Type> = ({
         src={evalockFill}
       />
       <b className="guaranteed-rent">{guaranteedRent}</b>
-      <div className="we-do-the">{weDoTheSearchingForYou}</div>
+      <div className="we-do-the1">{weDoTheSearchingForYou}</div>
     </div>
   );
 };

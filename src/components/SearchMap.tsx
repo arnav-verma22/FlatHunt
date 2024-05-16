@@ -23,32 +23,32 @@ const SearchMap: FunctionComponent = memo(() => {
       </div>
       <div className="map-inner">
         <div className="bg-group">
-          <div className="bg3" />
+          <div className="bg2" />
           <b className="b2">2</b>
         </div>
       </div>
       <div className="map-child">
-        <div className="frame-parent24">
+        <div className="frame-parent3">
           <div className="bg-container">
-            <div className="bg4" />
+            <div className="bg3" />
             <b className="b3">20</b>
           </div>
-          <div className="frame-wrapper5">
+          <div className="frame-wrapper">
             <div className="bg-parent1">
-              <div className="bg5" />
+              <div className="bg4" />
               <b className="b4">12</b>
             </div>
           </div>
-          <div className="frame-wrapper6">
-            <div className="frame-parent25">
-              <div className="frame-wrapper7">
+          <div className="frame-wrapper1">
+            <div className="frame-parent4">
+              <div className="frame-wrapper2">
                 <div className="bg-parent2">
-                  <div className="bg6" />
+                  <div className="bg5" />
                   <b className="b5">16</b>
                 </div>
               </div>
               <div className="bg-parent3">
-                <div className="bg7" />
+                <div className="bg6" />
                 <b className="b6">1</b>
               </div>
             </div>
@@ -56,21 +56,21 @@ const SearchMap: FunctionComponent = memo(() => {
         </div>
       </div>
       <div className="map-inner1">
-        <div className="frame-parent26">
-          <div className="frame-wrapper8">
+        <div className="frame-parent5">
+          <div className="frame-wrapper3">
             <div className="bg-parent4">
-              <div className="bg8" />
+              <div className="bg7" />
               <b className="b7">8</b>
             </div>
           </div>
-          <div className="frame-parent27">
+          <div className="frame-parent6">
             <div className="bg-parent5">
-              <div className="bg9" />
+              <div className="bg8" />
               <b className="f-a-qtitle">40</b>
             </div>
-            <div className="frame-wrapper9">
+            <div className="frame-wrapper4">
               <div className="bg-parent6">
-                <div className="bg10" />
+                <div className="bg9" />
                 <b className="b8">2</b>
               </div>
             </div>

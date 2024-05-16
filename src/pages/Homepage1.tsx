@@ -36,7 +36,7 @@ const Homepage1: FunctionComponent = () => {
 
   return (
     <div className="homepage">
-      <img className="image-icon1" alt="" src="/image1@2x.png" />
+      <img className="image-icon" alt="" src="/image1@2x.png" />
       <section className="input-collector">
         <Header
           logo="/logo@2x.png"

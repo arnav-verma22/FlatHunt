@@ -9,7 +9,7 @@ const HomepageCardExtras: FunctionComponent = () => {
 
   return (
     <section className="bespoke-partnerships">
-      <div className="text5">
+      <div className="text4">
         <div className="titlesubtext">
           <h1 className="bespoke-spaces">Bespoke spaces</h1>
           <div className="expertly-designed-to">

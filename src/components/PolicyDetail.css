@@ -161,11 +161,11 @@
   min-width: 11.5rem;
 }
 .cancellation-policy,
-.div9 {
+.div8 {
   display: flex;
   align-items: flex-start;
 }
-.div9 {
+.div8 {
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
@@ -203,7 +203,7 @@
   display: inline-block;
   min-width: 12.125rem;
 }
-.div10 {
+.div9 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -242,7 +242,7 @@
   text-align: center;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1200px) {
   .data-aggregator {
@@ -272,14 +272,14 @@
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }
-  .div9 {
+  .div8 {
     flex-wrap: wrap;
   }
   .health-safty1 {
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }
-  .div10 {
+  .div9 {
     flex-wrap: wrap;
   }
 }

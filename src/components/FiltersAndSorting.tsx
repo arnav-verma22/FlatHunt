@@ -86,7 +86,7 @@ const FiltersAndSorting: FunctionComponent = memo(() => {
           </FormControl>
         </div>
         <div className="parking2">
-          <div className="text1">
+          <div className="text">
             <img
               className="fa-solidcar-alt-icon1"
               alt=""

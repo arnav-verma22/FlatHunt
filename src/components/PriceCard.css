@@ -1,4 +1,4 @@
-.frame-child2 {
+.frame-child6 {
   width: 28.438rem;
   height: 16.5rem;
   position: relative;
@@ -38,8 +38,8 @@
   font-size: var(--font-size-lg);
 }
 .fixed-price-parent,
-.frame-wrapper4,
-.rectangle-group {
+.frame-wrapper10,
+.rectangle-parent1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -49,16 +49,16 @@
   flex-direction: column;
   gap: var(--gap-5xs);
 }
-.frame-wrapper4,
-.rectangle-group {
+.frame-wrapper10,
+.rectangle-parent1 {
   align-self: stretch;
 }
-.frame-wrapper4 {
+.frame-wrapper10 {
   flex-direction: row;
   padding: 0 var(--padding-22xl) 0 var(--padding-18xl);
   font-size: var(--desktop-h1-size);
 }
-.rectangle-group {
+.rectangle-parent1 {
   border-radius: var(--br-11xl) var(--br-11xl) 0 0;
   background-color: var(--bg1);
   flex-direction: column;
@@ -68,8 +68,8 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.child4,
-.child5,
+.child10,
+.child11,
 .child6,
 .child7,
 .child8,
@@ -81,7 +81,7 @@
   background-color: var(--bg);
   display: none;
 }
-.evacheckmark-fill-icon6 {
+.evacheckmark-fill-icon7 {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -102,7 +102,7 @@
   display: inline-block;
   min-width: 5.813rem;
 }
-.frame-parent13 {
+.frame-parent31 {
   width: 7.813rem;
   display: flex;
   flex-direction: row;
@@ -110,7 +110,7 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-.evacheckmark-fill-icon7 {
+.evacheckmark-fill-icon8 {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -128,14 +128,14 @@
   position: relative;
   line-height: 1.5rem;
 }
-.frame-parent14 {
+.frame-parent32 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-.evacheckmark-fill-icon8 {
+.evacheckmark-fill-icon9 {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -153,14 +153,14 @@
   position: relative;
   line-height: 1.5rem;
 }
-.frame-parent15 {
+.frame-parent33 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-2xs);
 }
-.evacheckmark-fill-icon9 {
+.evacheckmark-fill-icon10 {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -180,14 +180,14 @@
   display: inline-block;
   min-width: 7.25rem;
 }
-.frame-parent16 {
+.frame-parent34 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);
 }
-.evacheckmark-fill-icon10 {
+.evacheckmark-fill-icon11 {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -208,7 +208,7 @@
   display: inline-block;
   min-width: 3.875rem;
 }
-.frame-parent17 {
+.frame-parent35 {
   width: 5.875rem;
   display: flex;
   flex-direction: row;
@@ -216,7 +216,7 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-.evacheckmark-fill-icon11 {
+.evacheckmark-fill-icon12 {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -230,14 +230,14 @@
   justify-content: flex-start;
   padding: var(--padding-11xs) 0 0;
 }
-.div6 {
+.div37 {
   position: relative;
   line-height: 1.5rem;
   display: inline-block;
   min-width: 4.188rem;
   white-space: nowrap;
 }
-.frame-parent18 {
+.frame-parent36 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -256,19 +256,19 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
-.div5,
-.frame-parent12,
+.div36,
+.frame-parent30,
 .inner2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-parent12 {
+.frame-parent30 {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-xl);
 }
-.div5,
+.div36,
 .inner2 {
   box-sizing: border-box;
   max-width: 100%;
@@ -279,7 +279,7 @@
   padding: 0 var(--padding-21xl);
   font-size: var(--font-size-lg);
 }
-.div5 {
+.div36 {
   flex: 1;
   box-shadow: -2px -2px 2px rgba(229, 229, 229, 0.5),
     2px 2px 2px rgba(229, 229, 229, 0.5);
@@ -292,14 +292,14 @@
   text-align: center;
   font-size: var(--desktop-h4-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 750px) {
   .fixed-price {
     font-size: var(--font-size-23xl);
     line-height: 3rem;
   }
-  .div5 {
+  .div36 {
     padding-bottom: var(--padding-23xl);
     box-sizing: border-box;
   }
@@ -313,12 +313,12 @@
     font-size: var(--font-size-12xl);
     line-height: 2.25rem;
   }
-  .rectangle-group {
+  .rectangle-parent1 {
     padding-left: var(--padding-13xl);
     padding-right: var(--padding-10xl);
     box-sizing: border-box;
   }
-  .div5 {
+  .div36 {
     gap: var(--gap-xl);
   }
 }

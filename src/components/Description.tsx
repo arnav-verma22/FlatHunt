@@ -4,7 +4,7 @@ import "./Description.css";
 const Description: FunctionComponent = () => {
   return (
     <div className="desriprion">
-      <div className="titletext1">
+      <div className="titletext">
         <h1 className="desription">Desription</h1>
         <div className="a-truly-global">
           A truly global city, London has long been considered a cutting-edge
@@ -16,11 +16,11 @@ const Description: FunctionComponent = () => {
           to month rental in London, Blueground has you covered.
         </div>
       </div>
-      <div className="titletext2">
+      <div className="titletext1">
         <b className="in-sed">In sed</b>
         <div className="in-nullam-eget">{`In nullam eget urna suspendisse odio nunc. Eu sodales vestibulum, donec rutrum justo, amet porttitor vitae et. Interdum consectetur dictum mattis gravida sed vulputate. Tempus sagittis cras sagittis viverra erat proin duis enim. `}</div>
       </div>
-      <div className="titletext3">
+      <div className="titletext2">
         <b className="adipiscing-risus-fermentum">
           Adipiscing risus, fermentum
         </b>

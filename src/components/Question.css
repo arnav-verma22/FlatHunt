@@ -1,15 +1,15 @@
-.integer-morbi-semper {
+.integer-morbi-semper1 {
   position: relative;
   line-height: 2rem;
 }
-.magnis-congue-neque {
+.magnis-congue-neque1 {
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
   display: inline-block;
   max-width: 100%;
 }
-.text {
+.text10 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -17,12 +17,12 @@
   gap: var(--gap-base);
   max-width: calc(100% - 46px);
 }
-.close-icon {
+.close-icon10 {
   height: 1.5rem;
   width: 1.625rem;
   position: relative;
 }
-.question-1 {
+.question-12 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -33,10 +33,10 @@
   text-align: left;
   font-size: var(--desktop-h4-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 450px) {
-  .integer-morbi-semper {
+  .integer-morbi-semper1 {
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }

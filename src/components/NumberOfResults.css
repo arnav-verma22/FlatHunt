@@ -2,7 +2,7 @@
   line-height: 1.5rem;
 }
 .for-1-bedroom {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
 .results-for-1-container {
@@ -21,5 +21,5 @@
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }

@@ -14,7 +14,7 @@ const HomePageLocations: FunctionComponent = () => {
     <section className="a-world-of-choice-wrapper">
       <div className="a-world-of-choice">
         <h1 className="choose-your-location">Choose your location</h1>
-        <div className="features2">
+        <div className="features1">
           <div className="shoreditch-parent">
             <b className="shoreditch">Shoreditch</b>
             <img

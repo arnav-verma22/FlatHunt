@@ -4,15 +4,15 @@ import "./FrameComponent4.css";
 
 const BeforeVsAfter: FunctionComponent = () => {
   return (
-    <section className="frame-section">
+    <section className="frame-parent22">
       <div className="corporate-partnerships-parent">
-        <h1 className="corporate-partnerships1">Corporate Partnerships</h1>
-        <div className="we-work-with-container1">
-          <p className="we-work-with1">
+        <h1 className="corporate-partnerships3">Corporate Partnerships</h1>
+        <div className="we-work-with-container2">
+          <p className="we-work-with2">
             We work with 100+ companies to meet accommodation needs in London.
             Offer a dedicated
           </p>
-          <p className="booking-manager-that1">
+          <p className="booking-manager-that2">
             booking manager that can help to find properties for your needs.
           </p>
         </div>
@@ -28,7 +28,7 @@ const BeforeVsAfter: FunctionComponent = () => {
           frame6="After"
           showUnsplashitC9yfRIMIcon={false}
           propPosition="unset"
-          propBorderRadius="60px 60px 60px 12px"
+          propBorderRadius="12px"
           propBackgroundImage="url('/unsplashit-c9yfrim1@2x.png')"
           propBackgroundSize="cover"
           propHeight="unset"

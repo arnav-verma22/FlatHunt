@@ -8,8 +8,8 @@ const UsefulLinks: FunctionComponent = () => {
       <div className="useful-links">
         <h1 className="useful-links1">Useful links</h1>
         <div className="links">
-          <div className="div32">
-            <div className="div33">
+          <div className="div25">
+            <div className="div26">
               <b className="west-london-apartments">West London Apartments</b>
               <img
                 className="evaarrow-forward-outline-icon"
@@ -18,7 +18,7 @@ const UsefulLinks: FunctionComponent = () => {
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className="div34">
+            <div className="div27">
               <b className="riverside-apartments">Riverside Apartments</b>
               <img
                 className="evaarrow-forward-outline-icon1"
@@ -26,7 +26,7 @@ const UsefulLinks: FunctionComponent = () => {
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className="div35">
+            <div className="div28">
               <b className="apartments-in-finance">
                 Apartments in Finance Sector City of London
               </b>
@@ -36,7 +36,7 @@ const UsefulLinks: FunctionComponent = () => {
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className="div36">
+            <div className="div29">
               <b className="apartments-in-soho">Apartments in Soho, Fitrovia</b>
               <img
                 className="evaarrow-forward-outline-icon3"
@@ -44,7 +44,7 @@ const UsefulLinks: FunctionComponent = () => {
                 src="/evaarrowforwardoutline.svg"
               />
             </div>
-            <div className="div37">
+            <div className="div30">
               <b className="east-london-aaprtments">East London Aaprtments</b>
               <img
                 className="evaarrow-forward-outline-icon4"

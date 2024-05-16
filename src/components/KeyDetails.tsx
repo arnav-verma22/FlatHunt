@@ -12,7 +12,7 @@ const KeyDetails: FunctionComponent = () => {
         <div className="bedroom-bath">
           <div className="bedroom">
             <img
-              className="fluentbed-24-filled-icon"
+              className="fluentbed-24-filled-icon1"
               loading="lazy"
               alt=""
               src="/fluentbed24filled.svg"
@@ -21,7 +21,7 @@ const KeyDetails: FunctionComponent = () => {
           </div>
           <div className="bath">
             <img
-              className="fa-solidbath-icon"
+              className="fa-solidbath-icon1"
               loading="lazy"
               alt=""
               src="/fasolidbath.svg"

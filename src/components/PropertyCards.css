@@ -14,7 +14,7 @@
 }
 .blocks {
   text-align: left;
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }

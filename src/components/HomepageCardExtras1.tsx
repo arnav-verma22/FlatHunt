@@ -3,22 +3,22 @@ import "./HomepageCardExtras1.css";
 
 const HomepageCardExtras1: FunctionComponent = () => {
   return (
-    <section className="corporate-partnerships-container">
-      <div className="corporate-partnerships2">
-        <div className="titletext5">
-          <h1 className="corporate-partnerships3">Corporate Partnerships</h1>
-          <div className="we-work-with-container2">
-            <p className="we-work-with2">
+    <section className="corporate-partnerships-wrapper">
+      <div className="corporate-partnerships">
+        <div className="titletext4">
+          <h1 className="corporate-partnerships1">Corporate Partnerships</h1>
+          <div className="we-work-with-container">
+            <p className="we-work-with">
               We work with 100+ companies to meet accommodation needs in London.
               Offer a dedicated
             </p>
-            <p className="booking-manager-that2">
+            <p className="booking-manager-that">
               booking manager that can help to find properties for your needs.
             </p>
           </div>
         </div>
-        <div className="features3">
-          <div className="div22">
+        <div className="features2">
+          <div className="div15">
             <img
               className="evasearch-outline-icon"
               loading="lazy"
@@ -26,9 +26,9 @@ const HomepageCardExtras1: FunctionComponent = () => {
               src="/evasearchoutline.svg"
             />
             <b className="booking-manager">Booking manager</b>
-            <div className="we-do-the1">We do the searching for you</div>
+            <div className="we-do-the">We do the searching for you</div>
           </div>
-          <div className="div23">
+          <div className="div16">
             <img
               className="evaperson-fill-icon"
               loading="lazy"
@@ -40,7 +40,7 @@ const HomepageCardExtras1: FunctionComponent = () => {
               Preferred partner rates
             </div>
           </div>
-          <div className="div24">
+          <div className="div17">
             <img
               className="evafile-text-fill-icon"
               alt=""

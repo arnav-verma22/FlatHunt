@@ -6,7 +6,7 @@
 .ultricies-etiam-sit-container {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
   text-align: left;
 }
@@ -20,7 +20,7 @@
   text-align: center;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 750px) {
   .neighbourhood-parent {

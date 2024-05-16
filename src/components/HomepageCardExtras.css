@@ -29,13 +29,13 @@
   cursor: pointer;
 }
 .bespoke-partnerships,
-.text5 {
+.text4 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.text5 {
+.text4 {
   width: 32.625rem;
   flex-direction: column;
   gap: var(--gap-41xl);
@@ -52,14 +52,14 @@
   text-align: left;
   font-size: var(--desktop-h2-size);
   color: var(--white);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 800px) {
   .bespoke-spaces {
     font-size: var(--font-size-19xl);
     line-height: 2.688rem;
   }
-  .text5 {
+  .text4 {
     gap: var(--gap-11xl);
   }
   .bespoke-partnerships {

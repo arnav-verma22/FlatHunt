@@ -3,7 +3,7 @@ import "./FrameComponent5.css";
 
 const FrameComponent5: FunctionComponent = () => {
   return (
-    <div className="frame-parent2">
+    <div className="frame-parent19">
       <div className="evabriefcase-fill-parent">
         <img
           className="evabriefcase-fill-icon"
@@ -18,11 +18,11 @@ const FrameComponent5: FunctionComponent = () => {
           viverra enim libero.
         </div>
       </div>
-      <div className="ellipse-group">
-        <div className="frame-inner" />
-        <div className="ellipse-div" />
+      <div className="ellipse-container">
+        <div className="frame-child2" />
+        <div className="frame-child3" />
       </div>
-      <div className="frame-wrapper1">
+      <div className="frame-wrapper7">
         <div className="evasun-fill-parent">
           <img
             className="evasun-fill-icon"

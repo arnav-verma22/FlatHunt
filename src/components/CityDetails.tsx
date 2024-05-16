@@ -4,7 +4,7 @@ import "./CityDetails.css";
 const CityDetails: FunctionComponent = () => {
   return (
     <section className="booking-page-inner">
-      <div className="frame-parent28">
+      <div className="frame-parent7">
         <div className="apartments-for-rent-in-london-parent">
           <h1 className="apartments-for-rent">Apartments for rent in London</h1>
           <div className="a-truly-global-container">
@@ -46,28 +46,28 @@ const CityDetails: FunctionComponent = () => {
             </p>
           </div>
         </div>
-        <div className="frequently-asked-questions2">
-          <div className="questions1">
-            <div className="question-11">
-              <div className="text3">
-                <b className="integer-morbi-semper1">
+        <div className="frequently-asked-questions">
+          <div className="questions">
+            <div className="question-1">
+              <div className="text2">
+                <b className="integer-morbi-semper">
                   Integer morbi semper sodales sit facilisi habitant pulvinar
                   sed venenatis?
                 </b>
-                <div className="magnis-congue-neque1">
+                <div className="magnis-congue-neque">
                   Magnis congue neque sociis ut nisl. Quis dui lobortis lectus
                   viverra.
                 </div>
               </div>
               <img
-                className="close-icon9"
+                className="close-icon"
                 loading="lazy"
                 alt=""
                 src="/close.svg"
               />
             </div>
-            <div className="question-111">
-              <div className="text4">
+            <div className="question-11">
+              <div className="text3">
                 <b className="massa-massa-nulla">
                   Massa massa nulla rhoncus a quam consectetur sed purus, enim?
                 </b>
@@ -79,56 +79,56 @@ const CityDetails: FunctionComponent = () => {
                   elementum feugiat pharetra congue.
                 </div>
               </div>
-              <img className="close-icon10" alt="" src="/close.svg" />
+              <img className="close-icon1" alt="" src="/close.svg" />
             </div>
-            <div className="question-31">
-              <b className="dignissim-congue-rutrum1">
+            <div className="question-3">
+              <b className="dignissim-congue-rutrum">
                 Dignissim congue rutrum pretium nunc sed nibh vitae tortor ut?
               </b>
-              <img className="close-icon11" alt="" src="/close-2.svg" />
+              <img className="close-icon2" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-41">
-              <b className="vulputate-imperdiet-fusce1">
+            <div className="question-4">
+              <b className="vulputate-imperdiet-fusce">
                 Vulputate imperdiet fusce vivamus nunc leo morbi scelerisque in?
               </b>
-              <img className="close-icon12" alt="" src="/close-2.svg" />
+              <img className="close-icon3" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-51">
-              <b className="sit-rhoncus-rhoncus1">
+            <div className="question-5">
+              <b className="sit-rhoncus-rhoncus">
                 Sit rhoncus rhoncus malesuada massa adipiscing arcu, semper ut
                 in?
               </b>
-              <img className="close-icon13" alt="" src="/close-2.svg" />
+              <img className="close-icon4" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-61">
-              <b className="vulputate-nisl-non1">
+            <div className="question-6">
+              <b className="vulputate-nisl-non">
                 Vulputate nisl non neque iaculis lacus dui, habitant gravida?
               </b>
-              <img className="close-icon14" alt="" src="/close-2.svg" />
+              <img className="close-icon5" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-71">
-              <b className="est-felis-a1">
+            <div className="question-7">
+              <b className="est-felis-a">
                 Est felis a velit at vitae venenatis rhoncus?
               </b>
-              <img className="close-icon15" alt="" src="/close-2.svg" />
+              <img className="close-icon6" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-81">
-              <b className="eget-nam-accumsan1">
+            <div className="question-8">
+              <b className="eget-nam-accumsan">
                 Eget nam accumsan elementum accumsan imperdiet eu, cras?
               </b>
-              <img className="close-icon16" alt="" src="/close-2.svg" />
+              <img className="close-icon7" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-91">
-              <b className="fermentum-et-semper1">
+            <div className="question-9">
+              <b className="fermentum-et-semper">
                 Fermentum et semper aliquet justo, facilisis?
               </b>
-              <img className="close-icon17" alt="" src="/close-2.svg" />
+              <img className="close-icon8" alt="" src="/close-2.svg" />
             </div>
-            <div className="question-101">
-              <b className="a-vulputate-est1">
+            <div className="question-10">
+              <b className="a-vulputate-est">
                 A vulputate est diam tempus condimentum in?
               </b>
-              <img className="close-icon18" alt="" src="/close-2.svg" />
+              <img className="close-icon9" alt="" src="/close-2.svg" />
             </div>
           </div>
         </div>

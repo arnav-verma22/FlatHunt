@@ -62,7 +62,7 @@ const Footer: FunctionComponent<FooterType> = ({
                 Contact number: 02033074477
               </div>
               <div className="icons-parent">
-                <div className="icons2">
+                <div className="icons1">
                   <img
                     className="evalinkedin-fill-icon1"
                     loading="lazy"
@@ -85,7 +85,7 @@ const Footer: FunctionComponent<FooterType> = ({
             </div>
           </div>
         </div>
-        <div className="frame-parent29">
+        <div className="frame-parent8">
           <div className="company-group">
             <b className="company1">Company</b>
             <div className="home2" onClick={onHomeText1Click}>

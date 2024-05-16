@@ -6,7 +6,7 @@ import "./FrameComponent3.css";
 const NotNeeded: FunctionComponent = () => {
   return (
     <section className="icons-wrapper">
-      <div className="icons1">
+      <div className="icons3">
         <Component1
           consequatRisus="Consequat risus"
           euismodCommodoFeugiatPuru="Euismod commodo feugiat purus egestas diam. Facilisi sed senectus consequat risus. Porta purus nec dui odio vehicula."

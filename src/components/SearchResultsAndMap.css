@@ -15,9 +15,9 @@
   padding: 0 var(--padding-61xl) var(--padding-121xl);
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1250px) {
   .apartments-parent {

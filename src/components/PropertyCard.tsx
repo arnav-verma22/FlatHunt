@@ -24,11 +24,11 @@ const PropertyCard: FunctionComponent<PropertyCardType> = ({
   propertName,
 }) => {
   return (
-    <div className="div17" onClick={onContainer4Click}>
-      <img className="rectangle-icon" alt="" src={image} />
-      <div className="text2">
+    <div className="div10" onClick={onContainer4Click}>
+      <img className="child" alt="" src={image} />
+      <div className="text1">
         <img className="titlesubtitle-icon" alt="" src={propertName} />
-        <div className="div18">
+        <div className="div11">
           <div className="points4">
             <div className="bedroom-bath1">
               <div className="bedroom2">
@@ -68,7 +68,7 @@ const PropertyCard: FunctionComponent<PropertyCardType> = ({
               propGap="unset"
               propFlex="1"
               propBorderRadius="30px"
-              propBackgroundColor="1px solid #49735a"
+              propBackgroundColor="#49735a"
               propMinWidth="8.125rem"
               propAlignSelf="unset"
               propPosition="relative"

@@ -24,7 +24,7 @@
 .button-book-with-us {
   align-self: stretch;
   height: 3rem;
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
   font-weight: 700;
   font-size: var(--font-size-lg);
   color: var(--white);
@@ -77,7 +77,7 @@
   text-align: left;
   font-size: var(--desktop-h1-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 800px) {
   .dictum-nunc1 {

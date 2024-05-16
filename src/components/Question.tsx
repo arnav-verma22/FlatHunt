@@ -40,16 +40,16 @@ const Question: FunctionComponent<QuestionType> = ({
   }, [propDisplay1, propAlignSelf]);
 
   return (
-    <div className="question-1">
-      <div className="text" style={textStyle}>
-        <b className="integer-morbi-semper" style={integerMorbiSemperStyle}>
+    <div className="question-12">
+      <div className="text10" style={textStyle}>
+        <b className="integer-morbi-semper1" style={integerMorbiSemperStyle}>
           {integerMorbiSemperSodales}
         </b>
-        <div className="magnis-congue-neque" style={magnisCongueNequeStyle}>
+        <div className="magnis-congue-neque1" style={magnisCongueNequeStyle}>
           {magnisCongueNequeSociisUt}
         </div>
       </div>
-      <img className="close-icon" loading="lazy" alt="" src="/close1.svg" />
+      <img className="close-icon10" loading="lazy" alt="" src="/close1.svg" />
     </div>
   );
 };

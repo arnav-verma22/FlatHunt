@@ -11,10 +11,10 @@
   font-family: inherit;
 }
 .a-truly-global {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext1 {
+.titletext {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -30,10 +30,10 @@
   line-height: 2rem;
 }
 .in-nullam-eget {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext2 {
+.titletext1 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -48,11 +48,11 @@
   line-height: 2rem;
 }
 .laoreet-risus-accumsan {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
 .desriprion,
-.titletext3 {
+.titletext2 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -65,7 +65,7 @@
   text-align: left;
   font-size: var(--desktop-h4-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1050px) {
   .desription {

@@ -60,7 +60,7 @@ const PolicyDetail: FunctionComponent = () => {
         </div>
         <div className="cancellation-policy">
           <b className="cancellation-policy1">Cancellation Policy</b>
-          <div className="div9">
+          <div className="div8">
             <img
               className="evaclose-circle-fill-icon"
               loading="lazy"
@@ -75,7 +75,7 @@ const PolicyDetail: FunctionComponent = () => {
         </div>
         <div className="health-safty">
           <b className="health-safty1">{`Health & Safty`}</b>
-          <div className="div10">
+          <div className="div9">
             <img
               className="evashield-fill-icon"
               alt=""

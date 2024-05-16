@@ -56,13 +56,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.guests3 {
+.guests5 {
   position: relative;
   line-height: 1.5rem;
   display: inline-block;
   min-width: 3.5rem;
 }
-.guests2 {
+.guests4 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -91,7 +91,7 @@
   flex-shrink: 0;
   min-height: 1.5rem;
 }
-.guests1,
+.guests3,
 .quantity {
   display: flex;
   flex-direction: row;
@@ -99,7 +99,7 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-.guests1 {
+.guests3 {
   align-items: flex-start;
   gap: var(--gap-xl);
 }
@@ -119,18 +119,18 @@
   position: relative;
   line-height: 1.5rem;
 }
-.div7,
+.div6,
 .incl-vat {
   position: relative;
   display: inline-block;
 }
-.div7 {
+.div6 {
   line-height: 1.5rem;
   min-width: 3.313rem;
   white-space: nowrap;
 }
 .incl-vat {
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   line-height: 1rem;
   color: var(--gray);
   min-width: 3.375rem;
@@ -180,7 +180,7 @@
   white-space: nowrap;
 }
 .incl-vat1 {
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   line-height: 1rem;
   color: var(--gray);
   min-width: 3.375rem;
@@ -234,7 +234,7 @@
 .show-more {
   flex-direction: row;
   align-items: center;
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   color: var(--green);
 }
 .total-costs-parent {
@@ -242,18 +242,18 @@
   align-items: flex-start;
   gap: var(--gap-9xs);
 }
-.div8,
+.div7,
 .incl-vat2 {
   position: relative;
   display: inline-block;
 }
-.div8 {
+.div7 {
   line-height: 1.5rem;
   min-width: 4.875rem;
   white-space: nowrap;
 }
 .incl-vat2 {
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   line-height: 1rem;
   color: var(--gray);
   min-width: 3.375rem;
@@ -300,7 +300,7 @@
   align-self: stretch;
   gap: var(--gap-base);
   text-align: center;
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
 }
 .option-to-book {
   width: 32.625rem;
@@ -314,7 +314,7 @@
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1200px) {
   .option-to-book {

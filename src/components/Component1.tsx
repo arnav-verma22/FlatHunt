@@ -11,7 +11,7 @@ const Component1: FunctionComponent<Component1Type> = ({
   euismodCommodoFeugiatPuru,
 }) => {
   return (
-    <div className="div1">
+    <div className="div32">
       <input className="value-container" type="checkbox" />
       <h1 className="consequat-risus">{consequatRisus}</h1>
       <div className="euismod-commodo-feugiat2">

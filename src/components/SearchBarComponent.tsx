@@ -103,11 +103,11 @@ const SearchBarComponent: FunctionComponent<SearchBarComponentType> = memo(
           </div>
           <div className="list-processor1" />
           <div className="search-inner">
-            <div className="frame-parent30">
-              <div className="frame-parent31">
+            <div className="frame-parent9">
+              <div className="frame-parent10">
                 <div className="evapeople-fill-wrapper">
                   <img
-                    className="evapeople-fill-icon3"
+                    className="evapeople-fill-icon2"
                     alt=""
                     src={evapeopleFill}
                   />

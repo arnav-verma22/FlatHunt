@@ -7,7 +7,7 @@
   font-weight: 700;
   font-family: inherit;
 }
-.titletext6 {
+.titletext5 {
   width: 55.438rem;
   display: flex;
   flex-direction: column;
@@ -39,10 +39,10 @@
 .neque-faucibus-pharetra {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext7 {
+.titletext6 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -62,9 +62,9 @@
   position: relative;
   line-height: 2rem;
 }
-.div27,
+.div20,
 .read,
-.text6 {
+.text5 {
   display: flex;
   justify-content: flex-start;
 }
@@ -76,16 +76,16 @@
   text-align: center;
   font-size: var(--desktop-h4-size);
 }
-.div27,
-.text6 {
+.div20,
+.text5 {
   flex-direction: column;
 }
-.text6 {
+.text5 {
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-xl);
 }
-.div27 {
+.div20 {
   width: 25.813rem;
   border-radius: var(--br-41xl);
   background-color: var(--color-whitesmoke);
@@ -118,10 +118,10 @@
   font-family: inherit;
 }
 .convallis-eu-vel {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext8 {
+.titletext7 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -143,9 +143,9 @@
   display: inline-block;
   min-width: 7.063rem;
 }
-.div28,
+.div21,
 .read1,
-.text7 {
+.text6 {
   display: flex;
   justify-content: flex-start;
 }
@@ -157,16 +157,16 @@
   text-align: center;
   font-size: var(--desktop-h4-size);
 }
-.div28,
-.text7 {
+.div21,
+.text6 {
   flex-direction: column;
 }
-.text7 {
+.text6 {
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-xl);
 }
-.div28 {
+.div21 {
   width: 25.813rem;
   border-radius: var(--br-41xl);
   background-color: var(--color-whitesmoke);
@@ -199,10 +199,10 @@
 .viverra-tellus-risus {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext9 {
+.titletext8 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -224,9 +224,9 @@
   display: inline-block;
   min-width: 7.063rem;
 }
-.div29,
+.div22,
 .read2,
-.text8 {
+.text7 {
   display: flex;
   justify-content: flex-start;
 }
@@ -238,16 +238,16 @@
   text-align: center;
   font-size: var(--desktop-h4-size);
 }
-.div29,
-.text8 {
+.div22,
+.text7 {
   flex-direction: column;
 }
-.text8 {
+.text7 {
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-xl);
 }
-.div29 {
+.div22 {
   width: 25.813rem;
   border-radius: var(--br-41xl);
   background-color: var(--color-whitesmoke);
@@ -280,10 +280,10 @@
 .pellentesque-ultrices-hendreri {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext10 {
+.titletext9 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -305,9 +305,9 @@
   display: inline-block;
   min-width: 7.063rem;
 }
-.div30,
+.div23,
 .read3,
-.text9 {
+.text8 {
   display: flex;
   justify-content: flex-start;
 }
@@ -319,16 +319,16 @@
   text-align: center;
   font-size: var(--desktop-h4-size);
 }
-.div30,
-.text9 {
+.div23,
+.text8 {
   flex-direction: column;
 }
-.text9 {
+.text8 {
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-xl);
 }
-.div30 {
+.div23 {
   width: 25.813rem;
   border-radius: var(--br-41xl);
   background-color: var(--color-whitesmoke);
@@ -361,10 +361,10 @@
 .dolor-elit-viverra {
   align-self: stretch;
   position: relative;
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.titletext11 {
+.titletext10 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -392,25 +392,25 @@
   text-align: center;
   font-size: var(--desktop-h4-size);
 }
-.div26,
-.div31,
+.div19,
+.div24,
 .read4,
-.text10 {
+.text9 {
   display: flex;
   justify-content: flex-start;
 }
-.text10 {
+.text9 {
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-xl);
 }
-.div26,
-.div31 {
+.div19,
+.div24 {
   box-sizing: border-box;
   max-width: 100%;
 }
-.div31 {
+.div24 {
   width: 25.813rem;
   border-radius: var(--br-41xl);
   background-color: var(--color-whitesmoke);
@@ -420,7 +420,7 @@
   padding: 0 0 var(--padding-61xl);
   gap: var(--gap-33xl);
 }
-.div26 {
+.div19 {
   width: 92.5rem;
   overflow-x: auto;
   flex-direction: row;
@@ -449,7 +449,7 @@
   text-align: center;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 800px) {
   .read-our-blog1 {
@@ -460,7 +460,7 @@
     font-size: var(--font-size-10xl);
     line-height: 2.188rem;
   }
-  .div27 {
+  .div20 {
     padding-bottom: var(--padding-20xl);
     box-sizing: border-box;
   }
@@ -468,7 +468,7 @@
     font-size: var(--font-size-10xl);
     line-height: 2.188rem;
   }
-  .div28 {
+  .div21 {
     padding-bottom: var(--padding-20xl);
     box-sizing: border-box;
   }
@@ -476,7 +476,7 @@
     font-size: var(--font-size-10xl);
     line-height: 2.188rem;
   }
-  .div29 {
+  .div22 {
     padding-bottom: var(--padding-20xl);
     box-sizing: border-box;
   }
@@ -484,7 +484,7 @@
     font-size: var(--font-size-10xl);
     line-height: 2.188rem;
   }
-  .div30 {
+  .div23 {
     padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
   }
@@ -492,7 +492,7 @@
     font-size: var(--font-size-10xl);
     line-height: 2.188rem;
   }
-  .div31 {
+  .div24 {
     padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
   }
@@ -513,7 +513,7 @@
   .min-read {
     font-size: var(--font-size-lgi);
   }
-  .div27 {
+  .div20 {
     gap: var(--gap-7xl);
   }
   .min-read1,
@@ -524,7 +524,7 @@
   .min-read1 {
     font-size: var(--font-size-lgi);
   }
-  .div28 {
+  .div21 {
     gap: var(--gap-7xl);
   }
   .faucibus-egestas-ut,
@@ -535,7 +535,7 @@
   .min-read2 {
     font-size: var(--font-size-lgi);
   }
-  .div29 {
+  .div22 {
     gap: var(--gap-7xl);
   }
   .feugiat-gravida-sed,
@@ -546,7 +546,7 @@
   .min-read3 {
     font-size: var(--font-size-lgi);
   }
-  .div30 {
+  .div23 {
     gap: var(--gap-7xl);
   }
   .feugiat-gravida-sed1,
@@ -557,7 +557,7 @@
   .min-read4 {
     font-size: var(--font-size-lgi);
   }
-  .div31 {
+  .div24 {
     gap: var(--gap-7xl);
   }
   .button-load-more1 {

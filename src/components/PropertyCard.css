@@ -1,4 +1,4 @@
-.rectangle-icon {
+.child {
   height: 11.75rem;
   width: 19.063rem;
   position: relative;
@@ -113,34 +113,34 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
   transform: rotate(180deg);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
 }
-.div17,
-.div18,
-.text2 {
+.div10,
+.div11,
+.text1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.div18 {
+.div11 {
   align-self: stretch;
   flex-direction: column;
   gap: var(--gap-9xs);
   transform: rotate(180deg);
 }
-.div17,
-.text2 {
+.div10,
+.text1 {
   box-sizing: border-box;
   max-width: 100%;
 }
-.text2 {
+.text1 {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-xl) var(--padding-13xl);
   gap: var(--gap-9xs);
   min-width: 16.938rem;
 }
-.div17 {
+.div10 {
   align-self: stretch;
   border-radius: var(--br-41xl) var(--br-41xl) var(--br-41xl) var(--br-xs);
   background-color: var(--color-whitesmoke);
@@ -149,19 +149,19 @@
   row-gap: 20px;
   cursor: pointer;
   text-align: left;
-  font-size: var(--desktop-description-size);
+  font-size: var(--mobile-text-regular-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 750px) {
-  .rectangle-icon {
+  .child {
     flex: 1;
   }
   .bedroom-bath1,
-  .div17 {
+  .div10 {
     flex-wrap: wrap;
   }
-  .div17 {
+  .div10 {
     padding-left: var(--padding-xl);
     padding-top: var(--padding-xl);
     padding-right: var(--padding-xl);

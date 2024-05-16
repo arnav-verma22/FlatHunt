@@ -7,21 +7,21 @@
   font-weight: 700;
   font-family: inherit;
 }
-.we-work-with {
+.we-work-with1 {
   margin: 0;
   white-space: pre-wrap;
 }
-.booking-manager-that {
+.booking-manager-that1 {
   margin: 0;
 }
-.we-work-with-container {
+.we-work-with-container1 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 1.5rem;
 }
-.features,
-.titletext {
+.features3,
+.titletext11 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.features {
+.features3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -37,41 +37,41 @@
   text-align: left;
   font-size: var(--desktop-h4-size);
 }
-.corporate-partnerships,
-.corporate-partnerships-wrapper {
+.corporate-partnerships-container,
+.corporate-partnerships2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
 }
-.corporate-partnerships {
+.corporate-partnerships2 {
   flex: 1;
   flex-direction: column;
   padding: 0 var(--padding-61xl);
   gap: var(--gap-41xl);
 }
-.corporate-partnerships-wrapper {
+.corporate-partnerships-container {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 var(--padding-61xl);
   text-align: center;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 750px) {
   .better-than-property {
     font-size: var(--font-size-19xl);
     line-height: 2.688rem;
   }
-  .corporate-partnerships {
+  .corporate-partnerships2 {
     gap: var(--gap-11xl);
     padding-left: var(--padding-21xl);
     padding-right: var(--padding-21xl);
     box-sizing: border-box;
   }
-  .corporate-partnerships-wrapper {
+  .corporate-partnerships-container {
     padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
   }
@@ -81,7 +81,7 @@
     font-size: var(--font-size-10xl);
     line-height: 2rem;
   }
-  .corporate-partnerships {
+  .corporate-partnerships2 {
     gap: var(--gap-mini);
   }
 }

@@ -18,7 +18,7 @@
   flex-shrink: 0;
   min-height: 1.5rem;
 }
-.icons2 {
+.icons1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -54,7 +54,7 @@
   flex-direction: column;
   padding: 0 var(--padding-xl) 0 0;
   gap: var(--gap-7xl);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
 }
 .company1 {
   min-width: 4.75rem;
@@ -126,7 +126,7 @@
   display: inline-block;
   min-width: 6.875rem;
 }
-.frame-parent29,
+.frame-parent8,
 .symbol-linker {
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.frame-parent29 {
+.frame-parent8 {
   width: 23.875rem;
   flex-direction: row;
   gap: var(--gap-41xl);
@@ -161,7 +161,7 @@
   background-color: transparent;
   align-self: stretch;
   height: 3rem;
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
   font-size: var(--font-size-lg);
   color: var(--bg);
 }
@@ -199,7 +199,7 @@
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1250px) {
   .shape-handler {
@@ -214,7 +214,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .frame-parent29 {
+  .frame-parent8 {
     flex-wrap: wrap;
     gap: var(--gap-11xl);
   }

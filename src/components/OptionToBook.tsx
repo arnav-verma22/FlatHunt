@@ -57,15 +57,15 @@ const OptionToBook: FunctionComponent = () => {
             </Button>
           </div>
         </div>
-        <div className="guests1">
-          <div className="guests2">
+        <div className="guests3">
+          <div className="guests4">
             <img
               className="evapeople-fill-icon1"
               loading="lazy"
               alt=""
               src="/evapeoplefill.svg"
             />
-            <b className="guests3">Guests</b>
+            <b className="guests5">Guests</b>
           </div>
           <div className="quantity">
             <img
@@ -89,7 +89,7 @@ const OptionToBook: FunctionComponent = () => {
         <div className="btn-continue">
           <div className="average-monthy-rent">Average monthy rent</div>
           <div className="numbers">
-            <div className="div7">£3700</div>
+            <div className="div6">£3700</div>
             <div className="incl-vat">incl. VAT</div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const OptionToBook: FunctionComponent = () => {
             </div>
           </div>
           <div className="numbers2">
-            <div className="div8">£4001.70</div>
+            <div className="div7">£4001.70</div>
             <div className="incl-vat2">incl. VAT</div>
           </div>
         </div>

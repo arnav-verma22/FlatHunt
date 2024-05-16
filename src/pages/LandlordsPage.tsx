@@ -29,7 +29,7 @@ const LandlordsPage: FunctionComponent = () => {
 
   return (
     <div className="landlords-page">
-      <img className="image-icon" alt="" src="/image@2x.png" />
+      <img className="image-icon1" alt="" src="/image@2x.png" />
       <LandLordsPageDetails />
       <MoreFeatures />
       <Roadmap />
@@ -40,13 +40,13 @@ const LandlordsPage: FunctionComponent = () => {
       <footer className="landlords-page-inner">
         <div className="frame-parent">
           <div className="logo-parent">
-            <img className="logo-icon" alt="" src="/logo-11@2x.png" />
+            <img className="logo-icon1" alt="" src="/logo-11@2x.png" />
             <div className="icons-copyright-wrapper">
               <div className="icons-copyright">
                 <div className="contact-number-02033074477">
                   Contact number: 02033074477
                 </div>
-                <div className="icon">
+                <div className="icon1">
                   <div className="icons">
                     <img
                       className="evalinkedin-fill-icon"

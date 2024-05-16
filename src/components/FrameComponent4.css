@@ -1,4 +1,4 @@
-.corporate-partnerships1 {
+.corporate-partnerships3 {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -7,14 +7,14 @@
   font-weight: 700;
   font-family: inherit;
 }
-.we-work-with1 {
+.we-work-with2 {
   margin: 0;
   white-space: pre-wrap;
 }
-.booking-manager-that1 {
+.booking-manager-that2 {
   margin: 0;
 }
-.we-work-with-container1 {
+.we-work-with-container2 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
@@ -22,7 +22,7 @@
 }
 .before-parent,
 .corporate-partnerships-parent,
-.frame-section {
+.frame-parent22 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -31,18 +31,18 @@
   gap: var(--gap-base);
 }
 .before-parent,
-.frame-section {
+.frame-parent22 {
   flex-direction: row;
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.frame-section {
+.frame-parent22 {
   flex-direction: column;
   gap: var(--gap-41xl);
   text-align: center;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1200px) {
   .before-parent {
@@ -50,16 +50,16 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .corporate-partnerships1 {
+  .corporate-partnerships3 {
     font-size: var(--font-size-19xl);
     line-height: 2.688rem;
   }
-  .frame-section {
+  .frame-parent22 {
     gap: var(--gap-11xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .corporate-partnerships1 {
+  .corporate-partnerships3 {
     font-size: var(--font-size-10xl);
     line-height: 2rem;
   }

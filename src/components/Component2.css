@@ -6,17 +6,17 @@
   flex-shrink: 0;
 }
 .guaranteed-rent,
-.we-do-the {
+.we-do-the1 {
   width: 14.063rem;
   position: relative;
   line-height: 2rem;
   display: inline-block;
 }
-.we-do-the {
-  font-size: var(--desktop-text-regular-size);
+.we-do-the1 {
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.div {
+.div31 {
   flex: 1;
   border-radius: var(--br-11xl);
   background-color: var(--color-whitesmoke);
@@ -33,7 +33,7 @@
   text-align: left;
   font-size: var(--desktop-h4-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 450px) {
   .guaranteed-rent {

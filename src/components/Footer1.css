@@ -18,7 +18,7 @@
   flex-shrink: 0;
   min-height: 1.5rem;
 }
-.icons3 {
+.icons2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -54,7 +54,7 @@
 .logo-container {
   flex-direction: column;
   gap: var(--gap-7xl);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
 }
 .about-us2,
 .company2,
@@ -125,7 +125,7 @@
   display: inline-block;
   min-width: 6.875rem;
 }
-.frame-parent37,
+.frame-parent15,
 .privacy-group {
   display: flex;
   flex-direction: column;
@@ -133,7 +133,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.frame-parent37 {
+.frame-parent15 {
   width: 23.875rem;
   flex-direction: row;
   gap: var(--gap-41xl);
@@ -153,7 +153,7 @@
   background-color: transparent;
   align-self: stretch;
   height: 3rem;
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
   font-size: var(--font-size-lg);
   color: var(--bg);
 }
@@ -179,14 +179,14 @@
   gap: var(--gap-5xs);
   max-width: 100%;
 }
-.frame-parent36,
+.frame-parent14,
 .homepage-child {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.frame-parent36 {
+.frame-parent14 {
   flex: 1;
   justify-content: space-between;
   gap: var(--gap-xl);
@@ -199,10 +199,10 @@
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 1350px) {
-  .frame-parent36 {
+  .frame-parent14 {
     flex-wrap: wrap;
   }
 }
@@ -214,7 +214,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .frame-parent37 {
+  .frame-parent15 {
     flex-wrap: wrap;
     gap: var(--gap-11xl);
   }

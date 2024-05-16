@@ -1,7 +1,7 @@
 .earn-more-from,
 .find-out-if {
   position: relative;
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
   color: var(--text);
   text-align: center;
 }
@@ -37,7 +37,7 @@
   align-self: stretch;
   height: 3.25rem;
   font-family: var(--font-avertacy-regular);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   color: var(--bg);
 }
 .inputs {
@@ -52,7 +52,7 @@
   position: relative;
   font-size: var(--desktop-h4-size);
   line-height: 2rem;
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
   color: var(--text);
   text-align: left;
 }
@@ -61,7 +61,7 @@
   height: 3.25rem;
   width: 17.5rem;
   font-family: var(--font-avertacy-regular);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   color: var(--bg);
 }
 .inputs1 {
@@ -75,7 +75,7 @@
   align-self: stretch;
   height: 3.25rem;
   font-family: var(--font-avertacy-regular);
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   color: var(--bg);
 }
 .form1,

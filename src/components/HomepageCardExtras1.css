@@ -1,4 +1,4 @@
-.corporate-partnerships3 {
+.corporate-partnerships1 {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -7,20 +7,20 @@
   font-weight: 700;
   font-family: inherit;
 }
-.we-work-with2 {
+.we-work-with {
   margin: 0;
   white-space: pre-wrap;
 }
-.booking-manager-that2 {
+.booking-manager-that {
   margin: 0;
 }
-.we-work-with-container2 {
+.we-work-with-container {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 1.5rem;
 }
-.titletext5 {
+.titletext4 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -36,18 +36,18 @@
   flex-shrink: 0;
 }
 .booking-manager,
-.we-do-the1 {
+.we-do-the {
   width: 20.831rem;
   position: relative;
   line-height: 2rem;
   display: inline-block;
   max-width: 100%;
 }
-.we-do-the1 {
-  font-size: var(--desktop-text-regular-size);
+.we-do-the {
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.div22 {
+.div15 {
   flex: 1;
   border-radius: var(--br-11xl);
   background-color: var(--bg1);
@@ -78,10 +78,10 @@
   max-width: 100%;
 }
 .preferred-partner-rates {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.div23 {
+.div16 {
   flex: 1;
   border-radius: var(--br-11xl);
   background-color: var(--bg1);
@@ -112,10 +112,10 @@
   max-width: 100%;
 }
 .extend-on-short {
-  font-size: var(--desktop-text-regular-size);
+  font-size: var(--mobile-subtitle-size);
   line-height: 1.25rem;
 }
-.div24 {
+.div17 {
   flex: 1;
   border-radius: var(--br-11xl);
   background-color: var(--bg1);
@@ -126,16 +126,16 @@
   gap: var(--gap-base);
   min-width: 19.375rem;
 }
-.corporate-partnerships-container,
-.corporate-partnerships2,
-.div24,
-.features3 {
+.corporate-partnerships,
+.corporate-partnerships-wrapper,
+.div17,
+.features2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.features3 {
+.features2 {
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
@@ -143,44 +143,44 @@
   text-align: left;
   font-size: var(--desktop-h4-size);
 }
-.corporate-partnerships-container,
-.corporate-partnerships2 {
+.corporate-partnerships,
+.corporate-partnerships-wrapper {
   box-sizing: border-box;
 }
-.corporate-partnerships2 {
+.corporate-partnerships {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-121xl) var(--padding-61xl) 0;
   gap: var(--gap-41xl);
 }
-.corporate-partnerships-container {
+.corporate-partnerships-wrapper {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 var(--padding-121xl);
   text-align: center;
   font-size: var(--desktop-h2-size);
   color: var(--text);
-  font-family: var(--desktop-text-regular);
+  font-family: var(--mobile-subtitle);
 }
 @media screen and (max-width: 800px) {
-  .corporate-partnerships3 {
+  .corporate-partnerships1 {
     font-size: var(--font-size-19xl);
     line-height: 2.688rem;
   }
-  .corporate-partnerships2 {
+  .corporate-partnerships {
     gap: var(--gap-11xl);
     padding-left: var(--padding-21xl);
     padding-top: var(--padding-72xl);
     padding-right: var(--padding-21xl);
     box-sizing: border-box;
   }
-  .corporate-partnerships-container {
+  .corporate-partnerships-wrapper {
     padding-bottom: var(--padding-72xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .corporate-partnerships3 {
+  .corporate-partnerships1 {
     font-size: var(--font-size-10xl);
     line-height: 2rem;
   }
@@ -190,7 +190,7 @@
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }
-  .corporate-partnerships2 {
+  .corporate-partnerships {
     gap: var(--gap-mini);
   }
 }
